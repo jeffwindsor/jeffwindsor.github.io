@@ -3,5 +3,5 @@ description:
 google_analytics: 
 show_downloads: true
 theme: jekyll-theme-midnight
- gems:
+gems:
   - jekyll-mentions
