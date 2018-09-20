@@ -1,3 +1,17 @@
+
+# Jeffrey Michael Windsor
+## Student of All Things | Pragmatic Experienced Polyglot</div>
+
+<div class="icons-social">
+ <a target="_blank" href="https://github.com/jeffwindsor?tab=repositories"><i class="fab fa-github"></i></a>
+ <a target="_blank" href="https://stackoverflow.com/story/jeffwindsor"><i class="fab fa-stack-overflow"></i></a>
+ <a target="_blank" href="https://www.hackerrank.com/jeff_windsor"><i class="fab fa-hackerrank"></i></a>
+ <!-- <a target="_self" href="accomplishments.html"><i class="fas fa-award"></i></a> -->
+ <a target="_blank" href="https://twitter.com/jeffwindsor"><i class="fab fa-twitter"></i></a>
+ <a target="_blank" href="https://facebook.com/jeffwindsor1"><i class="fab fa-facebook"></i></a>
+ <a target="_blank" href="https://www.linkedin.com/in/jeffwindsor"><i class="fab fa-linkedin"></i></a>
+<div>
+ 
 ## Awesome List
 An awesome list is a list of awesome things curated by me.  Modeled after, but not completely adherent to the [Awesome Lists](https://github.com/topics/awesome).
 
