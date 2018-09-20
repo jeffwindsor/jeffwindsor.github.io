@@ -1,5 +1,30 @@
-/* Typography */
+/* Minimal CSS Reset */
 
+html {
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Typography */
 html {
 	font-family: 'Roboto', sans-serif;
 }
@@ -32,9 +57,15 @@ html {
 	font-size: 3em;
 	padding: 10px;
 }
+.icons-social a {
+	color: #FAFAFA;
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
+}
 
 /* Custom Styles */
-
 main {
 	display: flex;
 	flex-direction: column;
@@ -42,6 +73,8 @@ main {
 	justify-content: center;
 	padding: 0 30px;
 	text-align: center;
+	background: #43A047 url("resources/bamboo.jpg") no-repeat;
+	color: #FAFAFA;
 }
 
 main > .intro {
