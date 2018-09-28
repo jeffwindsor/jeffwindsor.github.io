@@ -1,11 +1,9 @@
 # Jeffrey Michael Windsor
 
-## Student of All Things | Pragmatic Experienced Polyglot</div>
-
+## Student of All Things : Pragmatic Polyglot
+|   |   |   |   |   |   |
 |---|---|---|---|---|---|
 | [Github](https://github.com/jeffwindsor?tab=repositories") | [Stack](https://stackoverflow.com/story/jeffwindsor") | [Hacker Rank](https://www.hackerrank.com/jeff_windsor") | [Twitter](https://twitter.com/jeffwindsor") | [Facebook](https://facebook.com/jeffwindsor1") | [LinkedIn](https://www.linkedin.com/in/jeffwindsor")
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 ## Awesome List
 
