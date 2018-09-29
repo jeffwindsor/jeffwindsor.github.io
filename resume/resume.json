@@ -1,16 +1,14 @@
 {
   "basics": {
     "name": "Jeff Windsor",
-    "label": "Pragmatic Experienced Polyglot",
+    "label": "Student of All Things | Pragmatic | Experienced | Polyglot",
     "picture": "../resources/portrait.jpg",
     "email": "jeff.windsor@gmail.com",
     "website": "https://jeffwindsor.github.io/",
-    "summary": "",
+    "summary": "Pragmatic Polyglot and student of all things. Highly motivated, passionate and strategically minded technologist with extensive experience with software development life cycle management, software languages, tools and technologies who has successfully managed, designed and developed a long line of customer facing products and strategic enterprise applications.",
     "location": {
-      "postalCode": "94003",
       "city": "Ventura",
       "state": "CA",
-      "countryCode": "US",
       "region": "California"
     },
     "profiles": [
@@ -35,11 +33,6 @@
         "url": "https://twitter.com/jeffwindsor"
       },
       {
-        "network": "Facebook",
-        "username": "jeffwindsor1",
-        "url": "https://facebook.com/jeffwindsor1"
-      },
-      {
         "network": "HackerRank",
         "username": "jeff_windsor",
         "url": "https://www.hackerrank.com/jeff_windsor"
@@ -48,29 +41,116 @@
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "Alliance Data Systems / CJ Affiliates",
+      "position": "Senior Software Engineer",
+      "website": "https://www.alliancedata.com/",
+      "startDate": "2018-07-23",
+      "summary": "",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
+      "company": "Vitalware",
+      "position": "Lead Architect",
+      "website": "https://www.alliancedata.com/",
+      "startDate": "2017-07-01",
+      "endDate": "2018-03-01",
+      "summary": "Vital provides mid-stream revenue software solutions for the health care industry.",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "Re-architected the main Charge Description Master (CDM) product",
+        "Led development of a Customer Integration (CI) product that completed suite of Software as a Service (SaaS) offerings",
+        "Established the Service Oriented Architecture (SOA)/micro-service architecture.",
+        "Developed, enhanced, simplified and improved Payment, Registration and Loan Verification software services",
+        "Restructured, reorganized, led and managed Development Teams",
+        "Established an efficient software development life cycle (SDLC) with processes",
+        "CJ Affiliates >> Epsilon: https://us.epsilon.com/ >> ADS: https://www.alliancedata.com/"
+      ]
+    },
+    {
+      "company": "Idaho National Laboratory",
+      "position": "Enterprise Business Architect",
+      "website": "https://www.inl.gov/",
+      "startDate": "2016-12-01",
+      "endDate": "2017-07-01",
+      "summary": "The INL, a division of the U.S. Department of Energy's (DOE) complex of National Laboratories, and is the National Center for nuclear energy research and development. INL Laboratory performed work in each of the strategic goal areas of the DOE: energy, national security, science and environment.",
+      "highlights": [
+        "Led the process and cultural change required by the Enterprise Software Directorate to meet the growing set of responsibilities while lowering execution cost.",
+        "Worked with CIO and Directors to define a more efficient and friction-free organization structure. ",
+        "Actively recruited and trained Technical and Process Evangelists Teams. These Teams owned and championed changes across the enterprise at the team level. ",
+        "Redefined incentives to align with Lab and Directorate goals. ",
+        "Organized and mentored Teams that implemented modern software delivery tools alongside process changes. ",
+        "Facilitated and promoted increased inter-team cooperation. ",
+        "Communicated early and often with the Change Management Group and Training Centers to raise the long-term success of these initiatives. "
+      ]
+    },
+    {
+      "company": "Nelnet Diversified Solutions",
+      "position": "Architect and Senior Developer",
+      "website": "https://www.nelnet.com/welcome",
+      "startDate": "2016-12-01",
+      "endDate": "2015-12-01",
+      "summary": "Nelnet, the #2 student loan provider in the US, led the design and development of modernization initiatives with the goal of lowering the overall time to market and cost of software delivery. Project required a Department of Education Security Clearance.",
+      "highlights": [
+        "Led efforts to consolidate and modernize current back-end services",
+        "Established SOA architecture that connected to universal Enterprise Service Bus (ESB).",
+        "Developed, enhanced, simplified and improved Payment, Registration and Loan Verification software services",
+        "Advised and led the design of modern low cost, high throughput, auditable, and reliable set of software delivery life cycle (SDLC) processes. ",
+        "Actively recruited internal Architects to champion the use of reliable messaging and secure APIs. ",
+        "Eased the process burden experienced with modern software delivery tools with a clear migration path from current tool sets. ",
+        "Communicated early and often with Change Management Group and Training Centers which increased long-term success of these initiatives. Held Active Secret Government Clearance because of the sensitive military and personal information (PI) involved with these initiatives. "
+      ]
+    },
+    {
+      "company": "Zantler",
+      "position": "Lead Architect and Senior Developer",
+      "startDate": "2013-10-01",
+      "endDate": "2015-12-01",
+      "summary": "Joined startup at a crucial pivot point; the previous market had evaporated and company was experiencing terminal scalability and security issues with the newly revamped platform. ",
+      "highlights": [
+        "Defined a new direction and market.",
+        "Established a small distributed, highly talented IT Team that delivered a new technology direction in a very short period of time.",
+        "Choose and implemented the most appropriate technologies, methodologies, processes and tools aligned with strategic goals laid out by the Board of Directors.",
+        "Worked with the Team to design, plan and implement the new product. Acted as Senior Developer focused on shared components."
+      ]
+    },
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
       ]
     }
   ],
