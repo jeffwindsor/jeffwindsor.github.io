@@ -1,29 +1,48 @@
 {
   "basics": {
     "name": "Jeff Windsor",
-    "label": "Programmer",
-    "picture": "",
+    "label": "Pragmatic Experienced Polyglot",
+    "picture": "../resources/portrait.jpg",
     "email": "jeff.windsor@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "website": "https://jeffwindsor.github.io/",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "postalCode": "94003",
+      "city": "Ventura",
+      "state": "CA",
       "countryCode": "US",
       "region": "California"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "network": "GitHub",
+        "username": "jeffwindsor",
+        "url": "https://github.com/jeffwindsor?tab=repositories"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "StackOverflow",
+        "username": "jeffwindsor",
+        "url": "https://stackoverflow.com/story/jeffwindsor"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jeffwindsor",
+        "url": "https://www.linkedin.com/in/jeffwindsor"
+      },
+      {
+        "network": "Twitter",
+        "username": "jeffwindsor",
+        "url": "https://twitter.com/jeffwindsor"
+      },
+      {
+        "network": "Facebook",
+        "username": "jeffwindsor1",
+        "url": "https://facebook.com/jeffwindsor1"
+      },
+      {
+        "network": "HackerRank",
+        "username": "jeff_windsor",
+        "url": "https://www.hackerrank.com/jeff_windsor"
       }
     ]
   },
@@ -67,23 +86,6 @@
         "DB1101 - Basic SQL",
         "CS2011 - Java Introduction"
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
     }
   ],
   "skills": [
