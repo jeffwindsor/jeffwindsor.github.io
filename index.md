@@ -58,6 +58,18 @@
     <div class="intro">{{ name }}</div>
 		<div class="tagline">{{ personal-tagline }} | {{ business-tagline }}</div>
   </section>
+  <div class="icons-social">
+    <a target="_blank" alt="github" href="https://github.com/jeffwindsor?tab=repositories"><i class="fab fa-github"></i></a>
+    <a target="_blank" alt="stackoverflow" href="https://stackoverflow.com/story/jeffwindsor"><i class="fab fa-stack-overflow"></i></a>
+    <a target="_blank" alt="linkedin" href="https://www.linkedin.com/in/jeffwindsor"><i class="fab fa-linkedin-in"></i></a>
+    <a target="_blank" alt="twitter" href="https://twitter.com/jeffwindsor"><i class="fab fa-twitter"></i></a>
+    <!-- <a target="_blank" alt="facebook" href="https://facebook.com/jeffwindsor1"><i class="fab fa-facebook-f"></i></a> -->
+    <a target="_blank" alt="hackerrank" href="https://www.hackerrank.com/jeff_windsor"><i class="fab fa-hackerrank"></i></a>
+    <br/>
+    <a target="_blank" alt="resume-elegant" href="./resume/resume-elegant.html"><i class="far fa-address-card"></i></a>
+    <!-- <a target="_blank" alt="resume-spartan" href="./resume/resume-spartan.html"><i class="fas fa-address-card"></i></a> -->
+    <a target="_blank" alt="resume-stackoverflow" href="./resume/resume-stackoverflow.html"><i class="far fa-address-card"></i></a>
+	</div>
 
   <section class="font-sans container m-auto flex flex-col py-8 max-w-xl text-center px-6">
     <h1 class="my-8 max-w-full m-auto text-3xl md:text-4xl lg:text-5xl font-medium">
