@@ -44,10 +44,9 @@
       "company": "Alliance Data Systems / CJ Affiliates",
       "position": "Senior Software Engineer",
       "website": "https://www.alliancedata.com/",
-      "startDate": "2018-07-23",
+      "startDate": "2018-07-01",
       "summary": "",
-      "highlights": [
-      ]
+      "highlights": []
     },
     {
       "company": "Vitalware",
@@ -114,77 +113,109 @@
       ]
     },
     {
-      "company": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-      ]
+      "company": "Sunguard Consulting Services @ Integrys Energy",
+      "position": "Senior Software Engineer and Architect",
+      "website": "https://capco.com/",
+      "startDate": "2012-03-01",
+      "endDate": "2013-10-01",
+      "summary": "Further expanded the geographical and departmental reach of the data validation, forecasting and pricing applications to new subsidiaries"
     },
     {
-      "company": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-      ]
+      "company": "DIY Media / Zantler",
+      "position": "Senior Software Engineer and Architect",
+      "startDate": "2011-03-01",
+      "endDate": "2012-03-01",
+      "summary": " Implementing payment/financials infrastructure and cloud based delivery of digital content. Amazon Web Services, Paypal (for Europe and South America) and CCAvenue integration for India.  It was crucial the payment mechanisms be scalable, highly available and accurate, while providing an easy sometimes one click payment experience."
     },
     {
-      "company": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-      ]
+      "company": "Sunguard Consulting Services @ Integrys Energy",
+      "position": "Senior Software Engineer",
+      "website": "https://capco.com/",
+      "startDate": "2011-03-01",
+      "endDate": "2007-03-01",
+      "summary": "Architect, Design and develop a retail energy pricing application. Improved per unit processing time from 10s seconds to 100ths of seconds.  Implemented a Electric Pricing and Pattern Matching DSL for Excel like user formulas. Architected and helped implement a service oriented architecture for the following functions in C# 3.5: costing, forecasting, hedging, data validation, and request validation. "
     },
     {
-      "company": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-      ]
+      "company": "Digital Soldiers",
+      "position": "Senior Software Developer and Information Architect",
+      "startDate": "2006-04-01",
+      "endDate": "2007-03-01",
+      "summary": "Provided architectural guidance, design and development support to the Financial Systems Division. Responsibilities: Application design and development, Methodology facilitation and coaching, Business modeling for multiple applications, services and databases. "
+    },
+    {
+      "position": "Information Architect",
+      "company":  "SunGard Consulting Services @ BP NAGP",
+      "startDate": "2005-04-01",
+      "endDate": "2006-03-01",
+      "summary": "Provided business analysis and technical design for a range of projects at BP's North American Gas & Power division. Projects: Sarbanes-Oxley compliance and internal best practices for NAGP's critical processes and information structures. Responsibilities: Requirements gathering, Business modeling, Software analysis and design."
+    },    
+    {
+      "company": "Digital Soldiers",
+      "position": "Senior Software Developer",
+      "startDate": "2002-04-01",
+      "endDate": "2005-03-01"
+    },
+    {
+      "company":"Sungard Consulting Services / EnForm",
+      "position": "Consulting Manager",
+      "startDate": "2000-04-01", "endDate": "2002-03-01"
+    },
+    {
+      "company":"Lyondell Petrochemical",
+      "position": "Senior Lead",
+      "startDate": "1999-12-01", "endDate": "1994-03-01"
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
+      "institution": "Rice University",
+      "area": "Finance",
+      "studyType": "MBA",
+      "startDate": "1996-08-01",
+      "endDate": "1999-05-01"
+    },
+    {
+      "institution": "Texas A&M University",
+      "area": "Genetics",
+      "studyType": "BS",
+      "startDate": "1988-08-01",
+      "endDate": "1992-05-01"
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Development",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Haskell", "Purescript", "C#","F#","Javascript", "Java", "Scala",
+        "VisualBasic.Net","Python",
+        "TSQL","PLSQL","MongoDB","Git","Github","Gitlab"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Architectures, Systems and Stacks",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Messaging Architectures","","GraphQL","Restful Apis","","","","",""
+      ]
+    },
+    {
+      "name": "Process",
+      "keywords": [
+        "Agile","Scrum","Lean","Kanban","Waterfall (not prefered)","RUP (not prefered)"
+      ]
+    },
+    {
+      "name": "Dev Ops",
+      "keywords": [
+        "AWS Compute Services", "AWS Code Pipeline and Deploy", "AWS Netowrk and Content Delivery", "AWS Storage",
+        "Azure Compute Services","Azure Pipelines","Azure Service Bus",
+        "Jenkins","Octopus","TeamCity"
+      ]
+    },
+    {
+      "name": "Specialties",
+      "keywords": [
+        "Energy Markets","BioInformatics","Finance",
+        "Oil, Gas and Petrochemicals Markets","Commodity Trading"
       ]
     }
   ],
@@ -194,19 +225,22 @@
       "fluency": "Native speaker"
     }
   ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
   "references": [
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "name": "James Lively, Director Enterprise Software and Development at Idaho National Laboratory",
+      "reference": "Jeff is the consummate professional. He has the unique ability to listen and understand what a specific set of objectives and business needs are, concisely organize these thoughts, apply them to his in depth technical understanding, and produce a comprehensive solution that he then presents in understandable terms to his audience. This is a very impressive skill, to say the least, when dealing with a diverse group of business and technical disciplines. His personality is a well rounded addition to any group and his contributions can be concise and to the point or illustrative in times that require it. I would gladly work with Jeff again on future strategic projects."
+    },
+    {
+      "name":"David Robb, President and COO at Gaston Capital Partners",
+      "reference":"I had the pleasure of working with Jeff for about a year. He bridges the worlds of technology and business as well as any one with whom I've ever worked. Jeff has a keen mind for building technology, working with a team and contributing to the vision of a company. I hope that one day we work together again."
+    },
+    {
+      "name":"Chad LaBerge, Independent Securities Trader @ SaddleRing Investments",
+      "reference":"To say that Jeff Windsor is talented is a tremendous understatement. We worked together early in our careers at Lyondell and I was very fortunate to have found myself associated with a person of his professional character at that time. Without exaggeration, his intellect is amongst the most elite I have ever encountered. Jeff’s ability to grasp new technology and incorporate it into a business enterprise is extraordinary. Working with Jeff was a great experience, counting him as a friend is a true honor."
+    },
+    {
+      "name":"Erica Janine Henson",
+      "reference":"Jeff is one of the most talented individuals with whom I've had the honor to work and learn. He was crucial to getting several applications and processes in place, and personally took the time to give me direction and information when I needed it. He is an exceptional and dedicated person, a rare kind of developer and professional."
     }
   ]
 }
