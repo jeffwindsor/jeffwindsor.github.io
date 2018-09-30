@@ -54,8 +54,8 @@
   <section 
     class="font-sans h-screen w-full bg-cover text-center flex flex-col items-center justify-center" 
     id="landing-section">
-    <div class="intro">{{ name }}</div>
-		<div class="tagline">{{ personal-tagline }} | {{ business-tagline }}</div>
+    <div class="intro">{{ site.name }}</div>
+		<div class="tagline">{{ site.personal-tagline }} | {{ site.business-tagline }}</div>
     <div class="icons-social">
       <a target="_blank" alt="github" href="https://github.com/jeffwindsor?tab=repositories"><i class="fab fa-github"></i></a>
       <a target="_blank" alt="stackoverflow" href="https://stackoverflow.com/story/jeffwindsor"><i class="fab fa-stack-overflow"></i></a>
@@ -69,16 +69,16 @@
       <a target="_blank" alt="resume-stackoverflow" href="./resume/resume-stackoverflow.html"><i class="far fa-address-card"></i></a>
     </div>
   </section>
-  {{ content }}
+
   <section class="font-sans container m-auto flex flex-col py-8 max-w-xl text-center px-6">
     <h1 class="my-8 max-w-full m-auto text-3xl md:text-4xl lg:text-5xl font-medium">
-      {{ personal-tagline }}
+      {{ site.personal-tagline }}
     </h1>
     <p class="mt-1 lg:mt-4 max-w-lg m-auto leading-loose mb-6 text-left">
       personal description
     </p>
     <h1 class="my-8 max-w-full m-auto text-3xl md:text-4xl lg:text-5xl font-medium">
-      {{ business-tagline }}
+      {{ site.business-tagline }}
     </h1>
     <p class="max-w-lg m-auto leading-loose mb-6 text-left">
       Highly motivated, passionate and strategically minded technologist with extensive experience with software development life cycle management, software languages, tools and technologies who has successfully managed, designed and developed a long line of customer facing products and strategic enterprise applications.
@@ -86,7 +86,7 @@
   </section>
   
   <ul class="font-sans list-reset container m-auto text-grey-darkest"></ul>
-  {% for item in site.highlights limit:5 %}
+  {% for item in site.business-highlights limit:5 %}
     <li><a href="{{ item.url }}">{{ item.title}}</a>
     <span class="postDate">{{ item.date | date: "%b %-d, %Y" }}</span>
     </li>
