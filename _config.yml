@@ -12,17 +12,19 @@ email: jeff.windsor@gmail.com
 baseurl: "/"
 url: "http://jeffwindsor.github.io"
 social:
-  twitter: https://twitter.com/jeffwindsor
   github: https://github.com/jeffwindsor?tab=repositories
+  stack-overflow: https://stackoverflow.com/story/jeffwindsor
   linkedin-square: https://www.linkedin.com/in/jeffwindsor
+  twitter: https://twitter.com/jeffwindsor
+  hackerrank: https://www.hackerrank.com/jeff_windsor
+
   #facebook-official: https://facebook.com/<username>
   #google-plus-square: https://plus.google.com/u/0/+<username>
   #email: /contact/
   #flickr:
   #instagram:
   #youtube-square:
-  #spotify:
-  #stack-overflow:
+  #spotify:  
   #vimeo:
   #reddit:
   #stubleupon:
