@@ -75,25 +75,25 @@
   </section>
   
   <ul class="font-sans list-reset container m-auto text-grey-darkest"></ul>
-  {% for highlights in site.categories.podcasts limit:3 %}
-    <li><a href="{{ post.url }}">{{ post.title}}</a>
-    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
+  {% for item in site.highlights limit:5 %}
+    <li><a href="{{ item.url }}">{{ item.title}}</a>
+    <span class="postDate">{{ item.date | date: "%b %-d, %Y" }}</span>
     </li>
     <li class="inline-block border-b border-grey-light flex justify-between items-center py-4">
       <div class="flex items-start w-2/5">
         <div class="w-10 h-10 rounded mr-3">
-          <div class="rounded-full h-10 w-10 bg-grey-light m-auto"></div>
+          <div class="rounded-full h-10 w-10 bg-grey-light m-auto">A</div>
         </div>
         <div class="flex-1 overflow-hidden">
           <div>
-            <span class="font-bold">{{ project-name }}</span>
-            <span class="text-grey-dark text-xs">{{ project-company }}</span>
+            <span class="font-bold">{{ item.name }}</span>
+            <span class="text-grey-dark text-xs">{{ item.company }}</span>
           </div>
-          <p class="text-black leading-normal">{{ project-url }}</p>
+          <p class="text-black leading-normal">{{ item.url }}</p>
         </div>
       </div>
-      <p class="w-2/5">UI/UX Designer @Squarespace.</p>
-      <label for="status" class="font-bold w-1/5 text-right">Active</label>
+      <p class="w-2/5">{{ item.description }}</p>
+      <label for="status" class="font-bold w-1/5 text-right">{{ item.technologies }}</label>
     </li>
   {% endfor %}
   </ul>

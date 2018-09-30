@@ -1,3 +1,11 @@
 name: Jeffrey Michael Windsor
 personal-tagline: Student of All Things
 business-tagline: Pragmatic | Experienced | Polyglot 
+business-highlights:
+  - title: Title
+    date: 2018-12-31
+    name: name
+    company: company
+    url: https://jeff.windsor.github.io
+    description: This is the description of the highlight
+    technologies: Haskell, GraphQl, Purescript
