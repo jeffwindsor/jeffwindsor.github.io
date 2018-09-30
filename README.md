@@ -42,3 +42,11 @@ An awesome list is a list of awesome things curated by me.  Modeled after, but n
 * [Monty Python's Flying Circus - World's Funniest Joke](https://www.youtube.com/watch?v=ienp4J3pW7U)
 * [Light Grenade](https://www.youtube.com/watch?v=dCeD2gF9jUo)
 * [Monty Python The Holy Grail - The killer bunny](https://www.youtube.com/watch?v=tgj3nZWtOfA)
+
+## Credits
+
+<a href="https://stitches.hyperyolo.com/">
+  <img src="https://stitches-cdn.hyperyolo.com/logo.png" class="" alt="logo">
+</a>
+
+* Big thanks to [Amie Chan](https://www.amie-chen.com/) for this HTML with Functional CSS generator, I used as the basis of sites pages.

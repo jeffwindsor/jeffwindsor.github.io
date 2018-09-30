@@ -1,4 +1,5 @@
 #!/bin/sh
+cd ./resume
 #resume export resume
 resume export resume-elegant.html -t elegant
 #resume export resume-short.html -t short
