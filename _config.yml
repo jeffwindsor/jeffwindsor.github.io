@@ -4,14 +4,13 @@
 # Site settings
 title: Jeffrey Michael Windsor
 description: |
-  Another fine responsive  
-  site template freebie  
-  crafted by [HTML5 UP](http://html5up.net)
-owner: Your Name # or company name
-first_published: 2018 # if migrating another site, the year of your first publish
+  Student of All Things
+  Pragmatic Experienced Polyglot
+owner: Jeffrey Michael Windsor
+first_published: 2018
 email: jeff.windsor@gmail.com
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://jeffwindsor.github.io" # the base hostname & protocol for your site
+baseurl: "/"
+url: "http://jeffwindsor.github.io"
 social:
   twitter: https://twitter.com/jeffwindsor
   github: https://github.com/jeffwindsor?tab=repositories
