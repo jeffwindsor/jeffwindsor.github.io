@@ -2,24 +2,7 @@
 remote_theme: broccolini/swiss
 title: Swiss Jekyll Theme
 description: A bold typographic theme inspired by Swiss design.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://jeffwindsor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_repo: io # the GitHub repo name for your project
-github_username: jeffiwndsor
-
-# Optional social link, you can choose from the following options:
-# twitter (default), instagram, medium, or dribbble
-social_link: twitter
-social_username: jekyllrb
-
-# Set theme color here
-# Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
-theme_color: black
-
-# Build settings
-markdown: kramdown
-
-
+theme_color: red
 name: Jeffrey Michael Windsor
 personal-tagline: Student of All Things
 professional-tagline: Pragmatic · Experienced · Polyglot 
