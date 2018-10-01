@@ -1,8 +1,7 @@
-# Jeffrey Michael Windsor
-
 ## Project Pages
 
-TBD
+[The Sweet Setup](https://jeffwindsor.github.io/the-sweet-setup/)
+[The Sweet Setup IO](https://jeffwindsor.github.io/the-sweet-setup.io/)
 
 ## Awesome List
 
