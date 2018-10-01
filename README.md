@@ -2,10 +2,16 @@
 
 # Personal: Project Pages
 
-|| | |
+|Name|Page|Repo|
 |---|---|---|
 |The Sweet Setup | [Page](https://jeffwindsor.github.io/the-sweet-setup/) | [Repo](https://github.com/jeffwindsor/the-sweet-setup)|
 | The Sweet Setup IO | [Page](https://jeffwindsor.github.io/the-sweet-setup.io/) | [Repo](https://github.com/jeffwindsor/the-sweet-setup.io) |
+
+{% for page in site.pages %}
+  {% if page.url == '/path/to/page.html' %}
+[{{ page.title }}]({{ page.url }})
+  {% endif %}
+{% endfor %}
 
 # Personal: Awesome List
 
