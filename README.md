@@ -2,8 +2,8 @@
 
 # Personal: Project Pages
 
-* [The Sweet Setup](https://jeffwindsor.github.io/the-sweet-setup/)
-* [The Sweet Setup IO](https://jeffwindsor.github.io/the-sweet-setup.io/)
+* [The Sweet Setup](https://jeffwindsor.github.io/the-sweet-setup/) : [GitHub](https://github.com/jeffwindsor/the-sweet-setup)
+* [The Sweet Setup IO](https://jeffwindsor.github.io/the-sweet-setup.io/) : [GitHub](https://github.com/jeffwindsor/the-sweet-setup.io)
 
 # Personal: Awesome List
 
