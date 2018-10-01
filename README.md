@@ -3,7 +3,7 @@
 * [The Sweet Setup](https://jeffwindsor.github.io/the-sweet-setup/)
 * [The Sweet Setup IO](https://jeffwindsor.github.io/the-sweet-setup.io/)
 
-# Personal Awesome List
+# Personal: Awesome List
 
 An awesome list is a list of awesome things curated by me.  Modeled after, but not completely adherent to the [Awesome Lists](https://github.com/topics/awesome) and [Awesomo Lists](https://github.com/lk-geimfari/awesomo).
 
