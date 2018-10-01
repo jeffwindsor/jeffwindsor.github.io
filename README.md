@@ -1,34 +1,34 @@
-## Project Pages
+# Personal: Project Pages
 
-[The Sweet Setup](https://jeffwindsor.github.io/the-sweet-setup/)
-[The Sweet Setup IO](https://jeffwindsor.github.io/the-sweet-setup.io/)
+* [The Sweet Setup](https://jeffwindsor.github.io/the-sweet-setup/)
+* [The Sweet Setup IO](https://jeffwindsor.github.io/the-sweet-setup.io/)
 
-## Awesome List
+# Personal Awesome List
 
 An awesome list is a list of awesome things curated by me.  Modeled after, but not completely adherent to the [Awesome Lists](https://github.com/topics/awesome) and [Awesomo Lists](https://github.com/lk-geimfari/awesomo).
 
-### Personal, Career and Presence
+## Personal, Career and Presence
 
 * [Resume in JSON](https://jsonresume.org/getting-started)
 * [FontAwesome](https://fontawesome.com)
 * [OSS Licensing Explained](https://choosealicense.com)
 * [Unfurling](https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254)
 
-### Productivity
+## Productivity
 
 * [Chrome Custom Search Engines](https://github.com/daturkel/custom-search-engines)
 * [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
 
-### Git
+## Git
 
 * **Github close issue with commit message** - add `fix`, `close`, or `resolve` plus ` #{id}` in the comment.  ie `-m "Wrong.cs class deleted to fix #1452"`
 
-### Tools
+## Tools
 
 * [iTerm2](https://iterm2.com) for macOS with [Themes](https://github.com/mbadolato/iTerm2-Color-Schemes)
 * [Fish Shell](https://fishshell.com/docs/current/index.html)
 
-### Learning
+## Learning
 
 * [Top Down Design and Test First at CJ](https://www.youtube.com/channel/UC2OoWaGVtOgOM4he75rFuWg/videos)
 * [Lambda Conf Videos](https://www.youtube.com/channel/UCEtohQeDqMSebi2yvLMUItg)
