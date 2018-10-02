@@ -4,7 +4,7 @@
 
 |Name|Page|Repo|
 |---|---|---|
-|The Sweet Setup | [Page](https://jeffwindsor.github.io/the-sweet-setup/) | [✚](https://github.com/jeffwindsor/the-sweet-setup)|
+|The Sweet Setup | [Page](https://jeffwindsor.github.io/the-sweet-setup/) | [![a](resources/code-fork.png)](https://github.com/jeffwindsor/the-sweet-setup)|
 | The Sweet Setup IO | [Page](https://jeffwindsor.github.io/the-sweet-setup.io/) | [Repo](https://github.com/jeffwindsor/the-sweet-setup.io) |
 
 [Learning](/learning.html)
