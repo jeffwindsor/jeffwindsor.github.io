@@ -1,6 +1,6 @@
 [Home](https://jeffwindsor.carrd.co/) > Projects
 
-# Personal Project Pages
+# Projects
 
 | Projects | Learning |
 |---|---|
@@ -12,7 +12,7 @@
 | [[Repo](https://github.com/jeffwindsor/interviews)] Interviews | [[Repo](https://github.com/jeffwindsor/learn-csharp)] C# |
 | x | [[Repo](https://github.com/jeffwindsor/learn-python)] Python |
 
-# Personal: Awesome List
+# Personal Awesome List
 
 An awesome list is a list of awesome things curated by me.  Modeled after, but not completely adherent to the [Awesome Lists](https://github.com/topics/awesome) and [Awesomo Lists](https://github.com/lk-geimfari/awesomo).
 
