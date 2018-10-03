@@ -186,29 +186,33 @@
     {
       "name": "Development",
       "keywords": [
-        "Haskell", "Purescript", "C#","F#","Javascript", "Java", "Scala",
-        "VisualBasic.Net","Python",
-        "TSQL","PLSQL","MongoDB","Git","Github","Gitlab"
+        "Haskell", "Purescript", "C#","F#","Javascript", "Python",
+        "TSQL","PLSQL","MongoDB","Git"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "keywords": [
+        "AWS Compute", "AWS Network and Content Delivery", "AWS Storage",
+        "Azure Compute Services","Azure Pipelines","Azure Service Bus"
       ]
     },
     {
       "name": "Architectures, Systems and Stacks",
       "keywords": [
-        "Messaging Architectures","","GraphQL","Restful Apis","","","","",""
+        "Messaging Architectures","","GraphQL","Restful Apis"
       ]
     },
     {
       "name": "Process",
       "keywords": [
-        "Agile","Scrum","Lean","Kanban","Waterfall (not prefered)","RUP (not prefered)"
+        "Agile","Scrum","Lean","Kanban"
       ]
     },
     {
       "name": "Dev Ops",
       "keywords": [
-        "AWS Compute Services", "AWS Code Pipeline and Deploy", "AWS Netowrk and Content Delivery", "AWS Storage",
-        "Azure Compute Services","Azure Pipelines","Azure Service Bus",
-        "Jenkins","Octopus","TeamCity"
+        "AWS Code Pipeline and Deploy", "Jenkins","Octopus","TeamCity"
       ]
     },
     {
