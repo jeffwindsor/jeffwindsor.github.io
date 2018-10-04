@@ -6,7 +6,7 @@ fresh=(positive modern compact awesome underscore)
 
 cd ./resume
 
-echo "<html><head><body>" > ${resume_list}
+echo "<html><head></head><body><ul>" > ${resume_list}
 
 ## pre convert json-resume format to fresh format 
 hackmyresume convert resume.json TO resume-fresh.json
@@ -15,7 +15,7 @@ hackmyresume convert resume.json TO resume-fresh.json
 for t in "${json[@]}"; do
     echo ${t}
     npm i -g jsonresume-theme-${t}
-    echo "<a href="generated/resume-json-${t}.html">${t}</a>" >> ${resume_list}
+    echo "<li><a href="generated/resume-json-${t}.html">${t}</a></li>" >> ${resume_list}
     for f in "${formats[@]}"; do
       hackmyresume build resume.json TO generated/resume-json-${t}.${f} -t /usr/local/lib/node_modules/jsonresume-theme-${t}
     done
@@ -25,10 +25,10 @@ done
 for t in "${fresh[@]}"; do
   echo ${t}
   npm i -g fresh-theme-${t}
-  echo "<a href="generated/resume-fresh-${t}.html">${t}</a>" >> ${resume_list}
+  echo "<li><a href="generated/resume-fresh-${t}.html">${t}</a></li>" >> ${resume_list}
   for f in "${formats[@]}"; do
     hackmyresume build resume-fresh.json TO generated/resume-fresh-${t}.${f} -t /usr/local/lib/node_modules/fresh-theme-${t}
   done
 done
 
-echo "</body></head></html>" >> resumes.html
+echo "</ul></body></html>" >> resumes.html
