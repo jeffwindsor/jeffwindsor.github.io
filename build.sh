@@ -31,4 +31,4 @@ for t in "${fresh[@]}"; do
   done
 done
 
-echo "</body></head></html>" > resumes.html
+echo "</body></head></html>" >> resumes.html
