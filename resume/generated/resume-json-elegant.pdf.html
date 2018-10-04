@@ -1,0 +1,1038 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Jeff Windsor</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/><style>@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9yug7q');
+  src:  url('fonts/icomoon.eot?9yug7q#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9yug7q') format('truetype'),
+    url('fonts/icomoon.woff?9yug7q') format('woff'),
+    url('fonts/icomoon.svg?9yug7q#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-trophy:before {
+  content: "\e605";
+}
+.icon-office:before {
+  content: "\e606";
+}
+.icon-clock:before {
+  content: "\e60a";
+}
+.icon-reddit:before {
+  content: "\e609";
+}
+.icon-telegram:before {
+  content: "\e904";
+}
+.icon-flickr:before {
+  content: "\f16e";
+}
+.icon-medium:before {
+  content: "\f23a";
+}
+.icon-heart:before {
+  content: "\f004";
+}
+.icon-book:before {
+  content: "\f02d";
+}
+.icon-linkedin:before {
+  content: "\f08c";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+.icon-link:before {
+  content: "\f0c1";
+}
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-pinterest:before {
+  content: "\f0d2";
+}
+.icon-googleplus:before {
+  content: "\f0d5";
+}
+.icon-circle:before {
+  content: "\f111";
+}
+.icon-code:before {
+  content: "\f121";
+}
+.icon-youtube:before {
+  content: "\f167";
+}
+.icon-stackoverflow:before {
+  content: "\f16c";
+}
+.icon-bitbucket:before {
+  content: "\f171";
+}
+.icon-tumblr:before {
+  content: "\f173";
+}
+.icon-dribbble:before {
+  content: "\f17d";
+}
+.icon-skype:before {
+  content: "\f17e";
+}
+.icon-foursquare:before {
+  content: "\f180";
+}
+.icon-gittip:before {
+  content: "\f184";
+}
+.icon-gratipay:before {
+  content: "\f184";
+}
+.icon-stackexchange:before {
+  content: "\f18d";
+}
+.icon-vimeo:before {
+  content: "\f194";
+}
+.icon-graduation-cap:before {
+  content: "\f19d";
+}
+.icon-language:before {
+  content: "\f1ab";
+}
+.icon-child:before {
+  content: "\f1ae";
+}
+.icon-behance:before {
+  content: "\f1b5";
+}
+.icon-spotify:before {
+  content: "\f1bc";
+}
+.icon-soundcloud:before {
+  content: "\f1be";
+}
+.icon-codepen:before {
+  content: "\f1cb";
+}
+.icon-hackernews:before {
+  content: "\f1d4";
+}
+.icon-lastfm:before {
+  content: "\f202";
+}
+.icon-angellist:before {
+  content: "\f209";
+}
+.icon-facebook:before {
+  content: "\f230";
+}
+.icon-meetup .path1:before {
+  content: "\e901";
+  color: rgb(255, 255, 255);
+}
+.icon-meetup .path2:before {
+  content: "\e902";
+  margin-left: -1.5em;
+  color: rgb(240, 1, 1);
+}
+.icon-meetup .path3:before {
+  content: "\e903";
+  margin-left: -1.5em;
+  color: rgb(3, 3, 3);
+}
+.icon-blogger:before {
+  content: "\e900";
+}
+.icon-exercism:before {
+  content: "\e601";
+}
+.icon-profile:before {
+  content: "\e600";
+}
+.icon-tools:before {
+  content: "\e034";
+}
+.icon-location:before {
+  content: "\e602";
+}
+.icon-mail:before {
+  content: "\e603";
+}
+.icon-phone:before {
+  content: "\e03f";
+}
+.icon-newspaper:before {
+  content: "\e607";
+}
+.icon-dots-three-horizontal:before {
+  content: "\e60b";
+}
+.icon-thumbs-up:before {
+  content: "\e604";
+}
+.icon-chevron-down:before {
+  content: "\e60c";
+}
+.icon-chevron-up:before {
+  content: "\e60d";
+}
+.icon-dots-three-horizontal:before {
+  content: "\e60b";
+}
+.icon-thumbs-up:before {
+  content: "\e604";
+}
+.icon-board:before {
+  content: "\e608";
+}
+
+
+.relative {
+  position: relative;
+}
+.clear-margin {
+  margin: 0;
+}
+.space-top {
+  margin-top: 10px;
+}
+.space-right {
+  margin-right: 10px;
+}
+.space-bottom {
+  margin-bottom: 10px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.labels {
+  line-height: 2;
+}
+.label-keyword {
+  display: inline-block;
+  background: #7eb0db;
+  color: white;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #357ebd;
+  margin-right: 5px;
+}
+.label-keyword:last-child {
+  margin-right: 0;
+}
+.link-disguise {
+  color: inherit;
+}
+.link-disguise:hover {
+  color: inherit;
+}
+.clear-margin {
+  margin: 0;
+}
+@media (max-width: 992px) {
+  .clear-margin-sm {
+    margin-bottom: 0;
+  }
+}
+.fs-lg {
+  font-size: 1.33333333em;
+  line-height: .75em;
+  vertical-align: -15%;
+}
+.fs-2x {
+  font-size: 2em;
+}
+.fs-3x {
+  font-size: 3em;
+}
+.fs-4x {
+  font-size: 4em;
+}
+.btn-circle-sm {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0;
+  outline: none !important;
+}
+@font-face {
+  font-family: 'jst-elegant';
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo");
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jst-elegant' !important;
+}
+body {
+  font-family: 'Lato';
+  background: #f0f0f0;
+  color: #333;
+}
+.main {
+  padding: 5px;
+}
+.card {
+  background: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  min-height: 300px;
+  padding: 10px 0;
+}
+.card-nested {
+  min-height: 0;
+  border-width: 1px 0 0 0;
+}
+.card-nested:before,
+.card-nested:after {
+  content: " ";
+  display: table;
+}
+.card-nested:after {
+  clear: both;
+}
+@media (max-width: 480px) {
+  .card-nested {
+    padding: 5px 0;
+  }
+}
+.background-card {
+  padding: 10px 20px;
+}
+.card-wrapper {
+  padding: 5px;
+}
+@media (max-width: 992px) {
+  .card-wrapper {
+    float: none !important;
+  }
+}
+.background-details .detail {
+  display: table;
+}
+.background-details .detail .icon {
+  min-width: 45px;
+  max-width: 45px;
+  text-align: center;
+}
+.background-details .detail .info {
+  width: 100%;
+}
+.background-details .detail .title,
+.background-details .detail .icon {
+  color: #707070;
+}
+.background-details .detail .mobile-title {
+  display: none;
+}
+@media (max-width: 480px) {
+  .background-details .detail .mobile-title {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+}
+.background-details .detail .icon,
+.background-details .detail .info {
+  display: table-cell;
+  padding: 0 10px;
+}
+@media (max-width: 480px) {
+  .background-details .detail {
+    display: block;
+  }
+  .background-details .detail .icon {
+    max-width: inherit;
+    min-width: inherit;
+    text-align: left;
+  }
+  .background-details .detail .icon,
+  .background-details .detail .info {
+    display: block;
+    padding: 10px 0;
+  }
+  .background-details .detail .title {
+    display: none;
+  }
+}
+.info .content.has-sidebar {
+  width: 80%;
+  box-sizing: border-box;
+  float: left;
+  padding: 0 10px;
+  border-right: 1px solid #cdcdcd;
+}
+@media (max-width: 992px) {
+  .info .content.has-sidebar {
+    width: 100%;
+    border-right: 0;
+  }
+}
+@media (max-width: 480px) {
+  .info .content.has-sidebar {
+    padding: 0 2px;
+  }
+}
+.info .sidebar {
+  margin-left: 80%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+@media (max-width: 480px) {
+  ul {
+    padding-left: 25px;
+  }
+}
+.current-event {
+  font-size: 8px;
+  color: #5ACE24;
+  position: absolute;
+  right: 100%;
+  top: 4px;
+  left: -10px;
+}
+.mop-wrapper > p:last-child {
+  margin: 0;
+}
+/*
+    Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
+*/
+.floating-nav-trigger {
+  width: 50px;
+  height: 50px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  -webkit-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  background-color: white;
+  font-size: 1.5em;
+  color: #357ebd;
+  z-index: 100;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none !important;
+}
+.floating-nav-trigger > [class^="icon-"],
+.floating-nav-trigger [class*=" icon-"],
+.floating-nav-trigger > .close-icon {
+  line-height: 50px;
+}
+.floating-nav-trigger .close-icon {
+  display: none;
+}
+.floating-nav-trigger:hover {
+  color: #1f496e;
+  background-color: #e6e6e6;
+}
+.floating-nav-trigger.is-open {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.floating-nav-trigger.is-open .close-icon {
+  display: inherit;
+}
+.floating-nav-trigger.is-open .icon-bars {
+  display: none;
+}
+.floating-nav-trigger.is-open:hover {
+  background-color: white;
+}
+.floating-nav {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -webkit-transition: transform 0.3s, visibility 0s 0.3s;
+  -o-transition: transform 0.3s, visibility 0s 0.3s;
+  transition: transform 0.3s, visibility 0s 0.3s;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  position: fixed;
+  z-index: 50;
+  right: 10px;
+  bottom: 10px;
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  visibility: hidden;
+  overflow: hidden;
+}
+.floating-nav ul {
+  font-size: 1.2em;
+  margin: 0;
+}
+.floating-nav ul li {
+  border-bottom: 1px solid #eff2f6;
+}
+.floating-nav ul li a {
+  padding: 20px;
+  text-decoration: none;
+  color: #357ebd;
+  display: block;
+}
+.floating-nav ul li a:hover {
+  color: #1f496e;
+}
+.floating-nav ul li:last-child {
+  border-bottom: 0;
+}
+.floating-nav.is-visible {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: transform 0.3s, visibility 0s 0s;
+  -o-transition: transform 0.3s, visibility 0s 0s;
+  transition: transform 0.3s, visibility 0s 0s;
+  visibility: visible;
+}
+@media (max-width: 992px) {
+  .profile-card-wrapper {
+    position: relative;
+  }
+}
+.profile-card-wrapper .profile-card {
+  padding: 10px;
+}
+.profile-pic {
+  padding: 20px 0;
+}
+@media (max-width: 992px) {
+  .profile-pic {
+    padding: 10px 0;
+  }
+}
+.profile-pic img {
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 992px) {
+  .name {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .contact-details {
+    text-align: center;
+  }
+}
+.contact-details .detail {
+  display: table;
+  padding: 10px 0;
+}
+.contact-details .detail .icon {
+  padding: 0 10px;
+  color: #707070;
+}
+@media (max-width: 992px) {
+  .contact-details .detail .icon {
+    padding: 0 5px 0 0;
+  }
+}
+.contact-details .detail .info {
+  font-size: 0.8em;
+}
+.contact-details .detail .icon,
+.contact-details .detail .info {
+  display: table-cell;
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .contact-details .detail {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .contact-details .detail {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+  }
+  .contact-details .detail .icon,
+  .contact-details .detail .info {
+    display: inline-block;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  .contact-details .detail {
+    float: left;
+    width: 25%;
+  }
+}
+.social-links {
+  line-height: 2.5;
+}
+.social-link {
+  margin-left: 5px;
+  min-width: 35px;
+  display: inline-block;
+}
+.social-link:first-child {
+  margin-left: 0;
+}
+.social-link:hover {
+  text-decoration: none;
+}
+.link-github {
+  color: #454545;
+}
+.link-github:hover,
+.link-github:focus {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+.link-twitter {
+  color: #33ccff;
+}
+.link-twitter:hover,
+.link-twitter:focus {
+  text-decoration: none;
+  color: #00bfff;
+}
+.link-blog {
+  color: #f36f24;
+}
+.link-blog:hover,
+.link-blog:focus {
+  text-decoration: none;
+  color: #d8560c;
+}
+.link-linkedin {
+  color: #007bb6;
+}
+.link-linkedin:hover,
+.link-linkedin:focus {
+  text-decoration: none;
+  color: #005983;
+}
+.link-skype {
+  color: #12A5F4;
+}
+.link-skype:hover,
+.link-skype:focus {
+  text-decoration: none;
+  color: #0986ca;
+}
+.link-instagram {
+  color: #e4405f;
+}
+.link-instagram:hover,
+.link-instagram:focus {
+  text-decoration: none;
+  color: #d31e40;
+}
+.link-stackoverflow {
+  color: #f48024;
+}
+.link-stackoverflow:hover,
+.link-stackoverflow:focus {
+  text-decoration: none;
+  color: #c3661c;
+}
+.link-stackexchange {
+  color: #62b0df;
+}
+.link-stackexchange:hover,
+.link-stackexchange:focus {
+  text-decoration: none;
+  color: #389bd6;
+}
+.link-lastfm {
+  color: #d12127;
+}
+.link-lastfm:hover,
+.link-lastfm:focus {
+  text-decoration: none;
+  color: #a51a1f;
+}
+.link-soundcloud {
+  color: #e8822d;
+}
+.link-soundcloud:hover,
+.link-soundcloud:focus {
+  text-decoration: none;
+  color: #cc6916;
+}
+.link-googleplus {
+  color: #dd4b39;
+}
+.link-googleplus:hover,
+.link-googleplus:focus {
+  text-decoration: none;
+  color: #c23321;
+}
+.link-youtube {
+  color: #dd4b39;
+}
+.link-youtube:hover,
+.link-youtube:focus {
+  text-decoration: none;
+  color: #c23321;
+}
+.link-pinterest {
+  color: #bd091f;
+}
+.link-pinterest:hover,
+.link-pinterest:focus {
+  text-decoration: none;
+  color: #8c0717;
+}
+.link-gratipay {
+  color: #630;
+}
+.link-gratipay:hover,
+.link-gratipay:focus {
+  text-decoration: none;
+  color: #331a00;
+}
+.link-vimeo {
+  color: #17b3e8;
+}
+.link-vimeo:hover,
+.link-vimeo:focus {
+  text-decoration: none;
+  color: #128fba;
+}
+.link-behance {
+  color: #2c98cf;
+}
+.link-behance:hover,
+.link-behance:focus {
+  text-decoration: none;
+  color: #2379a5;
+}
+.link-codepen {
+  color: #1c1c1c;
+}
+.link-codepen:hover,
+.link-codepen:focus {
+  text-decoration: none;
+  color: #020202;
+}
+.link-foursquare {
+  color: #fa4778;
+}
+.link-foursquare:hover,
+.link-foursquare:focus {
+  text-decoration: none;
+  color: #f91554;
+}
+.link-reddit {
+  color: #545454;
+}
+.link-reddit:hover,
+.link-reddit:focus {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+.link-spotify {
+  color: #acd200;
+}
+.link-spotify:hover,
+.link-spotify:focus {
+  text-decoration: none;
+  color: #829f00;
+}
+.link-tumblr {
+  color: #2d4661;
+}
+.link-tumblr:hover,
+.link-tumblr:focus {
+  text-decoration: none;
+  color: #1d2d3e;
+}
+.link-dribbble {
+  color: #ce366f;
+}
+.link-dribbble:hover,
+.link-dribbble:focus {
+  text-decoration: none;
+  color: #a82959;
+}
+.link-facebook {
+  color: #4b6daa;
+}
+.link-facebook:hover,
+.link-facebook:focus {
+  text-decoration: none;
+  color: #3b5687;
+}
+.link-angellist {
+  color: black;
+}
+.link-angellist:hover,
+.link-angellist:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.link-bitbucket {
+  color: #205081;
+}
+.link-bitbucket:hover,
+.link-bitbucket:focus {
+  text-decoration: none;
+  color: #163758;
+}
+.link-hackernews {
+  color: #ff6600;
+}
+.link-hackernews:hover,
+.link-hackernews:focus {
+  text-decoration: none;
+  color: #cc5200;
+}
+.link-exercism {
+  color: #d81d4e;
+}
+.link-exercism:hover,
+.link-exercism:focus {
+  text-decoration: none;
+  color: #ab173e;
+}
+.link-blogger {
+  color: #FF9234;
+}
+.link-blogger:hover,
+.link-blogger:focus {
+  text-decoration: none;
+  color: #ff7701;
+}
+.link-medium {
+  color: #00AB6C;
+}
+.link-medium:hover,
+.link-medium:focus {
+  text-decoration: none;
+  color: #00784c;
+}
+.link-flickr {
+  color: black;
+}
+.link-flickr:hover,
+.link-flickr:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.link-telegram {
+  color: #3BABDD;
+}
+.link-telegram:hover,
+.link-telegram:focus {
+  text-decoration: none;
+  color: #2291c3;
+}
+.card-skills {
+  position: relative;
+}
+.skill-level {
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.skill-level .skill-progress {
+  position: absolute;
+  border-radius: 3px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: height 1s ease;
+}
+.skill-level .skill-progress.beginner {
+  height: 50%;
+  background: #e74c3c;
+}
+.skill-level .skill-progress.intermediate {
+  height: 70%;
+  background: #f1c40f;
+}
+.skill-level .skill-progress.advanced {
+  height: 80%;
+  background: #428bca;
+}
+.skill-level .skill-progress.master {
+  height: 95%;
+  background: #5cb85c;
+}
+.skill-info {
+  margin-left: 15px;
+}
+@media (max-width: 480px) {
+  .skill-info {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .quote {
+    font-size: inherit;
+  }
+}
+.icon-meetup .path2:before {
+  margin-left: 0;
+}
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+  .profile-card {
+    text-align: center;
+  }
+  .profile-pic {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .profile-pic img {
+    border-radius: 0;
+  }
+  .name-and-profession {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+  .contact-details .detail {
+    position: relative;
+    float: left;
+    width: 25%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 0;
+  }
+  .floating-nav,
+  .floating-nav-trigger {
+    display: none;
+  }
+  .pagebreak {
+    page-break-before: always;
+  }
+}
+</style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li><li><a href="#references"><i class="mr-10 icon-thumbs-up"></i>References</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Jeff Windsor" src="../resources/portrait.jpg" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Jeff Windsor</b></h3><h5 class="text-muted" itemprop="jobTitle">Pragmatic ∙ Experienced ∙ Polyglot ∙ Student of All Things</h5></div></span><hr/><div class="contact-details clearfix"><div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">Ventura, California</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:jeff.windsor@gmail.com" itemprop="email">jeff.windsor@gmail.com</a></span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info"><a href="https://jeffwindsor.carrd.co/" target="_blank">https://jeffwindsor.carrd.co/</a></span></div><div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span><span class="info">English</span></div></div><hr/><div class="social-links text-center"><div><a class="fs-2x social-link link-github icon-github" href="https://github.com/jeffwindsor?tab=repositories" target="_blank" data-toggle="tooltip" title="Jeff Windsor on GitHub"></a><a class="fs-2x social-link link-stackoverflow icon-stackoverflow" href="https://stackoverflow.com/story/jeffwindsor" target="_blank" data-toggle="tooltip" title="Jeff Windsor on StackOverflow"></a><a class="fs-2x social-link link-linkedin icon-linkedin" href="https://www.linkedin.com/in/jeffwindsor" target="_blank" data-toggle="tooltip" title="Jeff Windsor on LinkedIn"></a><a class="fs-2x social-link link-twitter icon-twitter" href="https://twitter.com/jeffwindsor" target="_blank" data-toggle="tooltip" title="Jeff Windsor on Twitter"></a><a class="fs-2x social-link link-trophy icon-trophy" href="https://www.hackerrank.com/jeff_windsor" target="_blank" data-toggle="tooltip" title="Jeff Windsor on Trophy"></a></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr/><div class="background-details"><div class="detail" id="about"><div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div><div class="info"><h4 class="title text-uppercase">About</h4><div class="card card-nested"><div class="content mop-wrapper" itemprop="description"><p>A highly motivated, passionate and strategically minded technologist with extensive experience in software development who has successfully managed, designed and developed a long line of customer facing and strategic enterprise applications.</p>
+</div></div></div></div><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Senior Software Engineer</strong>,&nbsp;<a href="https://www.alliancedata.com/" target="_blank">Alliance Data Systems / CJ Affiliates</a></p><p class="text-muted"><small><span class="space-right">Jul, 2018 - Present</span></small></p><div class="mop-wrapper space-bottom"><p></p>
+</div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Lead Architect</strong>,&nbsp;<a href="https://www.alliancedata.com/" target="_blank">Vitalware</a></p><p class="text-muted"><small><span class="space-right">Jul, 2017 - Mar, 2018</span><span><i class="icon-clock mr-5"></i>8 months</span></small></p><div class="mop-wrapper space-bottom"><p>Vital provides mid-stream revenue software solutions for the health care industry.</p>
+</div><ul><li class="mop-wrapper"><p>Re-architected the main Charge Description Master (CDM) product</p>
+</li><li class="mop-wrapper"><p>Led development of a Customer Integration (CI) product that completed suite of Software as a Service (SaaS) offerings</p>
+</li><li class="mop-wrapper"><p>Established the Service Oriented Architecture (SOA)/micro-service architecture.</p>
+</li><li class="mop-wrapper"><p>Developed, enhanced, simplified and improved Payment, Registration and Loan Verification software services</p>
+</li><li class="mop-wrapper"><p>Restructured, reorganized, led and managed Development Teams</p>
+</li><li class="mop-wrapper"><p>Established an efficient software development life cycle (SDLC) with processes</p>
+</li><li class="mop-wrapper"><p>CJ Affiliates &gt;&gt; Epsilon: <a href="https://us.epsilon.com/">https://us.epsilon.com/</a> &gt;&gt; ADS: <a href="https://www.alliancedata.com/">https://www.alliancedata.com/</a></p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Enterprise Business Architect</strong>,&nbsp;<a href="https://www.inl.gov/" target="_blank">Idaho National Laboratory</a></p><p class="text-muted"><small><span class="space-right">Dec, 2016 - Jul, 2017</span><span><i class="icon-clock mr-5"></i>7 months</span></small></p><div class="mop-wrapper space-bottom"><p>The INL, a division of the U.S. Department of Energy&#39;s (DOE) complex of National Laboratories, and is the National Center for nuclear energy research and development. INL Laboratory performed work in each of the strategic goal areas of the DOE: energy, national security, science and environment.</p>
+</div><ul><li class="mop-wrapper"><p>Led the process and cultural change required by the Enterprise Software Directorate to meet the growing set of responsibilities while lowering execution cost.</p>
+</li><li class="mop-wrapper"><p>Worked with CIO and Directors to define a more efficient and friction-free organization structure. </p>
+</li><li class="mop-wrapper"><p>Actively recruited and trained Technical and Process Evangelists Teams. These Teams owned and championed changes across the enterprise at the team level. </p>
+</li><li class="mop-wrapper"><p>Redefined incentives to align with Lab and Directorate goals. </p>
+</li><li class="mop-wrapper"><p>Organized and mentored Teams that implemented modern software delivery tools alongside process changes. </p>
+</li><li class="mop-wrapper"><p>Facilitated and promoted increased inter-team cooperation. </p>
+</li><li class="mop-wrapper"><p>Communicated early and often with the Change Management Group and Training Centers to raise the long-term success of these initiatives. </p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Architect and Senior Developer</strong>,&nbsp;<a href="https://www.nelnet.com/welcome" target="_blank">Nelnet Diversified Solutions</a></p><p class="text-muted"><small><span class="space-right">Dec, 2016 - Dec, 2015</span><span><i class="icon-clock mr-5"></i>11 months</span></small></p><div class="mop-wrapper space-bottom"><p>Nelnet, the #2 student loan provider in the US, led the design and development of modernization initiatives with the goal of lowering the overall time to market and cost of software delivery. Project required a Department of Education Security Clearance.</p>
+</div><ul><li class="mop-wrapper"><p>Led efforts to consolidate and modernize current back-end services</p>
+</li><li class="mop-wrapper"><p>Established SOA architecture that connected to universal Enterprise Service Bus (ESB).</p>
+</li><li class="mop-wrapper"><p>Developed, enhanced, simplified and improved Payment, Registration and Loan Verification software services</p>
+</li><li class="mop-wrapper"><p>Advised and led the design of modern low cost, high throughput, auditable, and reliable set of software delivery life cycle (SDLC) processes. </p>
+</li><li class="mop-wrapper"><p>Actively recruited internal Architects to champion the use of reliable messaging and secure APIs. </p>
+</li><li class="mop-wrapper"><p>Eased the process burden experienced with modern software delivery tools with a clear migration path from current tool sets. </p>
+</li><li class="mop-wrapper"><p>Communicated early and often with Change Management Group and Training Centers which increased long-term success of these initiatives. Held Active Secret Government Clearance because of the sensitive military and personal information (PI) involved with these initiatives. </p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Lead Architect and Senior Developer</strong>,&nbsp;Zantler</p><p class="text-muted"><small><span class="space-right">Oct, 2013 - Dec, 2015</span><span><i class="icon-clock mr-5"></i>2 years 2 months</span></small></p><div class="mop-wrapper space-bottom"><p>Joined startup at a crucial pivot point; the previous market had evaporated and company was experiencing terminal scalability and security issues with the newly revamped platform. </p>
+</div><ul><li class="mop-wrapper"><p>Defined a new direction and market.</p>
+</li><li class="mop-wrapper"><p>Established a small distributed, highly talented IT Team that delivered a new technology direction in a very short period of time.</p>
+</li><li class="mop-wrapper"><p>Choose and implemented the most appropriate technologies, methodologies, processes and tools aligned with strategic goals laid out by the Board of Directors.</p>
+</li><li class="mop-wrapper"><p>Worked with the Team to design, plan and implement the new product. Acted as Senior Developer focused on shared components.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Software Engineer and Architect</strong>,&nbsp;<a href="https://capco.com/" target="_blank">Sunguard Consulting Services @ Integrys Energy</a></p><p class="text-muted"><small><span class="space-right">Mar, 2012 - Oct, 2013</span><span><i class="icon-clock mr-5"></i>1 year 7 months</span></small></p><div class="mop-wrapper space-bottom"><p>Further expanded the geographical and departmental reach of the data validation, forecasting and pricing applications to new subsidiaries</p>
+</div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Software Engineer and Architect</strong>,&nbsp;DIY Media / Zantler</p><p class="text-muted"><small><span class="space-right">Mar, 2011 - Mar, 2012</span><span><i class="icon-clock mr-5"></i>1 year</span></small></p><div class="mop-wrapper space-bottom"><p> Implementing payment/financials infrastructure and cloud based delivery of digital content. Amazon Web Services, Paypal (for Europe and South America) and CCAvenue integration for India.  It was crucial the payment mechanisms be scalable, highly available and accurate, while providing an easy sometimes one click payment experience.</p>
+</div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Software Engineer</strong>,&nbsp;<a href="https://capco.com/" target="_blank">Sunguard Consulting Services @ Integrys Energy</a></p><p class="text-muted"><small><span class="space-right">Mar, 2011 - Mar, 2007</span><span><i class="icon-clock mr-5"></i>3 years 11 months</span></small></p><div class="mop-wrapper space-bottom"><p>Architect, Design and develop a retail energy pricing application. Improved per unit processing time from 10s seconds to 100ths of seconds.  Implemented a Electric Pricing and Pattern Matching DSL for Excel like user formulas. Architected and helped implement a service oriented architecture for the following functions in C# 3.5: costing, forecasting, hedging, data validation, and request validation. </p>
+</div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Software Developer and Information Architect</strong>,&nbsp;Digital Soldiers</p><p class="text-muted"><small><span class="space-right">Apr, 2006 - Mar, 2007</span><span><i class="icon-clock mr-5"></i>11 months</span></small></p><div class="mop-wrapper space-bottom"><p>Provided architectural guidance, design and development support to the Financial Systems Division. Responsibilities: Application design and development, Methodology facilitation and coaching, Business modeling for multiple applications, services and databases. </p>
+</div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Information Architect</strong>,&nbsp;SunGard Consulting Services @ BP NAGP</p><p class="text-muted"><small><span class="space-right">Apr, 2005 - Mar, 2006</span><span><i class="icon-clock mr-5"></i>11 months</span></small></p><div class="mop-wrapper space-bottom"><p>Provided business analysis and technical design for a range of projects at BP&#39;s North American Gas &amp; Power division. Projects: Sarbanes-Oxley compliance and internal best practices for NAGP&#39;s critical processes and information structures. Responsibilities: Requirements gathering, Business modeling, Software analysis and design.</p>
+</div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Software Developer</strong>,&nbsp;Digital Soldiers</p><p class="text-muted"><small><span class="space-right">Apr, 2002 - Mar, 2005</span><span><i class="icon-clock mr-5"></i>2 years 11 months</span></small></p><div class="mop-wrapper space-bottom"></div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Consulting Manager</strong>,&nbsp;Sungard Consulting Services / EnForm</p><p class="text-muted"><small><span class="space-right">Apr, 2000 - Mar, 2002</span><span><i class="icon-clock mr-5"></i>1 year 11 months</span></small></p><div class="mop-wrapper space-bottom"></div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Lead</strong>,&nbsp;Lyondell Petrochemical</p><p class="text-muted"><small><span class="space-right">Dec, 1999 - Mar, 1994</span><span><i class="icon-clock mr-5"></i>5 years 8 months</span></small></p><div class="mop-wrapper space-bottom"></div></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-info"><strong>Development</strong><div class="space-top labels"><span class="label label-keyword">Haskell</span><span class="label label-keyword">Purescript</span><span class="label label-keyword">C#</span><span class="label label-keyword">F#</span><span class="label label-keyword">Javascript</span><span class="label label-keyword">Python</span><span class="label label-keyword">TSQL</span><span class="label label-keyword">PLSQL</span><span class="label label-keyword">MongoDB</span><span class="label label-keyword">Git</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Cloud</strong><div class="space-top labels"><span class="label label-keyword">AWS Compute</span><span class="label label-keyword">AWS Network and Content Delivery</span><span class="label label-keyword">AWS Storage</span><span class="label label-keyword">Azure Compute Services</span><span class="label label-keyword">Azure Pipelines</span><span class="label label-keyword">Azure Service Bus</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Architectures, Systems and Stacks</strong><div class="space-top labels"><span class="label label-keyword">Messaging Architectures</span><span class="label label-keyword"></span><span class="label label-keyword">GraphQL</span><span class="label label-keyword">Restful Apis</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Process</strong><div class="space-top labels"><span class="label label-keyword">Agile</span><span class="label label-keyword">Scrum</span><span class="label label-keyword">Lean</span><span class="label label-keyword">Kanban</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Dev Ops</strong><div class="space-top labels"><span class="label label-keyword">AWS Code Pipeline and Deploy</span><span class="label label-keyword">Jenkins</span><span class="label label-keyword">Octopus</span><span class="label label-keyword">TeamCity</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Specialties</strong><div class="space-top labels"><span class="label label-keyword">Energy Markets</span><span class="label label-keyword">BioInformatics</span><span class="label label-keyword">Finance</span><span class="label label-keyword">Oil, Gas and Petrochemicals Markets</span><span class="label label-keyword">Commodity Trading</span></div></div></li></ul></div></div></div><div class="detail" id="education"><div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div><div class="info"><h4 class="title text-uppercase">Education</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Finance, MBA,&nbsp;</strong>Rice University</p><p class="text-muted clear-margin"><small>Aug, 1996 - May, 1999</small></p><i></i></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Genetics, BS,&nbsp;</strong>Texas A&amp;M University</p><p class="text-muted clear-margin"><small>Aug, 1988 - May, 1992</small></p><i></i></div></li></ul></div></div></div><div class="detail" id="references"><div class="icon"><i class="fs-lg icon-thumbs-up"></i><span class="mobile-title">References</span></div><div class="info"><h4 class="title text-uppercase">References</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested">James Lively, Director Enterprise Software and Development at Idaho National Laboratory<blockquote class="quote"><div class="mop-wrapper"><p>Jeff is the consummate professional. He has the unique ability to listen and understand what a specific set of objectives and business needs are, concisely organize these thoughts, apply them to his in depth technical understanding, and produce a comprehensive solution that he then presents in understandable terms to his audience. This is a very impressive skill, to say the least, when dealing with a diverse group of business and technical disciplines. His personality is a well rounded addition to any group and his contributions can be concise and to the point or illustrative in times that require it. I would gladly work with Jeff again on future strategic projects.</p>
+</div></blockquote></li><li class="card card-nested">David Robb, President and COO at Gaston Capital Partners<blockquote class="quote"><div class="mop-wrapper"><p>I had the pleasure of working with Jeff for about a year. He bridges the worlds of technology and business as well as any one with whom I&#39;ve ever worked. Jeff has a keen mind for building technology, working with a team and contributing to the vision of a company. I hope that one day we work together again.</p>
+</div></blockquote></li><li class="card card-nested">Chad LaBerge, Independent Securities Trader @ SaddleRing Investments<blockquote class="quote"><div class="mop-wrapper"><p>To say that Jeff Windsor is talented is a tremendous understatement. We worked together early in our careers at Lyondell and I was very fortunate to have found myself associated with a person of his professional character at that time. Without exaggeration, his intellect is amongst the most elite I have ever encountered. Jeff’s ability to grasp new technology and incorporate it into a business enterprise is extraordinary. Working with Jeff was a great experience, counting him as a friend is a true honor.</p>
+</div></blockquote></li><li class="card card-nested">Erica Janine Henson<blockquote class="quote"><div class="mop-wrapper"><p>Jeff is one of the most talented individuals with whom I&#39;ve had the honor to work and learn. He was crucial to getting several applications and processes in place, and personally took the time to give me direction and information when I needed it. He is an exceptional and dedicated person, a rare kind of developer and professional.</p>
+</div></blockquote></li></ul></div></div></div></div></div></section></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script><script>$(function () {
+  var toggleFloatingMenu = function() {
+    $( '.js-floating-nav' ).toggleClass( 'is-visible' );
+    $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
+  };
+
+  $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
+  $( "[data-toggle=tooltip]" ).tooltip();
+  $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
+    e.preventDefault();
+    toggleFloatingMenu();
+  });
+  $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
+
+  $("#remaining-profiles").on('show.bs.collapse', function() {
+    $( '.js-profiles-collapse > i' )
+      .removeClass( 'icon-chevron-down' )
+      .addClass( 'icon-chevron-up' );
+  });
+
+  $("#remaining-profiles").on('hidden.bs.collapse', function() {
+    $( '.js-profiles-collapse > i' )
+      .removeClass( 'icon-chevron-up' )
+      .addClass( 'icon-chevron-down' );
+  });
+});
+</script><script>WebFontConfig = {
+  google: { families: [ 'Lato:300,400,700:latin' ] }
+};
+(function() {
+  var wf = document.createElement('script');
+  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
+})();</script></body></html>
