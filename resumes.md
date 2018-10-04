@@ -11,5 +11,5 @@
 | short | [[ html ](resume/generated/resume-json-short.html)] | [[ pdf ](resume/generated/resume-json-short.pdf)] |
 | spartan | [[ html ](resume/generated/resume-json-spartan.html)] | [[ pdf ](resume/generated/resume-json-spartan.pdf)] |
 | stackoverflow | [[ html ](resume/generated/resume-json-stackoverflow.html)] | [[ pdf ](resume/generated/resume-json-stackoverflow.pdf)] |
-| modern [[ html ](resume/generated/resume-fresh-modern.html)] | [[ pdf ](resume/generated/resume-fresh-modern.pdf)] |
-| compact [[ html ](resume/generated/resume-fresh-compact.html)] | [[ pdf ](resume/generated/resume-fresh-compact.pdf)] |
+| modern | [[ html ](resume/generated/resume-fresh-modern.html)] | [[ pdf ](resume/generated/resume-fresh-modern.pdf)] |
+| compact | [[ html ](resume/generated/resume-fresh-compact.html)] | [[ pdf ](resume/generated/resume-fresh-compact.pdf)] |
