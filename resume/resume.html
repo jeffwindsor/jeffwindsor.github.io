@@ -1,1351 +1,689 @@
 <!doctype html>
 <html>
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <title>Jeff Windsor</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <style>
-  /********************************************
-* 	reset from
-* 	http://meyerweb.com/eric/tools/css/reset/
-*******************************************/
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Jeff Windsor</title>
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
+	<style>
+	body {
+	background: #fff;
+	font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+	margin: 0 0;
+	margin-bottom: 100px;
 }
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
+em {
+	color: #999;
 }
-
-body {
-    line-height: 1;
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-
-/****************
-*	COMMONS
-****************/
-
-body,
-html {
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 13px;
-    color: #40484f;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.46153846;
-    text-align: left;
-    -webkit-text-size-adjust: 100%;
-}
-
 p {
-    display: block;
-    margin-bottom: 1.3em;
+	line-height: 1.6;
+	font-size: 90%;
 }
 
 a {
-    color: #0095ff;
-    text-decoration: none;
+	color: #2C85B1;
+	text-decoration: none;
+	font-weight: 400;
 }
-
-a:hover {
-    color: #0c65a5;
-    text-decoration: underline;
-}
-
 ul {
-    margin-top: 1rem;
+	margin-bottom: 0;
 }
-
-li {
-    list-style-type: square;
-    list-style-position: outside;
-    margin-left: 1.3em;
+section {
+	margin: 1em 0 2em;
 }
-
-.highlights>li>p {
-    margin-bottom: 0.5em;
-}
-
-h1 {
-    font-size: 2rem;
-}
-
-h2 {
-    font-size: 1.67rem;
-}
-
-h3 {
-    font-size: 1.27rem;
-}
-
-em {
-    color: #757575;
-}
-
 blockquote {
-    margin-bottom: 1em;
+	margin: 0;
+	margin-bottom: 1em;
 }
-
-strong {
-    font-weight: 700;
-}
-
-
-/* main container */
-
 #resume {
-    padding: 1rem;
-    margin-top: 2rem;
+	margin: 2em 2em 2em 2.5em;
+	max-width: 760px;
 }
 
+/* Resume heading */
+.heading header { 
 
-/* every section wrapper */
-
-.section {
-    margin-bottom: 1rem;
 }
 
-section .location {
-    margin-right: .5em;
-    color: #606d76;
-    font-weight: 700;
+.heading header h1 {
+	font-size: 180%;
+	margin: 0.5em 0;
+	font-weight: 600;
 }
 
-#contact {
-    margin-top: .5rem;
+.heading header h2 {
+	font-size: 140%;
+	margin: 0;
+	font-weight: 400;
 }
 
-#profiles .item {
-    padding: 0;
+.heading header .contact .detail {
+	margin: 0 1em 0 0;
 }
 
-#header>#profiles,
-#header>#contact,
-#skills,
-#languages,
-#interests {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start;
+.profile {
+	display: inline-block;
+	margin: 0 1em 0 0;
 }
 
-#header>div {
-    line-height: 1.5;
+.profile strong,
+.profile span {
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+/* section / line breaks */
+section h2 {
+	font-size: 140%;
+	margin: 0 0 1em;
+	text-transform: uppercase;
+	color: #BC1B39;
+	font-weight: 400;
 }
 
-#header>div>div {
-    margin-right: 1.2em;
-}
-
-#header h1.name {
-    font-size: 2.8rem;
-    font-weight: 100;
-    line-height: 100%;
-}
-
-#header h2.label {
-    color: #202931;
-    font-size: 1.47rem;
-    font-weight: 300;
-}
-
-#header .picture {
-    width: 11em;
-    float: right;
-    border-radius: 4px;
-}
-
-.main-summary {
-    background: #f1f8ff;
-    padding: 1.2em 1em;
-    margin-top: 1rem;
-}
-
-.main-summary p {
-    margin: .15em 0 0;
-}
-
-h2.section-title {
-    display: inline-block;
-    background: #fff;
-    padding: 0 1em 0.3em 0;
-    color: #ff6d1f;
-    text-transform: uppercase;
-    font-weight: 600;
-    border: none;
-    font-size: .9rem;
-}
-
-.section>header {
-    position: relative;
-}
-
-.fa {
-    margin-right: 0.25em;
-}
-
-.section>header::after {
-    position: absolute;
-    left: 0;
-    top: .7em;
-    height: 1px;
-    background: #ccc;
-    content: "";
-    width: 100%;
-    z-index: -100;
-    display: block;
-}
-
-.section.main-summary>section {
-    margin: 0;
-}
-
-.section>section>header {
-    font-size: 1.38rem;
-    position: relative;
-    margin-top: .7em;
-}
-
-.section>section>header:first-of-type {
-    margin: 0;
-}
-
-.section>section>header .space-left {
-    position: absolute;
-    left: -1.56rem;
-    top: 5px;
-    color: #aaa;
-    line-height: 1;
-    opacity: 0;
-}
-
-.position,
-.company,
-.organization,
-.institution,
-.date,
-.area,
-.studyType,
-.title,
-.awarder {
-    display: inline;
-}
-
-.position,
-.studyType,
-.area,
-.title,
-.language,
-.name {
-    font-weight: 600;
-}
-
-.company::before,
-.institution::before,
-.organization::before,
-.awarder::before {
-    content: "at "
-}
-
-.company,
-.institution,
-.organization,
-.awarder {
-    color: #606d76;
-    font-weight: 400;
-}
-
-.section header .date {
-    font-size: 1rem;
-    display: inline-table;
-    padding: .1em 0;
-    font-weight: 600;
-}
-
-ul.keywords,
-ul.courses {
-    margin-top: .5em;
-}
-
-ul.keywords li,
-ul.courses li {
-    display: inline-block;
-    margin: 2px 2px 2px 0;
-    padding: 4px 5px 5px;
-    font-size: .9rem;
-    line-height: 1;
-    text-transform: lowercase;
-    color: #3e6d8e;
-    background-color: #dfeaf1;
-    border: 0 solid #dfeaf1;
-    white-space: nowrap;
-}
-
-ul.keywords li:hover,
-ul.courses li:hover {
-    background: #dfeaf0;
-}
-
+/* Experience items */
 .item {
-    padding: .5em 0;
+	margin: 0 0 1em;
+	padding: 0 0 1em;
+	border-bottom: 1px solid #F2EBEC;
 }
 
-.gpa {
-    padding-bottom: .5em;
-}
-
-.fa.social {
-    font-size: 1.1em;
+.item:last-child {
+	border-bottom: none;
 }
 
 
-/* Social Media Brand Colors */
-
-.google-plus {
-    color: #dd4b39;
+.item header h3 {
+	margin: 0.2em 1em 0.2em 0;
+	display: inline-block;
+	font-weight: 600;
 }
 
-.tumblr {
-    color: #32506d;
+.item header a {
+	display: inline-block;
 }
 
-.foursquare {
-    color: #0072b1;
+.item .position {
+	font-weight: 600;
+	font-size: 100%;
+	margin: 0.2em 1em 0.2em 0;
 }
 
-.facebook {
-    color: #3b5998;
+.item .startDate,
+.item .endDate {
+	color: #6B6B6B;
 }
 
-.linkedin {
-    color: #007bb6;
+.item .highlights {
+	list-style: square;
+	font-size: 90%;
 }
 
-.pinterest {
-    color: #cb2027;
-}
-
-.dribbble {
-    color: #ea4c89;
-}
-
-.instagram {
-    color: #517fa4;
-}
-
-.twitter {
-    color: #00aced;
-}
-
-.soundcloud {
-    color: #ff3a00;
-}
-
-.wordpress {
-    color: #21759b;
-}
-
-.youtube {
-    color: #bb0000;
-}
-
-.github {
-    color: #171515;
-}
-
-.stack-overflow {
-    color: #828386;
-    position: relative;
-}
-
-.flickr {
-    color: #ff0084;
-}
-
-.stack-overflow::after {
-    position: absolute;
-    left: 0;
-    content: '\f16c';
-    color: #f68a1f;
-    overflow: hidden;
-    height: 100%;
-}
-
-.telegram {
-    color: #2291c3;
-}
-
-#languages .item,
-#skills .item,
-#interests .item {
-    width: 15em;
-    padding: 0 .5em .5em 0;
-    border-bottom: none;
-}
-
+/* skills */
 #skills .item {
-    width: 16em;
+	margin: 0.5em 0;
+	padding: 0 0 0.5em;
+	font-size: 90%;
+}
+
+#skills .item .name {
+	font-weight: 600;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 1em 0 0;
+	width: 23%;
+	vertical-align: top;
 }
 
 #skills .item .keywords {
-    width: 15em;
+	display: inline-block;
+	width: 70%;
+	vertical-align: top;
+}
+
+/* education */
+#education .item {
+	display: inline-block;
+	vertical-align: top;
+	width: 49.5%;
+	border-bottom: 0;
 }
 
 
-/* Skill chart */
 
-.level {
-    margin-bottom: .5em;
-}
+	</style>
+	<style media="print">
+		body { font-size: 12px; }
+	</style>
 
-.level .bar {
-    border: 1px solid #ddd;
-    display: block;
-    width: 10em;
-    height: 5px;
-    position: relative;
-}
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+	
+	</head>
+	<body>
+	
+	<div id="resume">
 
-.level .bar::after {
-    position: absolute;
-    content: " ";
-    top: 0;
-    left: 0;
-    background: black;
-    height: 5px;
-}
-
-.level.beginner .bar::after {
-    background: #EB5F51;
-    width: 2.5em;
-}
-
-.level.intermediate .bar::after {
-    background: #ffdf1f;
-    width: 5em;
-}
-
-.level.advanced .bar::after,
-.level.fluent .bar::after {
-    background: #5CB85C;
-    width: 7.5em;
-}
-
-.level.master .bar::after,
-.level.native.speaker .bar::after {
-    background: #59C596;
-    width: 10em;
-}
-
-#references .item {
-    padding-left: .5em;
-    border-left: 5px solid #ff6d1f;
-}
-
-.toggle-item {
-  visibility: hidden;
-}
-
-/******************
-*	HELPER CLASSES
-******************/
-
-.clear::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.display {
-    display: block;
-    opacity: 1 !important;
-}
-
-.margin1 {
-    margin-bottom: .5rem;
-}
+	<section class="heading">
+		<header>
+			<h1>Jeff Windsor</h1>
+			<div class="contact">
+				<span class="detail">
+					<a href="mailto:jeff.windsor@gmail.com">jeff.windsor@gmail.com</a>
+				</span>
+				<span class="detail">
+					<a href="https://jeffwindsor.carrd.co/">https://jeffwindsor.carrd.co/</a>
+				</span>
+			</div>
+		</header>
 
 
-/****************
-*		TABLET
-****************/
+		<p><p>A highly motivated, passionate and strategically minded technologist with extensive experience in software development who has successfully managed, designed and developed a long line of customer facing and strategic enterprise applications.</p></p>
 
-@media screen and (min-width: 602px) {
-    #resume {
-        width: 80%;
-        margin: 0 auto;
-    }
-}
+			<div class="profile">
+				<strong class="network">
+					GitHub
+				</strong>
+				<span class="username">
+					<a href="https://github.com/jeffwindsor?tab=repositories">jeffwindsor</a>
+				</span>
+			</div>
+			<div class="profile">
+				<strong class="network">
+					StackOverflow
+				</strong>
+				<span class="username">
+					<a href="https://stackoverflow.com/story/jeffwindsor">jeffwindsor</a>
+				</span>
+			</div>
+			<div class="profile">
+				<strong class="network">
+					LinkedIn
+				</strong>
+				<span class="username">
+					<a href="https://www.linkedin.com/in/jeffwindsor">jeffwindsor</a>
+				</span>
+			</div>
+			<div class="profile">
+				<strong class="network">
+					Twitter
+				</strong>
+				<span class="username">
+					<a href="https://twitter.com/jeffwindsor">jeffwindsor</a>
+				</span>
+			</div>
+			<div class="profile">
+				<strong class="network">
+					Trophy
+				</strong>
+				<span class="username">
+					<a href="https://www.hackerrank.com/jeff_windsor">jeff_windsor</a>
+				</span>
+			</div>
 
+	</section>
 
-/****************
-*		LAPTOP
-****************/
+	<section id="skills">
+		<h2>Skills</h2>
+		<div class="item">
+			<div class="name">
+				Development
+			</div>
+			<div class="keywords">
+					Haskell,
+					Purescript,
+					C#,
+					F#,
+					Javascript,
+					Python,
+					TSQL,
+					PLSQL,
+					MongoDB,
+					Git
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Cloud
+			</div>
+			<div class="keywords">
+					AWS Compute,
+					AWS Network and Content Delivery,
+					AWS Storage,
+					Azure Compute Services,
+					Azure Pipelines,
+					Azure Service Bus
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Architectures, Systems and Stacks
+			</div>
+			<div class="keywords">
+					Messaging Architectures,
+					,
+					GraphQL,
+					Restful Apis
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Process
+			</div>
+			<div class="keywords">
+					Agile,
+					Scrum,
+					Lean,
+					Kanban
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Dev Ops
+			</div>
+			<div class="keywords">
+					AWS Code Pipeline and Deploy,
+					Jenkins,
+					Octopus,
+					TeamCity
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Specialties
+			</div>
+			<div class="keywords">
+					Energy Markets,
+					BioInformatics,
+					Finance,
+					Oil, Gas and Petrochemicals Markets,
+					Commodity Trading
+			</div>
+		</div>
+	</section>
 
-@media screen and (min-width: 1025px) {
-    li {
-        margin-left: 1.5em;
-    }
-    #resume {
-        width: 820px;
-        margin: 2rem auto;      
-    }
-    .section>section>header .space-left {
-        opacity: 1;
-        cursor: pointer;
-    }
-    .section>section {
-        margin-left: 1.67rem;
-    }
-    .toggle-item {
-        transform: translate(-9999px);
-    }
-    .toggle-item+label {
-        display: block;
-        margin-top: -16px;
-    }
-    .toggle-item:checked+label:after {
-        content: '\f0d7';
-    }
-    .toggle-item+label:after {
-        float: left;
-        cursor: pointer;
-        margin-left: -20px;
-        color: #aaa;
-        font-size: 16px;
-        content: '\f0da';
-        font-family: Fontawesome;
-    }
-    .toggle-item~.item {
-        height: 0;
-        opacity: 0;
-    }
-    .toggle-item:checked~.item {
-        height: auto;
-        opacity: 1;
-        transition: all .5s linear;
-    }
-    .company::before,
-    .institution::before,
-    .organization::before,
-    .awarder::before {
-        content: "| ";
-    }
-    .header-left {
-        float: left;
-        width: 70%;
-        word-break: normal;
-    }
-    .section header .date {
-        float: right;
-        padding: .2em;
-    }
-    .display {
-        display: none;
-    }
-    .display:not(.none) {
-        display: block;
-    }
-}
+	<section class="experience">
+		<h2>Experience</h2>
+		<section class="item">
+			<header>
+					<h3 class="name">Alliance Data Systems / CJ Affiliates</h3>
+			</header>
+			<span class="position">
+				Senior Software Engineer
+			</span>
 
-@media print {
-    #resume {
-        margin: 0;
-        padding: 0;
-        -ms-word-wrap: break-word;
-        word-wrap: break-word;
-        line-height: 1.3;
-        /*font-family: Arial, Georgia, "Lucida Grande", sans-serif;*/
-    }
-    @page {
-        margin: 1cm 1.4cm;
-    }
-    .item-count {
-        display: none;
-    }
-    .company::before,
-    .institution::before,
-    .organization::before,
-    .awarder::before {
-        content: "at ";
-    }
-    .main-summary {
-        padding: 2rem 0;
-    }
-    .section {
-        margin: .8rem 0;
-        padding: 0;
-    }
-    .section header {
-        padding-bottom: .15rem;
-    }
-    .section .location {
-        padding-bottom: .15rem;
-    }
-    .stack-overflow::after {
-        content: "";
-    }
-    .fa.social {
-        color: #828386;
-    }
-    ul {
-        margin-top: .4em;
-    }
-    ul,
-    li {
-        padding: 0;
-    }
-    ul.keywords li,
-    ul.courses li {
-        margin: 0;
-        padding: 0;
-        font-size: .8rem;
-        text-transform: lowercase;
-    }
-    ul.keywords li::after,
-    ul.courses li::after {
-        padding: 0 0 0 .1rem;
-        content: " |";
-    }
-    ul.keywords::before,
-    ul.courses::before {
-        font-size: .8rem;
-        font-weight: 600;
-    }
-    ul.keywords::before {
-        content: "Skills acquired: ";
-    }
-    #skills .keywords::before {
-        content: '';
-    }
-    .section p {
-        margin: 0;
-        padding: 0;
-    }
-    ul.courses::before {
-        content: "Major courses: ";
-    }
-    ul.keywords li:last-of-type::after,
-    ul.courses li:last-of-type::after {
-        content: "";
-    }
-    .level em {
-        font-style: normal;
-        padding: .1em 0;
-    }
-    .level .bar {
-        display: none;
-    }
-    #profiles .item {
-        padding: 0;
-    }
-    .item.display {
-        display: block;
-        opacity: 1 !important;
-    }
-}
+			<span class="startDate">
+				Jun 2018
+			</span>
+			<span class="endDate">
+				- Present
+			</span>
 
-  </style>
-  
-  </head>
-  <body>
-  
-  <div id="resume">
-    	<header id="header" class="clear">
-    		<img class="picture" src="../resources/portrait.jpg" alt="Jeff Windsor" />
-    		<div class="middle">
-    			<h1 class="name">Jeff Windsor</h1>
-    			<h2 class="label">Pragmatic ∙ Experienced ∙ Polyglot ∙ Student of All Things</h2>
-    		</div>
-    		
-    		<span class="location">
-    			<span class="city">Ventura,</span> 
-    			<span class="region">California</span> 
-    		</span>
-    		
-    
-    		<div id="contact">
-    			<div class="website">
-    				<span class="fa fa-external-link"></span>
-    				<a target="_blank" target="_blank" href="https://jeffwindsor.carrd.co/">https://jeffwindsor.carrd.co/</a>
-    			</div>
-    			<div class="email">
-    				<span class="fa fa-envelope-o"></span>
-    				<a href="mailto:jeff.windsor@gmail.com">jeff.windsor@gmail.com</a>
-    			</div>
-    		</div>
-    
-    		<div id="profiles">
-    			<div class="item">
-    				<div class="username">
-    					<span class="fa fa-github github social"></span>
-    					<span class="url">
-    						<a target="_blank" href="https://github.com/jeffwindsor?tab&#x3D;repositories">jeffwindsor</a>
-    					</span> 
-    				</div>
-    			</div>
-    			<div class="item">
-    				<div class="username">
-    					<span class="fa fa-stackoverflow stackoverflow social"></span>
-    					<span class="url">
-    						<a target="_blank" href="https://stackoverflow.com/story/jeffwindsor">jeffwindsor</a>
-    					</span> 
-    				</div>
-    			</div>
-    			<div class="item">
-    				<div class="username">
-    					<span class="fa fa-linkedin linkedin social"></span>
-    					<span class="url">
-    						<a target="_blank" href="https://www.linkedin.com/in/jeffwindsor">jeffwindsor</a>
-    					</span> 
-    				</div>
-    			</div>
-    			<div class="item">
-    				<div class="username">
-    					<span class="fa fa-twitter twitter social"></span>
-    					<span class="url">
-    						<a target="_blank" href="https://twitter.com/jeffwindsor">jeffwindsor</a>
-    					</span> 
-    				</div>
-    			</div>
-    			<div class="item">
-    				<div class="username">
-    					<span class="fa fa-trophy trophy social"></span>
-    					<span class="url">
-    						<a target="_blank" href="https://www.hackerrank.com/jeff_windsor">jeff_windsor</a>
-    					</span> 
-    				</div>
-    			</div>
-    		</div>
-    	</header>
-    
-    	<section class="section main-summary">
-    		<section>
-    			<div><p>A highly motivated, passionate and strategically minded technologist with extensive experience in software development who has successfully managed, designed and developed a long line of customer facing and strategic enterprise applications.</p></div>
-    		</section>
-    	</section>
-    
-    <section class="section margin1">
-    	<header>
-    		<h2 class='section-title'>Skills</h2>
-    	</header>
-    	<section id="skills">
-    		<div class="item">
-    			<h3 class="name">
-    				Development
-    			</h3>
-    			 			<ul class="keywords">
-    				<li>Haskell</li>
-    				<li>Purescript</li>
-    				<li>C#</li>
-    				<li>F#</li>
-    				<li>Javascript</li>
-    				<li>Python</li>
-    				<li>TSQL</li>
-    				<li>PLSQL</li>
-    				<li>MongoDB</li>
-    				<li>Git</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Cloud
-    			</h3>
-    			 			<ul class="keywords">
-    				<li>AWS Compute</li>
-    				<li>AWS Network and Content Delivery</li>
-    				<li>AWS Storage</li>
-    				<li>Azure Compute Services</li>
-    				<li>Azure Pipelines</li>
-    				<li>Azure Service Bus</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Architectures, Systems and Stacks
-    			</h3>
-    			 			<ul class="keywords">
-    				<li>Messaging Architectures</li>
-    				<li></li>
-    				<li>GraphQL</li>
-    				<li>Restful Apis</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Process
-    			</h3>
-    			 			<ul class="keywords">
-    				<li>Agile</li>
-    				<li>Scrum</li>
-    				<li>Lean</li>
-    				<li>Kanban</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Dev Ops
-    			</h3>
-    			 			<ul class="keywords">
-    				<li>AWS Code Pipeline and Deploy</li>
-    				<li>Jenkins</li>
-    				<li>Octopus</li>
-    				<li>TeamCity</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Specialties
-    			</h3>
-    			 			<ul class="keywords">
-    				<li>Energy Markets</li>
-    				<li>BioInformatics</li>
-    				<li>Finance</li>
-    				<li>Oil, Gas and Petrochemicals Markets</li>
-    				<li>Commodity Trading</li>
-    			</ul>
-    		</div>
-    	</section>
-    </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>Work Experience <span class="item-count">(13)</span></h2>
-      </header>
-    
-      <section id="work">
-        <section class="work-item">
-    
-    
-    			<header>
-    				<div class="position">Senior Software Engineer</div>
-    				<div class="company">Alliance Data Systems / CJ Affiliates</div>
-    				<div class="date">
-    				  <span class="startDate">July 2018</span> 
-    					<span class="endDate">- Current</span>
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="https://www.alliancedata.com/">https://www.alliancedata.com/</a>
-        	</span>      	<div class="item" id="work-item">
-        	</div>
-        </section>
-        <section class="work-item">
-    
-            <input id="work-item-1" type="checkbox" class="toggle-item" />
-            <label for="work-item-1"></label>
-    
-    			<header>
-    				<div class="position">Lead Architect</div>
-    				<div class="company">Vitalware</div>
-    				<div class="date">
-    				  <span class="startDate">July 2017</span> 
-    					<span class="endDate">- March 2018</span> 
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="https://www.alliancedata.com/">https://www.alliancedata.com/</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Vital provides mid-stream revenue software solutions for the health care industry.</p></p>
-            </div>
-            <ul class="highlights">
-                <li><p>Re-architected the main Charge Description Master (CDM) product</p></li>
-                <li><p>Led development of a Customer Integration (CI) product that completed suite of Software as a Service (SaaS) offerings</p></li>
-                <li><p>Established the Service Oriented Architecture (SOA)/micro-service architecture.</p></li>
-                <li><p>Developed, enhanced, simplified and improved Payment, Registration and Loan Verification software services</p></li>
-                <li><p>Restructured, reorganized, led and managed Development Teams</p></li>
-                <li><p>Established an efficient software development life cycle (SDLC) with processes</p></li>
-                <li><p>CJ Affiliates >> Epsilon: https://us.epsilon.com/ >> ADS: https://www.alliancedata.com/</p></li>
-            </ul>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-            <input id="work-item-2" type="checkbox" class="toggle-item" />
-            <label for="work-item-2"></label>
-    
-    			<header>
-    				<div class="position">Enterprise Business Architect</div>
-    				<div class="company">Idaho National Laboratory</div>
-    				<div class="date">
-    				  <span class="startDate">December 2016</span> 
-    					<span class="endDate">- July 2017</span> 
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="https://www.inl.gov/">https://www.inl.gov/</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>The INL, a division of the U.S. Department of Energy's (DOE) complex of National Laboratories, and is the National Center for nuclear energy research and development. INL Laboratory performed work in each of the strategic goal areas of the DOE: energy, national security, science and environment.</p></p>
-            </div>
-            <ul class="highlights">
-                <li><p>Led the process and cultural change required by the Enterprise Software Directorate to meet the growing set of responsibilities while lowering execution cost.</p></li>
-                <li><p>Worked with CIO and Directors to define a more efficient and friction-free organization structure. </p></li>
-                <li><p>Actively recruited and trained Technical and Process Evangelists Teams. These Teams owned and championed changes across the enterprise at the team level. </p></li>
-                <li><p>Redefined incentives to align with Lab and Directorate goals. </p></li>
-                <li><p>Organized and mentored Teams that implemented modern software delivery tools alongside process changes. </p></li>
-                <li><p>Facilitated and promoted increased inter-team cooperation. </p></li>
-                <li><p>Communicated early and often with the Change Management Group and Training Centers to raise the long-term success of these initiatives. </p></li>
-            </ul>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-            <input id="work-item-3" type="checkbox" class="toggle-item" />
-            <label for="work-item-3"></label>
-    
-    			<header>
-    				<div class="position">Architect and Senior Developer</div>
-    				<div class="company">Nelnet Diversified Solutions</div>
-    				<div class="date">
-    				  <span class="startDate">December 2016</span> 
-    					<span class="endDate">- December 2015</span> 
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="https://www.nelnet.com/welcome">https://www.nelnet.com/welcome</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Nelnet, the #2 student loan provider in the US, led the design and development of modernization initiatives with the goal of lowering the overall time to market and cost of software delivery. Project required a Department of Education Security Clearance.</p></p>
-            </div>
-            <ul class="highlights">
-                <li><p>Led efforts to consolidate and modernize current back-end services</p></li>
-                <li><p>Established SOA architecture that connected to universal Enterprise Service Bus (ESB).</p></li>
-                <li><p>Developed, enhanced, simplified and improved Payment, Registration and Loan Verification software services</p></li>
-                <li><p>Advised and led the design of modern low cost, high throughput, auditable, and reliable set of software delivery life cycle (SDLC) processes. </p></li>
-                <li><p>Actively recruited internal Architects to champion the use of reliable messaging and secure APIs. </p></li>
-                <li><p>Eased the process burden experienced with modern software delivery tools with a clear migration path from current tool sets. </p></li>
-                <li><p>Communicated early and often with Change Management Group and Training Centers which increased long-term success of these initiatives. Held Active Secret Government Clearance because of the sensitive military and personal information (PI) involved with these initiatives. </p></li>
-            </ul>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-            <input id="work-item-4" type="checkbox" class="toggle-item" />
-            <label for="work-item-4"></label>
-    
-    			<header>
-    				<div class="position">Lead Architect and Senior Developer</div>
-    				<div class="company">Zantler</div>
-    				<div class="date">
-    				  <span class="startDate">October 2013</span> 
-    					<span class="endDate">- December 2015</span> 
-    				</div>
-    			</header>
-    			
-         	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Joined startup at a crucial pivot point; the previous market had evaporated and company was experiencing terminal scalability and security issues with the newly revamped platform. </p></p>
-            </div>
-            <ul class="highlights">
-                <li><p>Defined a new direction and market.</p></li>
-                <li><p>Established a small distributed, highly talented IT Team that delivered a new technology direction in a very short period of time.</p></li>
-                <li><p>Choose and implemented the most appropriate technologies, methodologies, processes and tools aligned with strategic goals laid out by the Board of Directors.</p></li>
-                <li><p>Worked with the Team to design, plan and implement the new product. Acted as Senior Developer focused on shared components.</p></li>
-            </ul>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-            <input id="work-item-5" type="checkbox" class="toggle-item" />
-            <label for="work-item-5"></label>
-    
-    			<header>
-    				<div class="position">Senior Software Engineer and Architect</div>
-    				<div class="company">Sunguard Consulting Services @ Integrys Energy</div>
-    				<div class="date">
-    				  <span class="startDate">March 2012</span> 
-    					<span class="endDate">- October 2013</span> 
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="https://capco.com/">https://capco.com/</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Further expanded the geographical and departmental reach of the data validation, forecasting and pricing applications to new subsidiaries</p></p>
-            </div>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-            <input id="work-item-6" type="checkbox" class="toggle-item" />
-            <label for="work-item-6"></label>
-    
-    			<header>
-    				<div class="position">Senior Software Engineer and Architect</div>
-    				<div class="company">DIY Media / Zantler</div>
-    				<div class="date">
-    				  <span class="startDate">March 2011</span> 
-    					<span class="endDate">- March 2012</span> 
-    				</div>
-    			</header>
-    			
-         	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p> Implementing payment/financials infrastructure and cloud based delivery of digital content. Amazon Web Services, Paypal (for Europe and South America) and CCAvenue integration for India.  It was crucial the payment mechanisms be scalable, highly available and accurate, while providing an easy sometimes one click payment experience.</p></p>
-            </div>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-            <input id="work-item-7" type="checkbox" class="toggle-item" />
-            <label for="work-item-7"></label>
-    
-    			<header>
-    				<div class="position">Senior Software Engineer</div>
-    				<div class="company">Sunguard Consulting Services @ Integrys Energy</div>
-    				<div class="date">
-    				  <span class="startDate">March 2011</span> 
-    					<span class="endDate">- March 2007</span> 
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="https://capco.com/">https://capco.com/</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Architect, Design and develop a retail energy pricing application. Improved per unit processing time from 10s seconds to 100ths of seconds.  Implemented a Electric Pricing and Pattern Matching DSL for Excel like user formulas. Architected and helped implement a service oriented architecture for the following functions in C# 3.5: costing, forecasting, hedging, data validation, and request validation. </p></p>
-            </div>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-            <input id="work-item-8" type="checkbox" class="toggle-item" />
-            <label for="work-item-8"></label>
-    
-    			<header>
-    				<div class="position">Senior Software Developer and Information Architect</div>
-    				<div class="company">Digital Soldiers</div>
-    				<div class="date">
-    				  <span class="startDate">April 2006</span> 
-    					<span class="endDate">- March 2007</span> 
-    				</div>
-    			</header>
-    			
-         	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Provided architectural guidance, design and development support to the Financial Systems Division. Responsibilities: Application design and development, Methodology facilitation and coaching, Business modeling for multiple applications, services and databases. </p></p>
-            </div>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-            <input id="work-item-9" type="checkbox" class="toggle-item" />
-            <label for="work-item-9"></label>
-    
-    			<header>
-    				<div class="position">Information Architect</div>
-    				<div class="company">SunGard Consulting Services @ BP NAGP</div>
-    				<div class="date">
-    				  <span class="startDate">April 2005</span> 
-    					<span class="endDate">- March 2006</span> 
-    				</div>
-    			</header>
-    			
-         	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Provided business analysis and technical design for a range of projects at BP's North American Gas & Power division. Projects: Sarbanes-Oxley compliance and internal best practices for NAGP's critical processes and information structures. Responsibilities: Requirements gathering, Business modeling, Software analysis and design.</p></p>
-            </div>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-    
-    			<header>
-    				<div class="position">Senior Software Developer</div>
-    				<div class="company">Digital Soldiers</div>
-    				<div class="date">
-    				  <span class="startDate">April 2002</span> 
-    					<span class="endDate">- March 2005</span> 
-    				</div>
-    			</header>
-    			
-         	<div class="item" id="work-item">
-        	</div>
-        </section>
-        <section class="work-item">
-    
-    
-    			<header>
-    				<div class="position">Consulting Manager</div>
-    				<div class="company">Sungard Consulting Services / EnForm</div>
-    				<div class="date">
-    				  <span class="startDate">April 2000</span> 
-    					<span class="endDate">- March 2002</span> 
-    				</div>
-    			</header>
-    			
-         	<div class="item" id="work-item">
-        	</div>
-        </section>
-        <section class="work-item">
-    
-    
-    			<header>
-    				<div class="position">Senior Lead</div>
-    				<div class="company">Lyondell Petrochemical</div>
-    				<div class="date">
-    				  <span class="startDate">December 1999</span> 
-    					<span class="endDate">- March 1994</span> 
-    				</div>
-    			</header>
-    			
-         	<div class="item" id="work-item">
-        	</div>
-        </section>
-      </section>
-    </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>Education <span class="item-count">(2)</span></h2>
-      </header>
-    
-      <section id="education">
-        <section class="education-item">
-          <header>
-            <div class="header-left">
-              <div class="studyType">
-                MBA
-              </div>
-              <div class="area">
-                Finance
-              </div>
-              <div class="institution">
-                Rice University
-              </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              1996
-              </span>
-              <span class="endDate">
-              - 1999
-              </span>
-            </div>
-          </header>
-    
-    
-    
-          <div class="item">
-          </div>
-        </section>
-        <section class="education-item">
-          <header>
-            <div class="header-left">
-              <div class="studyType">
-                BS
-              </div>
-              <div class="area">
-                Genetics
-              </div>
-              <div class="institution">
-                Texas A&amp;M University
-              </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              1988
-              </span>
-              <span class="endDate">
-              - 1992
-              </span>
-            </div>
-          </header>
-    
-    
-    
-          <div class="item">
-          </div>
-        </section>
-      </section>
-    </section>
-    <section class="section margin1">
-      <header>
-        <h2 class='section-title'>Languages</h2>
-      </header>
-      <section id="languages">
-        <div class="display">
-          <h3 class="language">
-            English
-          </h3>
-          <div class="item">
-            <div class="level fluency native speaker">
-              <em>Native speaker</em>
-              <div class="bar"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>References</h2>
-      </header>
-      <section id="references">
-        <div class="item">
-          <blockquote class="reference">
-            &#8220;&#32;Jeff is the consummate professional. He has the unique ability to listen and understand what a specific set of objectives and business needs are, concisely organize these thoughts, apply them to his in depth technical understanding, and produce a comprehensive solution that he then presents in understandable terms to his audience. This is a very impressive skill, to say the least, when dealing with a diverse group of business and technical disciplines. His personality is a well rounded addition to any group and his contributions can be concise and to the point or illustrative in times that require it. I would gladly work with Jeff again on future strategic projects.&#32;&#8221;
-          </blockquote>
-          <div class="name">
-            James Lively, Director Enterprise Software and Development at Idaho National Laboratory
-          </div>
-        </div>
-        <div class="item">
-          <blockquote class="reference">
-            &#8220;&#32;I had the pleasure of working with Jeff for about a year. He bridges the worlds of technology and business as well as any one with whom I&#x27;ve ever worked. Jeff has a keen mind for building technology, working with a team and contributing to the vision of a company. I hope that one day we work together again.&#32;&#8221;
-          </blockquote>
-          <div class="name">
-            David Robb, President and COO at Gaston Capital Partners
-          </div>
-        </div>
-        <div class="item">
-          <blockquote class="reference">
-            &#8220;&#32;To say that Jeff Windsor is talented is a tremendous understatement. We worked together early in our careers at Lyondell and I was very fortunate to have found myself associated with a person of his professional character at that time. Without exaggeration, his intellect is amongst the most elite I have ever encountered. Jeff’s ability to grasp new technology and incorporate it into a business enterprise is extraordinary. Working with Jeff was a great experience, counting him as a friend is a true honor.&#32;&#8221;
-          </blockquote>
-          <div class="name">
-            Chad LaBerge, Independent Securities Trader @ SaddleRing Investments
-          </div>
-        </div>
-        <div class="item">
-          <blockquote class="reference">
-            &#8220;&#32;Jeff is one of the most talented individuals with whom I&#x27;ve had the honor to work and learn. He was crucial to getting several applications and processes in place, and personally took the time to give me direction and information when I needed it. He is an exceptional and dedicated person, a rare kind of developer and professional.&#32;&#8221;
-          </blockquote>
-          <div class="name">
-            Erica Janine Henson
-          </div>
-        </div>
-      </section>
-    </section>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Vitalware</h3>
+			</header>
+			<span class="position">
+				Lead Architect
+			</span>
 
-  </body>
+			<span class="startDate">
+				Jun 2017
+			</span>
+			<span class="endDate">
+				- Feb 2018
+			</span>
+
+			<div class="summary">
+				<p><p>Vital provides mid-stream revenue software solutions for the health care industry.</p></p>
+			</div>
+			<ul class="highlights">
+				<li>Re-architected the main Charge Description Master (CDM) product</li>
+				<li>Led development of a Customer Integration (CI) product that completed suite of Software as a Service (SaaS) offerings</li>
+				<li>Established the Service Oriented Architecture (SOA)/micro-service architecture.</li>
+				<li>Developed, enhanced, simplified and improved Payment, Registration and Loan Verification software services</li>
+				<li>Restructured, reorganized, led and managed Development Teams</li>
+				<li>Established an efficient software development life cycle (SDLC) with processes</li>
+				<li>CJ Affiliates &gt;&gt; Epsilon: https://us.epsilon.com/ &gt;&gt; ADS: https://www.alliancedata.com/</li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Idaho National Laboratory</h3>
+			</header>
+			<span class="position">
+				Enterprise Business Architect
+			</span>
+
+			<span class="startDate">
+				Nov 2016
+			</span>
+			<span class="endDate">
+				- Jun 2017
+			</span>
+
+			<div class="summary">
+				<p><p>The INL, a division of the U.S. Department of Energy's (DOE) complex of National Laboratories, and is the National Center for nuclear energy research and development. INL Laboratory performed work in each of the strategic goal areas of the DOE: energy, national security, science and environment.</p></p>
+			</div>
+			<ul class="highlights">
+				<li>Led the process and cultural change required by the Enterprise Software Directorate to meet the growing set of responsibilities while lowering execution cost.</li>
+				<li>Worked with CIO and Directors to define a more efficient and friction-free organization structure. </li>
+				<li>Actively recruited and trained Technical and Process Evangelists Teams. These Teams owned and championed changes across the enterprise at the team level. </li>
+				<li>Redefined incentives to align with Lab and Directorate goals. </li>
+				<li>Organized and mentored Teams that implemented modern software delivery tools alongside process changes. </li>
+				<li>Facilitated and promoted increased inter-team cooperation. </li>
+				<li>Communicated early and often with the Change Management Group and Training Centers to raise the long-term success of these initiatives. </li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Nelnet Diversified Solutions</h3>
+			</header>
+			<span class="position">
+				Architect and Senior Developer
+			</span>
+
+			<span class="startDate">
+				Nov 2016
+			</span>
+			<span class="endDate">
+				- Nov 2015
+			</span>
+
+			<div class="summary">
+				<p><p>Nelnet, the #2 student loan provider in the US, led the design and development of modernization initiatives with the goal of lowering the overall time to market and cost of software delivery. Project required a Department of Education Security Clearance.</p></p>
+			</div>
+			<ul class="highlights">
+				<li>Led efforts to consolidate and modernize current back-end services</li>
+				<li>Established SOA architecture that connected to universal Enterprise Service Bus (ESB).</li>
+				<li>Developed, enhanced, simplified and improved Payment, Registration and Loan Verification software services</li>
+				<li>Advised and led the design of modern low cost, high throughput, auditable, and reliable set of software delivery life cycle (SDLC) processes. </li>
+				<li>Actively recruited internal Architects to champion the use of reliable messaging and secure APIs. </li>
+				<li>Eased the process burden experienced with modern software delivery tools with a clear migration path from current tool sets. </li>
+				<li>Communicated early and often with Change Management Group and Training Centers which increased long-term success of these initiatives. Held Active Secret Government Clearance because of the sensitive military and personal information (PI) involved with these initiatives. </li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Zantler</h3>
+			</header>
+			<span class="position">
+				Lead Architect and Senior Developer
+			</span>
+
+			<span class="startDate">
+				Sep 2013
+			</span>
+			<span class="endDate">
+				- Nov 2015
+			</span>
+
+			<div class="summary">
+				<p><p>Joined startup at a crucial pivot point; the previous market had evaporated and company was experiencing terminal scalability and security issues with the newly revamped platform. </p></p>
+			</div>
+			<ul class="highlights">
+				<li>Defined a new direction and market.</li>
+				<li>Established a small distributed, highly talented IT Team that delivered a new technology direction in a very short period of time.</li>
+				<li>Choose and implemented the most appropriate technologies, methodologies, processes and tools aligned with strategic goals laid out by the Board of Directors.</li>
+				<li>Worked with the Team to design, plan and implement the new product. Acted as Senior Developer focused on shared components.</li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Sunguard Consulting Services @ Integrys Energy</h3>
+			</header>
+			<span class="position">
+				Senior Software Engineer and Architect
+			</span>
+
+			<span class="startDate">
+				Feb 2012
+			</span>
+			<span class="endDate">
+				- Sep 2013
+			</span>
+
+			<div class="summary">
+				<p><p>Further expanded the geographical and departmental reach of the data validation, forecasting and pricing applications to new subsidiaries</p></p>
+			</div>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">DIY Media / Zantler</h3>
+			</header>
+			<span class="position">
+				Senior Software Engineer and Architect
+			</span>
+
+			<span class="startDate">
+				Feb 2011
+			</span>
+			<span class="endDate">
+				- Feb 2012
+			</span>
+
+			<div class="summary">
+				<p><p> Implementing payment/financials infrastructure and cloud based delivery of digital content. Amazon Web Services, Paypal (for Europe and South America) and CCAvenue integration for India.  It was crucial the payment mechanisms be scalable, highly available and accurate, while providing an easy sometimes one click payment experience.</p></p>
+			</div>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Sunguard Consulting Services @ Integrys Energy</h3>
+			</header>
+			<span class="position">
+				Senior Software Engineer
+			</span>
+
+			<span class="startDate">
+				Feb 2011
+			</span>
+			<span class="endDate">
+				- Feb 2007
+			</span>
+
+			<div class="summary">
+				<p><p>Architect, Design and develop a retail energy pricing application. Improved per unit processing time from 10s seconds to 100ths of seconds.  Implemented a Electric Pricing and Pattern Matching DSL for Excel like user formulas. Architected and helped implement a service oriented architecture for the following functions in C# 3.5: costing, forecasting, hedging, data validation, and request validation. </p></p>
+			</div>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Digital Soldiers</h3>
+			</header>
+			<span class="position">
+				Senior Software Developer and Information Architect
+			</span>
+
+			<span class="startDate">
+				Mar 2006
+			</span>
+			<span class="endDate">
+				- Feb 2007
+			</span>
+
+			<div class="summary">
+				<p><p>Provided architectural guidance, design and development support to the Financial Systems Division. Responsibilities: Application design and development, Methodology facilitation and coaching, Business modeling for multiple applications, services and databases. </p></p>
+			</div>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">SunGard Consulting Services @ BP NAGP</h3>
+			</header>
+			<span class="position">
+				Information Architect
+			</span>
+
+			<span class="startDate">
+				Mar 2005
+			</span>
+			<span class="endDate">
+				- Feb 2006
+			</span>
+
+			<div class="summary">
+				<p><p>Provided business analysis and technical design for a range of projects at BP's North American Gas & Power division. Projects: Sarbanes-Oxley compliance and internal best practices for NAGP's critical processes and information structures. Responsibilities: Requirements gathering, Business modeling, Software analysis and design.</p></p>
+			</div>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Digital Soldiers</h3>
+			</header>
+			<span class="position">
+				Senior Software Developer
+			</span>
+
+			<span class="startDate">
+				Mar 2002
+			</span>
+			<span class="endDate">
+				- Feb 2005
+			</span>
+
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Sungard Consulting Services / EnForm</h3>
+			</header>
+			<span class="position">
+				Consulting Manager
+			</span>
+
+			<span class="startDate">
+				Mar 2000
+			</span>
+			<span class="endDate">
+				- Feb 2002
+			</span>
+
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Lyondell Petrochemical</h3>
+			</header>
+			<span class="position">
+				Senior Lead
+			</span>
+
+			<span class="startDate">
+				Nov 1999
+			</span>
+			<span class="endDate">
+				- Feb 1994
+			</span>
+
+		</section>
+	</section>
+
+	
+	<section id="education">
+		<h2>Education</h2>
+		<div class="item">
+			<header>
+					<h3 class="name">Rice University</h3>
+			</header>
+
+			<div class="dates">
+				<span class="startDate">
+					Jul 1996
+				</span>
+				<span class="endDate">
+					- Apr 1999
+				</span>
+			</div>
+
+			<div class="qualification">
+				<span class="studyType">
+					MBA
+				</span>
+
+				<span class="area">
+					- Finance
+				</span>
+
+			</div>
+
+		</div>
+		<div class="item">
+			<header>
+					<h3 class="name">Texas A&amp;M University</h3>
+			</header>
+
+			<div class="dates">
+				<span class="startDate">
+					Jul 1988
+				</span>
+				<span class="endDate">
+					- Apr 1992
+				</span>
+			</div>
+
+			<div class="qualification">
+				<span class="studyType">
+					BS
+				</span>
+
+				<span class="area">
+					- Genetics
+				</span>
+
+			</div>
+
+		</div>
+	</section>
+	
+	
+
+	<section id="languages">
+		<h2>Languages</h2>
+		<div class="item">
+			<div class="language">
+				English
+			</div>
+			<div class="fluency">
+				<em>Native speaker</em>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="references">
+		<h2>References</h2>
+		<div class="item">
+			<blockquote class="reference">
+				Jeff is the consummate professional. He has the unique ability to listen and understand what a specific set of objectives and business needs are, concisely organize these thoughts, apply them to his in depth technical understanding, and produce a comprehensive solution that he then presents in understandable terms to his audience. This is a very impressive skill, to say the least, when dealing with a diverse group of business and technical disciplines. His personality is a well rounded addition to any group and his contributions can be concise and to the point or illustrative in times that require it. I would gladly work with Jeff again on future strategic projects.
+			</blockquote>
+			<div class="name">
+				— James Lively, Director Enterprise Software and Development at Idaho National Laboratory
+			</div>
+		</div>
+		<div class="item">
+			<blockquote class="reference">
+				I had the pleasure of working with Jeff for about a year. He bridges the worlds of technology and business as well as any one with whom I&#x27;ve ever worked. Jeff has a keen mind for building technology, working with a team and contributing to the vision of a company. I hope that one day we work together again.
+			</blockquote>
+			<div class="name">
+				— David Robb, President and COO at Gaston Capital Partners
+			</div>
+		</div>
+		<div class="item">
+			<blockquote class="reference">
+				To say that Jeff Windsor is talented is a tremendous understatement. We worked together early in our careers at Lyondell and I was very fortunate to have found myself associated with a person of his professional character at that time. Without exaggeration, his intellect is amongst the most elite I have ever encountered. Jeff’s ability to grasp new technology and incorporate it into a business enterprise is extraordinary. Working with Jeff was a great experience, counting him as a friend is a true honor.
+			</blockquote>
+			<div class="name">
+				— Chad LaBerge, Independent Securities Trader @ SaddleRing Investments
+			</div>
+		</div>
+		<div class="item">
+			<blockquote class="reference">
+				Jeff is one of the most talented individuals with whom I&#x27;ve had the honor to work and learn. He was crucial to getting several applications and processes in place, and personally took the time to give me direction and information when I needed it. He is an exceptional and dedicated person, a rare kind of developer and professional.
+			</blockquote>
+			<div class="name">
+				— Erica Janine Henson
+			</div>
+		</div>
+	</section>
+	
+	</div>
+	
+	</body>
 </html>

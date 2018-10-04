@@ -1,7 +1,7 @@
 #!/bin/sh
 cd ./resume
 
-resume export resume-short.html -t resume.html
+resume export resume.html -t short
 
 templates=(
   elegant
@@ -13,10 +13,10 @@ templates=(
   class
   short
   slick
-  kwan
   onepage
   spartan
   stackoverflow
+  kwan
 )
 for t in "${templates[@]}"; do
   #npm install -g jsonresume-theme-${t}
