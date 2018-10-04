@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Jeff Windsor</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
+        rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            main {
+              display: block;
+            }
+            
+            body {
+              font-size: 15px;
+              color: #333;
+              line-height: 1.42857143;
+              background-color: #F0F0F0;
+              margin: 0;
+              padding: 0;
+              font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'Calibri', 'sans-serif';
+            }
+            
+            /* Typical page borders are awkward when rendered to PDF. */
+            body.pdf {
+              background-color: #FFFFFF;
+            }
+            
+            /* Adobe or wkhtmltopdf has issues with the <main> tag, so we use <div> for
+            the PDF case, <main> for the HTML case, and style both via an ID. */
+            #main {
+              background-color: #FFF;
+              margin: 10px;
+              padding: 10px;
+              border: 1px solid #E6E6E6;
+            }
+            
+            body.pdf > #main {
+              border: none;
+            }
+            
+            #container > header {
+              padding-top: 6em;
+              padding-bottom: 1em;
+            }
+            
+            body.pdf #container > header {
+              padding: 0;
+            }
+            
+            #main > #container > section {
+              margin-left: 150px;
+              position: relative;
+              display: block;
+            }
+            
+            section > div {
+              margin-bottom: 60px;
+            }
+            
+            span.fa
+            {
+              font-size: 56px;
+              position: absolute;
+              top: 37px;
+              transform: translateY(-50%);
+              left: -100px;
+              color: #1a4367;
+            }
+            
+            hr {
+              margin-top: 20px;
+              margin-bottom: 20px;
+              border: 0;
+              border-top: 1px solid #EEE;
+            }
+            
+            .tenure, .keywords {
+              font-size: 75%;
+            }
+            
+            h1 {
+              margin: 0;
+              font-size: 46px;
+              display: inline-block;
+            }
+            
+            h2 {
+              font-size: 30px;
+              color: #4376a2;
+              text-transform: uppercase;
+              font-weight: normal;
+              padding-top: 20px;
+              margin-bottom: 60px;
+            }
+            
+            h3 {
+              margin-bottom: 0;
+              font-size: 18px;
+            }
+            
+            a, a:visited {
+              color: #428BCA;
+              text-decoration: none;
+              font-weight: bold;
+            }
+            
+            a:hover {
+              text-decoration: underline;
+            }
+            
+            .defunct {
+              color: #989898;
+              font-weight: bold;
+            }
+            
+            #summary {
+              font-size: 150%;
+              margin-left: 0;
+              padding: 20px 0;
+            }
+            
+            #summary > p > strong {
+              font-size: 1.25em;
+            }
+            
+            #contact {
+              float: right;
+            }
+            
+            #summary > header > .fa-info {
+              font-size: 70px;
+              letter-spacing: 5px;
+              text-transform: uppercase;
+              font-weight: normal;
+              top: 50%;
+              left: -85px;
+              transform: translateY(-50%);
+            }
+            
+            #summary h2 {
+              display: none;
+            }
+            
+            
+            .label-keyword {
+              display: inline-block;
+              background: #e8f4ff;
+              color: black;
+              font-size: 0.9em;
+              padding: 5px;
+              border: 1px solid #357ebd;
+              border-radius: 5px;
+              margin-top: 2px;
+              font-weight: bold;
+              text-align: center;
+            }
+            
+            .notes {
+              font-size: 10px;
+              display: block;
+              font-weight: normal;
+              text-transform: uppercase;
+            }
+            
+            .card-skills {
+                position: relative;
+            }
+            .card-nested {
+                min-height: 0;
+                margin-bottom: 10px;
+                border-width: 1px 0 0 0;
+            }
+            .card {
+                background: #FFF;
+                border-radius: 3px;
+                padding: 10px;
+            }
+            
+            .skill-level {
+              border-radius: 3px;
+              position: absolute;
+              top: 10px;
+              bottom: 10px;
+              left: 0;
+              width: 10px;
+              box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
+            }
+            .skill-level .skill-progress {
+              position: absolute;
+              border-radius: 3px;
+              bottom: 0;
+              width: 100%;
+              -webkit-transition: height 1s ease;
+            }
+            .skill-level .skill-progress.beginner {
+              height: 50%;
+              background: #e74c3c;
+            }
+            .skill-level .skill-progress.intermediate {
+              height: 70%;
+              background: #f1c40f;
+            }
+            .skill-level .skill-progress.advanced {
+              height: 80%;
+              background: #428bca;
+            }
+            .skill-level .skill-progress.master {
+              height: 95%;
+              background: #5cb85c;
+            }
+            .skill-info {
+              margin-left: 10px;
+            }
+            @media (max-width: 480px) {
+              .skill-info {
+                margin-left: 20px;
+              }
+            }
+            .skill-info > strong {
+              font-weight: 400;
+              font-size: 24px;
+              color: #1d1d1d;
+              line-height: 24px;
+            }
+            
+            .list-unstyled {
+              padding-left: 0;
+              list-style: none;
+            }
+            
+            .card-skills {
+              position: relative;
+            }
+            
+            .space-top {
+                margin-top: 5px;
+            }
+            
+            #container {
+              max-width: 800px;
+              margin: 0 auto;
+            }
+            
+            #elevator-pitch {
+              text-align: center;
+              font-size: 24px;
+              color: #BFC1C3;
+              text-transform: uppercase;
+              font-weight: normal;
+            }
+            
+            .res-label {
+              font-style: italic;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <main id="main">
+            <div id="container">
+                <header>
+                     <h1>Jeff Windsor</h1>
+                    <div id="contact">
+                        <div class="email"><a href="mailto:jeff.windsor@gmail.com">jeff.windsor@gmail.com</a>
+                        </div>
+                        <div class="website"><a href="https://jeffwindsor.carrd.co/">https://jeffwindsor.carrd.co/</a>
+                        </div>
+                    </div>
+                </header>
+                <hr>
+                <section id="summary">
+                    <header> <span class="fa fa-lg fa-info"></span> 
+                         <h2>info</h2>
+
+                    </header>A highly motivated, passionate and strategically minded technologist with
+                    extensive experience in software development who has successfully managed,
+                    designed and developed a long line of customer facing and strategic enterprise
+                    applications.</section>
+                <hr>
+                <section id="skills">
+                    <header>
+                         <h2>Skills</h2>
+                    </header> <span class="fa fa-lg fa-code"></span>
+                    <ul class="list-unstyled">
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="" data-placement="left">
+                                <div class="skill-progress "></div>
+                            </div>
+                            <div class="skill-info"> <strong>Development</strong>
+                                <div class="space-top labels">
+                                    <div class="label label-keyword"> <span class="kw">Haskell</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Purescript</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">C#</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">F#</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Javascript</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Python</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">TSQL</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">PLSQL</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">MongoDB</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Git</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="" data-placement="left">
+                                <div class="skill-progress "></div>
+                            </div>
+                            <div class="skill-info"> <strong>Cloud</strong>
+                                <div class="space-top labels">
+                                    <div class="label label-keyword"> <span class="kw">AWS Compute</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">AWS Network and Content Delivery</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">AWS Storage</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Azure Compute Services</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Azure Pipelines</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Azure Service Bus</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="" data-placement="left">
+                                <div class="skill-progress "></div>
+                            </div>
+                            <div class="skill-info"> <strong>Architectures, Systems and Stacks</strong>
+                                <div class="space-top labels">
+                                    <div class="label label-keyword"> <span class="kw">Messaging Architectures</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw"></span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">GraphQL</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Restful Apis</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="" data-placement="left">
+                                <div class="skill-progress "></div>
+                            </div>
+                            <div class="skill-info"> <strong>Process</strong>
+                                <div class="space-top labels">
+                                    <div class="label label-keyword"> <span class="kw">Agile</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Scrum</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Lean</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Kanban</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="" data-placement="left">
+                                <div class="skill-progress "></div>
+                            </div>
+                            <div class="skill-info"> <strong>Dev Ops</strong>
+                                <div class="space-top labels">
+                                    <div class="label label-keyword"> <span class="kw">AWS Code Pipeline and Deploy</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Jenkins</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Octopus</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">TeamCity</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="" data-placement="left">
+                                <div class="skill-progress "></div>
+                            </div>
+                            <div class="skill-info"> <strong>Specialties</strong>
+                                <div class="space-top labels">
+                                    <div class="label label-keyword"> <span class="kw">Energy Markets</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">BioInformatics</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Finance</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Oil, Gas and Petrochemicals Markets</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Commodity Trading</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <hr>
+                <section id="employment">
+                    <header> <span class="fa fa-lg fa-building"></span> 
+                         <h2>employment</h2>
+
+                    </header>
+                    <div>
+                         <h3><em>Senior Software Engineer</em>,
+
+    <a href="https://www.alliancedata.com/">Alliance Data Systems / CJ Affiliates</a>
+
+    </h3> <span class="tenure">2018-07 — Present</span>
+                        <p></p>
+                    </div>
+                    <div>
+                         <h3><em>Lead Architect</em>,
+
+    <a href="https://www.alliancedata.com/">Vitalware</a>
+
+    </h3> <span class="tenure">2017-07 — 2018-03</span>
+                        <p>
+                            <p>Vital provides mid-stream revenue software solutions for the health care
+                                industry.</p>
+                        </p>
+                        <ul>
+                            <li>Re-architected the main Charge Description Master (CDM) product</li>
+                            <li>Led development of a Customer Integration (CI) product that completed
+                                suite of Software as a Service (SaaS) offerings</li>
+                            <li>Established the Service Oriented Architecture (SOA)/micro-service architecture.</li>
+                            <li>Developed, enhanced, simplified and improved Payment, Registration and
+                                Loan Verification software services</li>
+                            <li>Restructured, reorganized, led and managed Development Teams</li>
+                            <li>Established an efficient software development life cycle (SDLC) with processes</li>
+                            <li>CJ Affiliates &gt;&gt; Epsilon: <a href="https://us.epsilon.com/">https://us.epsilon.com/</a> &gt;&gt;
+                                ADS: <a href="https://www.alliancedata.com/">https://www.alliancedata.com/</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Enterprise Business Architect</em>,
+
+    <a href="https://www.inl.gov/">Idaho National Laboratory</a>
+
+    </h3> <span class="tenure">2016-12 — 2017-07</span>
+                        <p>
+                            <p>The INL, a division of the U.S. Department of Energy&#39;s (DOE) complex
+                                of National Laboratories, and is the National Center for nuclear energy
+                                research and development. INL Laboratory performed work in each of the
+                                strategic goal areas of the DOE: energy, national security, science and
+                                environment.</p>
+                        </p>
+                        <ul>
+                            <li>Led the process and cultural change required by the Enterprise Software
+                                Directorate to meet the growing set of responsibilities while lowering
+                                execution cost.</li>
+                            <li>Worked with CIO and Directors to define a more efficient and friction-free
+                                organization structure.</li>
+                            <li>Actively recruited and trained Technical and Process Evangelists Teams.
+                                These Teams owned and championed changes across the enterprise at the team
+                                level.</li>
+                            <li>Redefined incentives to align with Lab and Directorate goals.</li>
+                            <li>Organized and mentored Teams that implemented modern software delivery
+                                tools alongside process changes.</li>
+                            <li>Facilitated and promoted increased inter-team cooperation.</li>
+                            <li>Communicated early and often with the Change Management Group and Training
+                                Centers to raise the long-term success of these initiatives.</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Architect and Senior Developer</em>,
+
+    <a href="https://www.nelnet.com/welcome">Nelnet Diversified Solutions</a>
+
+    </h3> <span class="tenure">2016-12 — 2015-12</span>
+                        <p>
+                            <p>Nelnet, the #2 student loan provider in the US, led the design and development
+                                of modernization initiatives with the goal of lowering the overall time
+                                to market and cost of software delivery. Project required a Department
+                                of Education Security Clearance.</p>
+                        </p>
+                        <ul>
+                            <li>Led efforts to consolidate and modernize current back-end services</li>
+                            <li>Established SOA architecture that connected to universal Enterprise Service
+                                Bus (ESB).</li>
+                            <li>Developed, enhanced, simplified and improved Payment, Registration and
+                                Loan Verification software services</li>
+                            <li>Advised and led the design of modern low cost, high throughput, auditable,
+                                and reliable set of software delivery life cycle (SDLC) processes.</li>
+                            <li>Actively recruited internal Architects to champion the use of reliable
+                                messaging and secure APIs.</li>
+                            <li>Eased the process burden experienced with modern software delivery tools
+                                with a clear migration path from current tool sets.</li>
+                            <li>Communicated early and often with Change Management Group and Training
+                                Centers which increased long-term success of these initiatives. Held Active
+                                Secret Government Clearance because of the sensitive military and personal
+                                information (PI) involved with these initiatives.</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Lead Architect and Senior Developer</em>,
+
+    Zantler
+
+    </h3> <span class="tenure">2013-10 — 2015-12</span>
+                        <p>
+                            <p>Joined startup at a crucial pivot point; the previous market had evaporated
+                                and company was experiencing terminal scalability and security issues with
+                                the newly revamped platform.</p>
+                        </p>
+                        <ul>
+                            <li>Defined a new direction and market.</li>
+                            <li>Established a small distributed, highly talented IT Team that delivered
+                                a new technology direction in a very short period of time.</li>
+                            <li>Choose and implemented the most appropriate technologies, methodologies,
+                                processes and tools aligned with strategic goals laid out by the Board
+                                of Directors.</li>
+                            <li>Worked with the Team to design, plan and implement the new product. Acted
+                                as Senior Developer focused on shared components.</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Senior Software Engineer and Architect</em>,
+
+    <a href="https://capco.com/">Sunguard Consulting Services @ Integrys Energy</a>
+
+    </h3> <span class="tenure">2012-03 — 2013-10</span>
+                        <p>
+                            <p>Further expanded the geographical and departmental reach of the data validation,
+                                forecasting and pricing applications to new subsidiaries</p>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Senior Software Engineer and Architect</em>,
+
+    DIY Media / Zantler
+
+    </h3> <span class="tenure">2011-03 — 2012-03</span>
+                        <p>
+                            <p>Implementing payment/financials infrastructure and cloud based delivery
+                                of digital content. Amazon Web Services, Paypal (for Europe and South America)
+                                and CCAvenue integration for India. It was crucial the payment mechanisms
+                                be scalable, highly available and accurate, while providing an easy sometimes
+                                one click payment experience.</p>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Senior Software Engineer</em>,
+
+    <a href="https://capco.com/">Sunguard Consulting Services @ Integrys Energy</a>
+
+    </h3> <span class="tenure">2011-03 — 2007-03</span>
+                        <p>
+                            <p>Architect, Design and develop a retail energy pricing application. Improved
+                                per unit processing time from 10s seconds to 100ths of seconds. Implemented
+                                a Electric Pricing and Pattern Matching DSL for Excel like user formulas.
+                                Architected and helped implement a service oriented architecture for the
+                                following functions in C# 3.5: costing, forecasting, hedging, data validation,
+                                and request validation.</p>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Senior Software Developer and Information Architect</em>,
+
+    Digital Soldiers
+
+    </h3> <span class="tenure">2006-04 — 2007-03</span>
+                        <p>
+                            <p>Provided architectural guidance, design and development support to the
+                                Financial Systems Division. Responsibilities: Application design and development,
+                                Methodology facilitation and coaching, Business modeling for multiple applications,
+                                services and databases.</p>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Information Architect</em>,
+
+    SunGard Consulting Services @ BP NAGP
+
+    </h3> <span class="tenure">2005-04 — 2006-03</span>
+                        <p>
+                            <p>Provided business analysis and technical design for a range of projects
+                                at BP&#39;s North American Gas &amp; Power division. Projects: Sarbanes-Oxley
+                                compliance and internal best practices for NAGP&#39;s critical processes
+                                and information structures. Responsibilities: Requirements gathering, Business
+                                modeling, Software analysis and design.</p>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Senior Software Developer</em>,
+
+    Digital Soldiers
+
+    </h3> <span class="tenure">2002-04 — 2005-03</span>
+                        <p></p>
+                    </div>
+                    <div>
+                         <h3><em>Consulting Manager</em>,
+
+    Sungard Consulting Services / EnForm
+
+    </h3> <span class="tenure">2000-04 — 2002-03</span>
+                        <p></p>
+                    </div>
+                    <div>
+                         <h3><em>Senior Lead</em>,
+
+    Lyondell Petrochemical
+
+    </h3> <span class="tenure">1999-12 — 1994-03</span>
+                        <p></p>
+                    </div>
+                </section>
+                <hr>
+                <section id="education">
+                    <header> <span class="fa fa-lg fa-mortar-board"></span> 
+                         <h2>education</h2>
+
+                    </header>
+                    <div>
+                        
+<h3>
+
+Rice University
+
+</h3>
+<span class="tenure">1996-08 — 1999-05</span>
+                    </div>
+                    <div>
+                        
+<h3>
+
+Texas A&amp;amp;M University
+
+</h3>
+<span class="tenure">1988-08 — 1992-05</span>
+                    </div>
+                </section>
+                <hr>
+                <section id="testimonials">
+                    <header> <span class="fa fa-lg fa-quote-left"></span> 
+                         <h2>testimonials</h2>
+
+                    </header>
+                    <div>
+                         <h3><em>James Lively, Director Enterprise Software and Development at Idaho National Laboratory</em></h3>
+
+                        <p>Jeff is the consummate professional. He has the unique ability to listen
+                            and understand what a specific set of objectives and business needs are,
+                            concisely organize these thoughts, apply them to his in depth technical
+                            understanding, and produce a comprehensive solution that he then presents
+                            in understandable terms to his audience. This is a very impressive skill,
+                            to say the least, when dealing with a diverse group of business and technical
+                            disciplines. His personality is a well rounded addition to any group and
+                            his contributions can be concise and to the point or illustrative in times
+                            that require it. I would gladly work with Jeff again on future strategic
+                            projects.</p>
+                    </div>
+                    <div>
+                         <h3><em>David Robb, President and COO at Gaston Capital Partners</em></h3>
+
+                        <p>I had the pleasure of working with Jeff for about a year. He bridges the
+                            worlds of technology and business as well as any one with whom I&#39;ve
+                            ever worked. Jeff has a keen mind for building technology, working with
+                            a team and contributing to the vision of a company. I hope that one day
+                            we work together again.</p>
+                    </div>
+                    <div>
+                         <h3><em>Chad LaBerge, Independent Securities Trader @ SaddleRing Investments</em></h3>
+
+                        <p>To say that Jeff Windsor is talented is a tremendous understatement. We
+                            worked together early in our careers at Lyondell and I was very fortunate
+                            to have found myself associated with a person of his professional character
+                            at that time. Without exaggeration, his intellect is amongst the most elite
+                            I have ever encountered. Jeff’s ability to grasp new technology and incorporate
+                            it into a business enterprise is extraordinary. Working with Jeff was a
+                            great experience, counting him as a friend is a true honor.</p>
+                    </div>
+                    <div>
+                         <h3><em>Erica Janine Henson</em></h3>
+
+                        <p>Jeff is one of the most talented individuals with whom I&#39;ve had the
+                            honor to work and learn. He was crucial to getting several applications
+                            and processes in place, and personally took the time to give me direction
+                            and information when I needed it. He is an exceptional and dedicated person,
+                            a rare kind of developer and professional.</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </body>
+
+</html>
