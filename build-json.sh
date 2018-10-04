@@ -16,10 +16,9 @@ templates=(
   onepage
   spartan
   stackoverflow
-  kwan
 )
 for t in "${templates[@]}"; do
   #npm install -g jsonresume-theme-${t}
-  resume export resume-${t}.html -t ${t}
+  resume export out-json/resume-${t}.html -t ${t}
 done
 
