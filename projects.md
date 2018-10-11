@@ -1,4 +1,4 @@
-[Home](https://jeffwindsor.carrd.co/) > [Github](https://jeffwindsor.github.io/) > Projects
+[Home](https://jeffwindsor.carrd.co/) > [Github.io](https://jeffwindsor.github.io/) > Projects
 
 # Project Grid
 
