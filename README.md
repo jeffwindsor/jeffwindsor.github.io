@@ -15,6 +15,7 @@ An awesome list is a list of awesome things curated by me.  Modeled after, but n
 
 ## Productivity
 
+* [The Sweet Setup](https://jeffwindsor.github.io/the-sweet-setup.io/)
 * [Chrome Custom Search Engines](https://github.com/daturkel/custom-search-engines)
 * [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
 
