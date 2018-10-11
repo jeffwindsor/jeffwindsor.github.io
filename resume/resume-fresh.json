@@ -2,7 +2,7 @@
   "name": "Jeff Windsor",
   "info": {
     "label": "Pragmatic ∙ Experienced ∙ Polyglot ∙ Student of All Things",
-    "image": "../resources/portrait.jpg",
+    "image": "./resources/portrait.jpg",
     "brief": "A highly motivated, passionate and strategically minded technologist with extensive experience in software development who has successfully managed, designed and developed a long line of customer facing and strategic enterprise applications."
   },
   "contact": {
@@ -11,7 +11,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2018-10-11T01:51:34.157Z"
+    "modified": "2018-10-11T02:04:16.369Z"
   },
   "location": {
     "city": "Ventura",
