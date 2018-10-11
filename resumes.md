@@ -4,14 +4,14 @@
 
 |Format|HTML|PDF|
 |---|---|---|
-| short | [[ html ](./resume/generated/resume-json-short.html)] | [[ pdf ](./resume/generated/resume-json-short.pdf)] |
-| stackoverflow | [[ html ](./resume/generated/resume-json-stackoverflow.html)] | [[ pdf ](./resume/generated/resume-json-stackoverflow.pdf)] |
-| positive | [[ html ](./resume/generated/resume-fresh-positive.html)] | [[ pdf ](./resume/generated/resume-fresh-positive.pdf)] |
+| short | [[ html ](./resume/resume-json-short.html)] | [[ pdf ](./resume/resume-json-short.pdf)] |
+| stackoverflow | [[ html ](./resume/resume-json-stackoverflow.html)] | [[ pdf ](./resume/resume-json-stackoverflow.pdf)] |
+| positive | [[ html ](./resume/resume-fresh-positive.html)] | [[ pdf ](./resume/resume-fresh-positive.pdf)] |
 
 ## Experimental Formats
 
 |Format|HTML|
 |---|---|
-| short | [[ html ](./resume/generated/resume-json-short.html)] | 
-| stackoverflow | [[ html ](./resume/generated/resume-json-stackoverflow.html)] | 
-| positive | [[ html ](./resume/generated/resume-fresh-positive.html)] |
+| short | [[ html ](./resume/resume-json-short.html)] | 
+| stackoverflow | [[ html ](./resume/resume-json-stackoverflow.html)] | 
+| positive | [[ html ](./resume/resume-fresh-positive.html)] |

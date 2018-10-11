@@ -1,7 +1,7 @@
 #!/bin/sh
 ################################################
-output_path=./resume/generated
-output_filename=../resumes.md
+output_path=./resume
+md_filename=./resumes.md
 formats=(html pdf)
 json=(short stackoverflow)
 fresh=(positive)
@@ -14,28 +14,28 @@ write_markdown_list(){
   echo "==========================================="
   echo "  Building List "
   echo "==========================================="
-  echo "[Home](https://jeffwindsor.carrd.co/) > [Github.io](https://jeffwindsor.github.io/) > Resumes" > ${output_filename}
-  echo ""  >> ${output_filename}
-  echo "## Resume by Format" >> ${output_filename}
-  echo ""  >> ${output_filename}
-  echo "|Format|HTML|PDF|"  >> ${output_filename}
-  echo "|---|---|---|"  >> ${output_filename}
+  echo "[Home](https://jeffwindsor.carrd.co/) > [Github.io](https://jeffwindsor.github.io/) > Resumes" > ${md_filename}
+  echo ""  >> ${md_filename}
+  echo "## Resume by Format" >> ${md_filename}
+  echo ""  >> ${md_filename}
+  echo "|Format|HTML|PDF|"  >> ${md_filename}
+  echo "|---|---|---|"  >> ${md_filename}
   for t in "${json[@]}"; do
-    echo "| ${t} | [[ html ](${output_path}/resume-json-${t}.html)] | [[ pdf ](${output_path}/resume-json-${t}.pdf)] |" >> ${output_filename}
+    echo "| ${t} | [[ html ](${output_path}/resume-json-${t}.html)] | [[ pdf ](${output_path}/resume-json-${t}.pdf)] |" >> ${md_filename}
   done
   for t in "${fresh[@]}"; do
-    echo "| ${t} | [[ html ](${output_path}/resume-fresh-${t}.html)] | [[ pdf ](${output_path}/resume-fresh-${t}.pdf)] |" >> ${output_filename}
+    echo "| ${t} | [[ html ](${output_path}/resume-fresh-${t}.html)] | [[ pdf ](${output_path}/resume-fresh-${t}.pdf)] |" >> ${md_filename}
   done
-  echo ""  >> ${output_filename}
-  echo "## Experimental Formats" >> ${output_filename}
-  echo ""  >> ${output_filename}
-  echo "|Format|HTML|"  >> ${output_filename}
-  echo "|---|---|"  >> ${output_filename}
+  echo ""  >> ${md_filename}
+  echo "## Experimental Formats" >> ${md_filename}
+  echo ""  >> ${md_filename}
+  echo "|Format|HTML|"  >> ${md_filename}
+  echo "|---|---|"  >> ${md_filename}
   for t in "${json[@]}"; do
-    echo "| ${t} | [[ html ](${output_path}/resume-json-${t}.html)] | " >> ${output_filename}
+    echo "| ${t} | [[ html ](${output_path}/resume-json-${t}.html)] | " >> ${md_filename}
   done
   for t in "${fresh[@]}"; do
-    echo "| ${t} | [[ html ](${output_path}/resume-fresh-${t}.html)] |" >> ${output_filename}
+    echo "| ${t} | [[ html ](${output_path}/resume-fresh-${t}.html)] |" >> ${md_filename}
   done
 }
 
@@ -59,21 +59,21 @@ generate_resumes(){
   echo "==========================================="
   ## pre convert json-resume format to fresh format
   ## resume.json is data of record
-  hackmyresume convert ./resume.json TO ./resume-fresh.json
+  hackmyresume convert ${output_path}/resume.json TO ${output_path}/resume-fresh.json
   for t in "${json[@]}"; do
-    hackmyresume build ./resume.json TO ${output_path}/resume-json-${t}.html -t /usr/local/lib/node_modules/jsonresume-theme-${t}
-    hackmyresume build ./resume.json TO ${output_path}/resume-json-${t}.pdf -t /usr/local/lib/node_modules/jsonresume-theme-${t}
+    hackmyresume build ${output_path}/resume.json TO ${output_path}/resume-json-${t}.html -t /usr/local/lib/node_modules/jsonresume-theme-${t}
+    hackmyresume build ${output_path}/resume.json TO ${output_path}/resume-json-${t}.pdf -t /usr/local/lib/node_modules/jsonresume-theme-${t}
   done
   for t in "${fresh[@]}"; do
-    hackmyresume build ./resume-fresh.json TO ${output_path}/resume-fresh-${t}.html -t ${t}
-    hackmyresume build ./resume-fresh.json TO ${output_path}/resume-fresh-${t}.pdf -t ${t}
+    hackmyresume build ${output_path}/resume-fresh.json TO ${output_path}/resume-fresh-${t}.html -t ${t}
+    hackmyresume build ${output_path}/resume-fresh.json TO ${output_path}/resume-fresh-${t}.pdf -t ${t}
   done
 
   for t in "${jsonex[@]}"; do
-    hackmyresume build ./resume.json TO ${output_path}/resume-json-${t}.html -t /usr/local/lib/node_modules/jsonresume-theme-${t}
+    hackmyresume build ${output_path}/resume.json TO ${output_path}/resume-json-${t}.html -t /usr/local/lib/node_modules/jsonresume-theme-${t}
   done
   for t in "${freshex[@]}"; do
-    hackmyresume build ./resume-fresh.json TO ${output_path}/resume-fresh-${t}.html -t ${t}
+    hackmyresume build ${output_path}/resume-fresh.json TO ${output_path}/resume-fresh-${t}.html -t ${t}
   done
 }
 
@@ -98,7 +98,7 @@ while [ "$1" != "" ]; do
                                 output_path=$1
                                 ;;
         -o | --output-file )    shift
-                                output_filename=$1
+                                md_filename=$1
                                 ;;
         -m | --markdown-list )  post_eval+=(write_markdown_list)
                                 ;;
