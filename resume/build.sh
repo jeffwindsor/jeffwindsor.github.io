@@ -1,6 +1,6 @@
 #!/bin/sh
 ################################################
-output_path=./generated
+output_path=./resume/generated
 output_filename=../resumes.md
 formats=(html pdf)
 json=(elegant kendall flat class short spartan stackoverflow)
