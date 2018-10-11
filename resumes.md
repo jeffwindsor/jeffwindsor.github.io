@@ -1,4 +1,4 @@
-[Home](https://jeffwindsor.carrd.co/) > [Github](https://jeffwindsor.github.io/) > Resumes
+[Home](https://jeffwindsor.carrd.co/) > [Github.io](https://jeffwindsor.github.io/) > Resumes
 
 ## Resume by Format
 
