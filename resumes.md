@@ -7,6 +7,7 @@
 | short | [[ html ](./resume/generated/resume-json-short.html)] | [[ pdf ](./resume/generated/resume-json-short.pdf)] |
 | stackoverflow | [[ html ](./resume/generated/resume-json-stackoverflow.html)] | [[ pdf ](./resume/generated/resume-json-stackoverflow.pdf)] |
 | positive | [[ html ](./resume/generated/resume-fresh-positive.html)] | [[ pdf ](./resume/generated/resume-fresh-positive.pdf)] |
+
 ## Experimental Formats
 
 |Format|HTML|

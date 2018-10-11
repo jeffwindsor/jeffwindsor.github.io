@@ -26,8 +26,8 @@ write_markdown_list(){
   for t in "${fresh[@]}"; do
     echo "| ${t} | [[ html ](${output_path}/resume-fresh-${t}.html)] | [[ pdf ](${output_path}/resume-fresh-${t}.pdf)] |" >> ${output_filename}
   done
-
-    echo "## Experimental Formats" >> ${output_filename}
+  echo ""  >> ${output_filename}
+  echo "## Experimental Formats" >> ${output_filename}
   echo ""  >> ${output_filename}
   echo "|Format|HTML|"  >> ${output_filename}
   echo "|---|---|"  >> ${output_filename}
