@@ -31,10 +31,10 @@ write_markdown_list(){
   echo ""  >> ${md_filename}
   echo "|Format|HTML|"  >> ${md_filename}
   echo "|---|---|"  >> ${md_filename}
-  for t in "${json[@]}"; do
+  for t in "${jsonex[@]}"; do
     echo "| ${t} | [[ html ](${output_path}/resume-json-${t}.html)] | " >> ${md_filename}
   done
-  for t in "${fresh[@]}"; do
+  for t in "${freshex[@]}"; do
     echo "| ${t} | [[ html ](${output_path}/resume-fresh-${t}.html)] |" >> ${md_filename}
   done
 }

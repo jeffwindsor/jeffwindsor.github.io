@@ -12,6 +12,9 @@
 
 |Format|HTML|
 |---|---|
-| short | [[ html ](./resume/resume-json-short.html)] | 
-| stackoverflow | [[ html ](./resume/resume-json-stackoverflow.html)] | 
-| positive | [[ html ](./resume/resume-fresh-positive.html)] |
+| elegant | [[ html ](./resume/resume-json-elegant.html)] | 
+| kendall | [[ html ](./resume/resume-json-kendall.html)] | 
+| flat | [[ html ](./resume/resume-json-flat.html)] | 
+| class | [[ html ](./resume/resume-json-class.html)] | 
+| spartan | [[ html ](./resume/resume-json-spartan.html)] | 
+| compact | [[ html ](./resume/resume-fresh-compact.html)] |
