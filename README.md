@@ -1,4 +1,4 @@
-[Home](https://jeffwindsor.carrd.co/) > Github
+[Home](https://jeffwindsor.carrd.co/) > Github.io
 
 [[ Projects ](https://jeffwindsor.github.io/projects)] [[ Resumes ](https://jeffwindsor.github.io/resumes)]
 
