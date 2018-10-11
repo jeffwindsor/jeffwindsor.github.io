@@ -3,8 +3,12 @@
 output_path=./resume/generated
 output_filename=../resumes.md
 formats=(html pdf)
-json=(elegant kendall flat class short spartan stackoverflow)
-fresh=(positive compact)
+json=(short stackoverflow)
+fresh=(positive)
+jsonex=(elegant kendall flat class spartan)
+freshex=(compact)
+
+
 ################################################
 write_markdown_list(){
   echo "==========================================="
@@ -21,6 +25,17 @@ write_markdown_list(){
   done
   for t in "${fresh[@]}"; do
     echo "| ${t} | [[ html ](${output_path}/resume-fresh-${t}.html)] | [[ pdf ](${output_path}/resume-fresh-${t}.pdf)] |" >> ${output_filename}
+  done
+
+    echo "## Experimental Formats" >> ${output_filename}
+  echo ""  >> ${output_filename}
+  echo "|Format|HTML|"  >> ${output_filename}
+  echo "|---|---|"  >> ${output_filename}
+  for t in "${json[@]}"; do
+    echo "| ${t} | [[ html ](${output_path}/resume-json-${t}.html)] | " >> ${output_filename}
+  done
+  for t in "${fresh[@]}"; do
+    echo "| ${t} | [[ html ](${output_path}/resume-fresh-${t}.html)] |" >> ${output_filename}
   done
 }
 
@@ -43,18 +58,22 @@ generate_resumes(){
   echo "  Generating Resumes "
   echo "==========================================="
   ## pre convert json-resume format to fresh format
-  hackmyresume convert ./resume.json TO ./resume-fresh.json
   ## resume.json is data of record
+  hackmyresume convert ./resume.json TO ./resume-fresh.json
   for t in "${json[@]}"; do
-      for f in "${formats[@]}"; do
-        hackmyresume build ./resume.json TO ${output_path}/resume-json-${t}.${f} -t /usr/local/lib/node_modules/jsonresume-theme-${t}
-      done
+    hackmyresume build ./resume.json TO ${output_path}/resume-json-${t}.html -t /usr/local/lib/node_modules/jsonresume-theme-${t}
+    hackmyresume build ./resume.json TO ${output_path}/resume-json-${t}.pdf -t /usr/local/lib/node_modules/jsonresume-theme-${t}
   done
-  ## FRESH / HACK RESUME
   for t in "${fresh[@]}"; do
-    for f in "${formats[@]}"; do
-      hackmyresume build ./resume-fresh.json TO ${output_path}/resume-fresh-${t}.${f} -t ${t}
-    done
+    hackmyresume build ./resume-fresh.json TO ${output_path}/resume-fresh-${t}.html -t ${t}
+    hackmyresume build ./resume-fresh.json TO ${output_path}/resume-fresh-${t}.pdf -t ${t}
+  done
+
+  for t in "${jsonex[@]}"; do
+    hackmyresume build ./resume.json TO ${output_path}/resume-json-${t}.html -t /usr/local/lib/node_modules/jsonresume-theme-${t}
+  done
+  for t in "${freshex[@]}"; do
+    hackmyresume build ./resume-fresh.json TO ${output_path}/resume-fresh-${t}.html -t ${t}
   done
 }
 
