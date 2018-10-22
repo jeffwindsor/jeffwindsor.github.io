@@ -19,6 +19,10 @@ An awesome list is a list of awesome things curated by me.  Modeled after, but n
 * [Chrome Custom Search Engines](https://github.com/daturkel/custom-search-engines)
 * [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
 
+## Github Organizations
+
+* [Papers we love] (https://paperswelove.org/) [Repo](https://github.com/papers-we-love)
+
 ## Git
 
 * **Github close issue with commit message** - add `fix`, `close`, or `resolve` plus ` #{id}` in the comment.  ie `-m "Wrong.cs class deleted to fix #1452"`
@@ -32,42 +36,6 @@ An awesome list is a list of awesome things curated by me.  Modeled after, but n
 
 * [Top Down Design and Test First at CJ](https://www.youtube.com/channel/UC2OoWaGVtOgOM4he75rFuWg/videos)
 * [Lambda Conf Videos](https://www.youtube.com/channel/UCEtohQeDqMSebi2yvLMUItg)
-
-## Mac
-1. Open a terminal. You can access it from the Launchpad.
-2. Type the following commands (and press Enter after each line):
-  ```sh
-  cd ~/Library
-  mkdir KeyBindings
-  cd KeyBindings
-  nano DefaultKeyBinding.dict
-  What the above commands do is create a new “KeyBindings” folder in the “Library” folder and add a new “DefaultKeyBinding.dict” file.
-  ```
-3. In the text editor that opens, copy and paste the following commands to it:
-```sh
-{
-  /* Remap Home / End keys */
-  /* Home Button*/
-  "\UF729" = "moveToBeginningOfLine:";
-  /* End Button */
-  "\UF72B" = "moveToEndOfLine:";
-  /* Shift + Home Button */
-  "$\UF729" = "moveToBeginningOfLineAndModifySelection:";
-  /* Shift + End Button */
-  "$\UF72B" = "moveToEndOfLineAndModifySelection:";
-  /* Ctrl + Home Button */
-  "^\UF729" = "moveToBeginningOfDocument:";
-  /* Ctrl + End Button */
-  "^\UF72B" = "moveToEndOfDocument:";
-  /* Shift + Ctrl + Home Button */
-  "$^\UF729" = "moveToBeginningOfDocumentAndModifySelection:";
-  /* Shift + Ctrl + End Button*/
-  "$^\UF72B" = "moveToEndOfDocumentAndModifySelection:";
-}
-Save (using shortcut “Ctrl + o”) and exit (“Ctrl + x”) the file.
-```
-4. Restart your Mac. The “Home” and “End” should be working now, and you can use it in conjunction with the “Shift” and “Ctrl” modifier buttons.
-
 
 ### Humor
 
