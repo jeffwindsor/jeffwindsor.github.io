@@ -16,6 +16,7 @@ An awesome list is a list of awesome things curated by me.  Modeled after, but n
 
 * [Open Source Organizations](https://github.com/collections/open-source-organizations)
 * [Papers We Love](https://paperswelove.org/) [Repo](https://github.com/papers-we-love)
+* [Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners)
 
 ## Git
 
