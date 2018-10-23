@@ -39,6 +39,10 @@ An awesome list is a list of awesome things curated by me.  Modeled after, but n
 * [Top Down Design and Test First at CJ](https://www.youtube.com/channel/UC2OoWaGVtOgOM4he75rFuWg/videos)
 * [Lambda Conf Videos](https://www.youtube.com/channel/UCEtohQeDqMSebi2yvLMUItg)
 
+## Kids
+
+* [First Inspires - Robotics, Legos, etc](https://www.firstinspires.org)
+
 ### Humor
 
 * [Monty Python's Flying Circus - World's Funniest Joke](https://www.youtube.com/watch?v=ienp4J3pW7U)
