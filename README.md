@@ -6,6 +6,11 @@
 
 An awesome list is a list of awesome things curated by me.  Modeled after, but not completely adherent to the [Awesome Lists](https://github.com/topics/awesome) and [Awesomo Lists](https://github.com/lk-geimfari/awesomo).
 
+## Languages
+
+### Haskell
+* [Monad CheatSheet](https://jeffwindsor.github.io/docs/haskell_monad_cheatsheet)
+
 ## Productivity
 
 * [The Sweet Setup](https://jeffwindsor.github.io/the-sweet-setup.io/)
