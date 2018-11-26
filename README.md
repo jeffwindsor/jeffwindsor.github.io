@@ -1,6 +1,6 @@
 [Home](https://jeffwindsor.carrd.co/) > Github.io
 
-[[ Projects ](https://jeffwindsor.github.io/projects)] [[ Resumes ](https://jeffwindsor.github.io/resumes)]
+[[ Projects ](https://jeffwindsor.github.io/projects)] [[DotFiles](https://github.com/jeffwindsor/dotfiles)] [[ Resumes ](https://jeffwindsor.github.io/resumes)]
 
 # Awesome List (Personal)
 
