@@ -2,15 +2,15 @@
 
 ## Resumes
 
-|Format|HTML|PDF|
+|Style|HTML|PDF|
 |---|---|---|
 | short | [[ html ](./resume/resume-json-short.html)] | [[ pdf ](./resume/resume-json-short.pdf)] |
 | stackoverflow | [[ html ](./resume/resume-json-stackoverflow.html)] | [[ pdf ](./resume/resume-json-stackoverflow.pdf)] |
 | positive | [[ html ](./resume/resume-fresh-positive.html)] | [[ pdf ](./resume/resume-fresh-positive.pdf)] |
 
-## Experimental Formats
+## Experimental Styles
 
-|Format|HTML|
+|Style|HTML|
 |---|---|
 | elegant | [[ html ](./resume/resume-json-elegant.html)] | 
 | kendall | [[ html ](./resume/resume-json-kendall.html)] | 
