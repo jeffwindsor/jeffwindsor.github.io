@@ -1,6 +1,6 @@
 [Home](https://jeffwindsor.carrd.co/) > [Github.io](https://jeffwindsor.github.io/) > Resumes
 
-## Resume by Format
+## Resumes
 
 |Format|HTML|PDF|
 |---|---|---|
