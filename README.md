@@ -2,6 +2,9 @@
 
 [[ Projects ](https://jeffwindsor.github.io/projects)] [[DotFiles](https://github.com/jeffwindsor/dotfiles)] [[ Resumes ](https://jeffwindsor.github.io/resumes)]
 
+![Hacker Rank](https://www.hackerrank.com/jeff_windsor)
+![Code Wars](https://www.codewars.com/users/jeffwindsor/badges/large)
+
 # Awesome List (Personal)
 
 An awesome list is a list of awesome things curated by me.  Modeled after, but not completely adherent to the [Awesome Lists](https://github.com/topics/awesome) and [Awesomo Lists](https://github.com/lk-geimfari/awesomo).
