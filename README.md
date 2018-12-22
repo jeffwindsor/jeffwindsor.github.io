@@ -2,8 +2,9 @@
 
 [[ Projects ](https://jeffwindsor.github.io/projects)] [[DotFiles](https://github.com/jeffwindsor/dotfiles)] [[ Resumes ](https://jeffwindsor.github.io/resumes)]
 
-![Hacker Rank](https://www.hackerrank.com/jeff_windsor)
-![Code Wars](https://www.codewars.com/users/jeffwindsor/badges/large)
+
+* [Hacker Rank](https://www.hackerrank.com/jeff_windsor)
+* [Code Wars](https://www.codewars.com/users/jeffwindsor) ![](https://www.codewars.com/users/jeffwindsor/badges/small)
 
 # Awesome List (Personal)
 
