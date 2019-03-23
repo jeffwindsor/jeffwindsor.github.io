@@ -1,6 +1,8 @@
 [Home](https://jeffwindsor.carrd.co/) > [Github.io](https://jeffwindsor.github.io/) > Resumes
 
-## Resumes
+[Resume](./resume/resume-json-stackoverflow.html)
+
+## Other Formats
 
 |Style|HTML|PDF|
 |---|---|---|
@@ -8,7 +10,7 @@
 | stackoverflow | [[ html ](./resume/resume-json-stackoverflow.html)] | [[ pdf ](./resume/resume-json-stackoverflow.pdf)] |
 | positive | [[ html ](./resume/resume-fresh-positive.html)] | [[ pdf ](./resume/resume-fresh-positive.pdf)] |
 
-## Experimental Styles
+## Experimental Formats
 
 |Style|HTML|
 |---|---|
