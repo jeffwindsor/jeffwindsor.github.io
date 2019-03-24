@@ -11,24 +11,34 @@
 * Dotfiles
     * [Dotfile Generator](https://jeffwindsor.github.io/the-sweet-setup.io/)
 * Haskell
-    * [Language](https://www.haskell.org/)
+    * [Lang](https://www.haskell.org/)
     * [Stack](https://docs.haskellstack.org/en/stable/README/)
     * [Lang Server](https://github.com/haskell/haskell-ide-engine)
         * [vscode ext](https://marketplace.visualstudio.com/items?itemName=alanz.vscode-hie-server)
     * [Package Search](https://haskell.libhunt.com/)
     * [Krispo's Haskell Awesome List](https://github.com/krispo/awesome-haskell)
+    * [Haskell Programming from First Principles (Allen and Moronuki 2015)](http://haskellbook.com/)
+    * [Book of Monad](https://www.amazon.com/Book-Monads-practice-applied-problems-ebook/dp/B07JNZHYLT)
+    * [Thinking with Types](https://leanpub.com/thinking-with-types)
+    * [Write you a Haskell](http://dev.stephendiehl.com/fun/)
 * Rust
+    * [Lang](https://www.rust-lang.org/)
 * AWS
     * [SWF](https://aws.amazon.com/swf/)
     * [Cloudformation](https://aws.amazon.com/cloudformation/)
     * [Fargate](https://aws.amazon.com/fargate/)
         * [Docker](https://www.docker.com/)
+* Scala
+    * [Essential Scala (Gurnell and Welsh 2015)](https://underscore.io/books/essential-scala/)
+    * [Scala for the Impatient](https://www.amazon.com/Scala-Impatient-Cay-S-Horstmann-ebook/dp/B01MR67YSO)
 * Scripting
     * [PureScript]
     * [JavaScript]
     * [TypeScript]
     * [Python]
 * Functional Programming
+    * [Category Theory for Programmers](https://github.com/hmemcpy/milewski-ctfp-pdf)
+    * [Strange Loop Videos](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw)
     * [Lambda Conf Videos](https://www.youtube.com/channel/UCEtohQeDqMSebi2yvLMUItg)
 * Methodologies
     * [Top Down Design and Test First at CJ](https://www.youtube.com/channel/UC2OoWaGVtOgOM4he75rFuWg/videos)
