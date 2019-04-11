@@ -13,14 +13,20 @@
 * Haskell
     * [Lang](https://www.haskell.org/)
     * [Stack](https://docs.haskellstack.org/en/stable/README/)
+    * [Package Search](https://haskell.libhunt.com/)
     * [Lang Server](https://github.com/haskell/haskell-ide-engine)
         * [vscode ext](https://marketplace.visualstudio.com/items?itemName=alanz.vscode-hie-server)
-    * [Package Search](https://haskell.libhunt.com/)
-    * [Krispo's Haskell Awesome List](https://github.com/krispo/awesome-haskell)
-    * [Haskell Programming from First Principles (Allen and Moronuki 2015)](http://haskellbook.com/)
-    * [Book of Monad](https://www.amazon.com/Book-Monads-practice-applied-problems-ebook/dp/B07JNZHYLT)
-    * [Thinking with Types](https://leanpub.com/thinking-with-types)
-    * [Write you a Haskell](http://dev.stephendiehl.com/fun/)
+    * Learning Resources
+        * [WHAT I WISH I KNEW WHEN LEARNING HASKELL](http://dev.stephendiehl.com/hask/)
+        * [Write you a Haskell](http://dev.stephendiehl.com/fun/)
+        * [Typeclassopedia](https://wiki.haskell.org/Typeclassopedia)
+            * Know the type classes and use them, that is the best instruction. [Instances of List and Maybe](https://wiki.haskell.org/Instances_of_List_and_Maybe)
+        * [Krispo's Haskell Awesome List](https://github.com/krispo/awesome-haskell)
+    * Books
+        * [Haskell Programming from First Principles (Allen and Moronuki 2015)](http://haskellbook.com/)
+        * [Book of Monad 2019](https://www.amazon.com/Book-Monads-practice-applied-problems-ebook/dp/B07JNZHYLT)
+        * [Thinking with Types 2017](https://leanpub.com/thinking-with-types)
+        * [Real World Haskell 2008](http://book.realworldhaskell.org/)
 * Rust
     * [Lang](https://www.rust-lang.org/)
 * AWS
