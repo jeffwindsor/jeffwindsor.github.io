@@ -2,14 +2,10 @@
 
 [ [Dotfiles] ](https://github.com/jeffwindsor/dotfiles) [[Resumes] ](https://jeffwindsor.github.io/resumes) [ [Projects] ](https://jeffwindsor.github.io/projects)
 
-* Dotfiles
-    * [Dotfile Generator](https://jeffwindsor.github.io/the-sweet-setup.io/)
 * Haskell
-    * [Lang](https://www.haskell.org/)
+    * [Haskell Lang](https://www.haskell.org/)
     * [Stack](https://docs.haskellstack.org/en/stable/README/)
     * [Package Search](https://haskell.libhunt.com/)
-    <!-- * [Lang Server](https://github.com/haskell/haskell-ide-engine)
-        * [vscode ext](https://marketplace.visualstudio.com/items?itemName=alanz.vscode-hie-server) -->
     * Learning Resources
         * [WHAT I WISH I KNEW WHEN LEARNING HASKELL](http://dev.stephendiehl.com/hask/)
         * [Write you a Haskell](http://dev.stephendiehl.com/fun/)
@@ -24,6 +20,7 @@
 * Rust
     * [Lang](https://www.rust-lang.org/)
 * AWS
+    * [Amazonka: Haskell SDK](https://hackage.haskell.org/package/amazonka)
     * [SWF](https://aws.amazon.com/swf/)
     * [Cloudformation](https://aws.amazon.com/cloudformation/)
     * [Fargate](https://aws.amazon.com/fargate/)
@@ -36,26 +33,33 @@
     * [JavaScript]
     * [TypeScript]
     * [Python]
-* Functional Programming
-    * [Category Theory for Programmers](https://github.com/hmemcpy/milewski-ctfp-pdf)
-    * [Strange Loop Videos](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw)
-    * [Lambda Conf Videos](https://www.youtube.com/channel/UCEtohQeDqMSebi2yvLMUItg)
-* Methodologies
-    * [Top Down Design and Test First at CJ](https://www.youtube.com/channel/UC2OoWaGVtOgOM4he75rFuWg/videos)
-* Tools
-    * [Visual Studio Code](https://code.visualstudio.com/)
-    * [Spacemacs](http://spacemacs.org/)
-    * [iTerm2 (macos)](https://iterm2.com) 
-        * [Themes](https://github.com/mbadolato/iTerm2-Color-Schemes)
-    * [Fish Shell](https://fishshell.com/docs/current/index.html)
-    * [Chrome Custom Search Engines](https://github.com/daturkel/custom-search-engines)
-* Presense 
-    * [Resume in JSON](https://jsonresume.org/getting-started)
-    * [FontAwesome](https://fontawesome.com)
-    * [OSS Licensing Explained](https://choosealicense.com)
-    * [Unfurling](https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254)
-    * [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
 * Github Organizations
     * [Open Source Organizations](https://github.com/collections/open-source-organizations)
     * [Papers We Love](https://paperswelove.org/) [Repo](https://github.com/papers-we-love)
     * [Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners)
+* Methodologies
+    * [Top Down Design and Test First at CJ](https://www.youtube.com/channel/UC2OoWaGVtOgOM4he75rFuWg/videos)
+    * Functional Programming
+        * [Category Theory for Programmers](https://github.com/hmemcpy/milewski-ctfp-pdf)
+        * [Strange Loop Videos](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw)
+        * [Lambda Conf Videos](https://www.youtube.com/channel/UCEtohQeDqMSebi2yvLMUItg)
+* Tools
+    * Daily Driver
+        * [iTerm2 (macos terminal)](https://iterm2.com) 
+            * [Themes](https://github.com/mbadolato/iTerm2-Color-Schemes)
+        * [Fish Shell](https://fishshell.com/docs/current/index.html)
+            * [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish)
+        * [Chrome Custom Search Engines](https://github.com/daturkel/custom-search-engines)
+    * Development
+        * [Visual Studio Code](https://code.visualstudio.com/)
+        * [Spacemacs](http://spacemacs.org/)
+        * [NeoVim](https://neovim.io/)
+    * Dotfiles
+        * [Dotfile Generator](https://jeffwindsor.github.io/the-sweet-setup.io/)
+    * Online Presence
+        * [Resume in JSON](https://jsonresume.org/getting-started)
+        * [FontAwesome](https://fontawesome.com)
+        * [OSS Licensing Explained](https://choosealicense.com)
+        * [Unfurling](https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254)
+        * [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
+
