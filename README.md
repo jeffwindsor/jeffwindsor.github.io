@@ -1,12 +1,6 @@
 [Home](https://jeffwindsor.carrd.co/) > Github.io
 
-[Dotfiles](https://github.com/jeffwindsor/dotfiles)
-
-[Resumes](https://jeffwindsor.github.io/resumes)
-
-[Projects](https://jeffwindsor.github.io/projects)
-
-![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
+[ [Dotfiles] ](https://github.com/jeffwindsor/dotfiles) [[Resumes] ](https://jeffwindsor.github.io/resumes) [ [Projects] ](https://jeffwindsor.github.io/projects)
 
 * Dotfiles
     * [Dotfile Generator](https://jeffwindsor.github.io/the-sweet-setup.io/)
