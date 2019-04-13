@@ -8,8 +8,8 @@
     * [Lang](https://www.haskell.org/)
     * [Stack](https://docs.haskellstack.org/en/stable/README/)
     * [Package Search](https://haskell.libhunt.com/)
-    * [Lang Server](https://github.com/haskell/haskell-ide-engine)
-        * [vscode ext](https://marketplace.visualstudio.com/items?itemName=alanz.vscode-hie-server)
+    <!-- * [Lang Server](https://github.com/haskell/haskell-ide-engine)
+        * [vscode ext](https://marketplace.visualstudio.com/items?itemName=alanz.vscode-hie-server) -->
     * Learning Resources
         * [WHAT I WISH I KNEW WHEN LEARNING HASKELL](http://dev.stephendiehl.com/hask/)
         * [Write you a Haskell](http://dev.stephendiehl.com/fun/)
