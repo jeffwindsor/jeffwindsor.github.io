@@ -1,6 +1,6 @@
 [Home](https://jeffwindsor.carrd.co/) > Github.io
 
-[ [Dotfiles] ](https://github.com/jeffwindsor/dotfiles) [ [Resume] ](hhttps://jeffwindsor.github.io/docs/resume/resume-json-stackoverflow.html) [ [Github] ](https://github.com/jeffwindsor)
+[ [Dotfiles] ](https://github.com/jeffwindsor/dotfiles) [ [Resume] ](https://jeffwindsor.github.io/docs/resume/resume-json-stackoverflow.html) [ [Github] ](https://github.com/jeffwindsor)
 
 * Haskell
     * [Haskell Lang](https://www.haskell.org/)
