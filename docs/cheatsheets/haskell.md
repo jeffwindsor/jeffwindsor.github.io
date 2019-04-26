@@ -1,4 +1,4 @@
-# Haskell Monadic Cheatsheet
+# Haskell Cheatsheet
 
 ## Type Classes
 
