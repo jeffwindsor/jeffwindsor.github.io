@@ -1,6 +1,6 @@
 [Home](https://jeffwindsor.carrd.co/) > Github.io
 
-[ [Dotfiles] ](https://github.com/jeffwindsor/dotfiles) [[Resumes] ](https://jeffwindsor.github.io/resumes) [ [Projects] ](https://jeffwindsor.github.io/projects)
+[ [Dotfiles] ](https://github.com/jeffwindsor/dotfiles) [ [Resume] ](hhttps://jeffwindsor.github.io/docs/resume/resume-json-stackoverflow.html) [ [Github] ](https://github.com/jeffwindsor)
 
 * Haskell
     * [Haskell Lang](https://www.haskell.org/)
@@ -45,7 +45,7 @@
         * [Lambda Conf Videos](https://www.youtube.com/channel/UCEtohQeDqMSebi2yvLMUItg)
 * Tools
     * Daily Driver
-        * [iTerm2 (macos terminal)](https://iterm2.com) 
+        * [iTerm2 (macos terminal)](https://iterm2.com)
             * [Themes](https://github.com/mbadolato/iTerm2-Color-Schemes)
         * [Fish Shell](https://fishshell.com/docs/current/index.html)
             * [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish)
@@ -63,3 +63,4 @@
         * [Unfurling](https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254)
         * [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
 
+[[Resume in Other Formats] ](https://jeffwindsor.github.io/docs/resumes)
