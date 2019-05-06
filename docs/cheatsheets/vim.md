@@ -1,6 +1,11 @@
 # Vim
 
-http://vimdoc.sourceforge.net/htmldoc/quickref.html#quickref
+`{number}{operator}{text objects or motion}`
+
+Various Motions, Editing, Searches. Marks, Tags, Jumplist + Changelist
+
+
+Reference: http://vimdoc.sourceforge.net/htmldoc/quickref.html#quickref
 
 ## Essential Modes
 
@@ -11,10 +16,7 @@ http://vimdoc.sourceforge.net/htmldoc/quickref.html#quickref
 | Visual | v (char), Shift + v (line), Ctrl + v (block)|
 | Command | :, / |
 
-
 ## Grammar
-
-`{number}{operator}{text objects or motion}`
 
 |Operator|Action|
 |---|---|
