@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 ################################################
 output_path=./resume
 md_filename=./resumes.md
