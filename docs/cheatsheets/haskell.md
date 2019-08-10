@@ -1,6 +1,56 @@
 # Haskell Cheatsheet
 
-## Type Classes
+## Functors, Applicatives and Monads
+
+* **Functor's** `fmap` applies a function `(a -> b)` to a wrapped value `m a`, also know as `<$>`
+    ```Haskell
+    -- function is multiply by 2
+    fmap (*2) [1..4]
+        [2,4,6,8]
+    fmap (*2) (Just 11)
+        Just 22
+    fmap (*2) Nothing
+        Nothing
+    ```
+* **Applicative's** `apply` applies a wrapped function `m (a -> b)` to a wrapped value `m a`, also know as `<*>`
+* **Monads** `bind` applies a wrapping function `(a -> m b)` to a wrapped value `m a`, also know as `>>=`
+* A **Monad** is an **Applicative**
+* An **Applicative** is a **Functor**
+
+## Semigroup and Monoids
+
+* **Semigroup** `append` concatenates two values `a -> a -> a`, also known as `<>`
+* **Monoid** `mempty` defines an empty value for its type
+* A **Monoid** is a **Semigroup**
+
+
+## Do Notation
+
+* The de-sugaring is defined recursively by the rules:
+    ```Haskell
+    do { a <- f; m }    f >>= \a -> do { m }
+    do { f; m }         f >> do { m }
+    do { m }            m
+    ```
+* So the following are equivalent:
+    ```Haskell
+    do
+    a <- f            |  f >>= \a ->
+    b <- g            |    g >>= \b ->
+    c <- h            |      h >>= \c ->
+    return (a, b, c)  |        return (a, b, c)
+    ```
+
+
+
+## Further Reading
+
+* Stephen Diehl's [What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/)
+* Adit's [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
+
+
+
+## Kind-ness
 
 ### KIND: * -> *
 ```Haskell
@@ -17,8 +67,7 @@ class Semigroup a
 class (Semigroup a) => Monoid a   --associative, has identity
 ```
 
-## Functions
-
+## Operators
 ```Haskell
 ($)   :: (a -> b) -> a -> b                       --function application, lowest priority
 (&)   :: a -> (a -> b) -> b                       --reverse function application
