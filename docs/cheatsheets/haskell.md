@@ -3,7 +3,7 @@
 ## Functors, Applicatives and Monads
 
 * **Functor's** `fmap` applies a function `(a -> b)` to a wrapped value `m a`, also know as `<$>`
-    ```Haskell
+    ```haskell
     -- function is multiply by 2
     fmap (*2) [1..4]
         [2,4,6,8]
@@ -27,31 +27,31 @@
 ## Do Notation
 
 * The de-sugaring is defined recursively by the rules:
-    ```Haskell
+    ```haskell
     do { a <- f; m }    f >>= \a -> do { m }
     do { f; m }         f >> do { m }
     do { m }            m
     ```
 * So the following are equivalent:
-    ```Haskell
-    do
-    a <- f            |  f >>= \a ->
-    b <- g            |    g >>= \b ->
-    c <- h            |      h >>= \c ->
-    return (a, b, c)  |        return (a, b, c)
+    ```haskell
+    do                  |
+      a <- f            |  f >>= \a ->
+      b <- g            |    g >>= \b ->
+      c <- h            |      h >>= \c ->
+      return (a, b, c)  |        return (a, b, c)
     ```
 
 ## Monads
 
 ### Use Case
 The below `sequence` function that takes a *list of wrapped values* `[m a]` and returns a *wrapped list of values* `m [a]`
-```Haskell
+```haskell
 sequence :: Monad m => [m a] -> m [a]
 sequence = foldr f (return [])
     where f :: Monad m => m t -> m [t] -> m [t]
 ```
 `sequence` abstracts out three fundamental concepts of computation (Failure, Collections, and Effects) for reuse in higher level abstractions.
-```Haskell
+```haskell
 -- Failure
 > sequence [Just 3, Just 4]
     Just [3,4]
