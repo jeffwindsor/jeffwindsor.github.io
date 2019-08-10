@@ -1,7 +1,21 @@
 [Home](https://jeffwindsor.carrd.co/) > Github.io
 
-[ [Dotfiles] ](https://github.com/jeffwindsor/dotfiles) [ [Resume] ](https://jeffwindsor.github.io/docs/resume/resume-json-stackoverflow.html) [ [Github] ](https://github.com/jeffwindsor)
+[ Blog ]()
+| [ Github ](https://github.com/jeffwindsor)
+| [ Dotfiles ](https://github.com/jeffwindsor/dotfiles)
+| [ Resume ](https://jeffwindsor.github.io/docs/resume/resume-json-stackoverflow.html)
+| [ Resume in Other Formats ](https://jeffwindsor.github.io/docs/resumes)
 
+* Cheatsheets
+    * [ Haskell ](https://jeffwindsor.github.io/docs/cheatsheets/haskell)
+    * [ Vim ](https://jeffwindsor.github.io/docs/cheatsheets/vim)
+    * [ Browser Custom Search Engines ](https://jeffwindsor.github.io/docs/cheatsheets/browser-custom-search-engines)
+* Functional Programming
+    * [Category Theory for Programmers](https://github.com/hmemcpy/milewski-ctfp-pdf)
+    * [Strange Loop Videos](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw)
+    * [Lambda Conf Videos](https://www.youtube.com/channel/UCEtohQeDqMSebi2yvLMUItg)
+* Top Down Design and Test First
+    * [CJ](https://www.youtube.com/channel/UC2OoWaGVtOgOM4he75rFuWg/videos)
 * Haskell
     * [Haskell Lang](https://www.haskell.org/)
     * [Stack](https://docs.haskellstack.org/en/stable/README/)
@@ -37,14 +51,8 @@
     * [Open Source Organizations](https://github.com/collections/open-source-organizations)
     * [Papers We Love](https://paperswelove.org/) [Repo](https://github.com/papers-we-love)
     * [Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners)
-* Methodologies
-    * [Top Down Design and Test First at CJ](https://www.youtube.com/channel/UC2OoWaGVtOgOM4he75rFuWg/videos)
-    * Functional Programming
-        * [Category Theory for Programmers](https://github.com/hmemcpy/milewski-ctfp-pdf)
-        * [Strange Loop Videos](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw)
-        * [Lambda Conf Videos](https://www.youtube.com/channel/UCEtohQeDqMSebi2yvLMUItg)
 * Tools
-    * Daily Driver
+    * Dailies
         * [iTerm2 (macos terminal)](https://iterm2.com)
             * [Themes](https://github.com/mbadolato/iTerm2-Color-Schemes)
         * [Fish Shell](https://fishshell.com/docs/current/index.html)
@@ -63,4 +71,3 @@
         * [Unfurling](https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254)
         * [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
 
-[[Resume in Other Formats] ](https://jeffwindsor.github.io/docs/resumes)
