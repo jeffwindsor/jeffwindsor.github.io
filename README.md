@@ -1,6 +1,5 @@
-[Home](https://jeffwindsor.carrd.co/) > Github.io
-
 [ Blog ]()
+| [ Site ](https://jeffreywindsor.com)
 | [ Github ](https://github.com/jeffwindsor)
 | [ Dotfiles ](https://github.com/jeffwindsor/dotfiles)
 | [ Resume ](https://jeffwindsor.github.io/docs/resume/resume-json-stackoverflow.html)

@@ -1,4 +1,4 @@
-# Haskell Cheatsheet
+[ Home ](https://jeffwindsor.github.io/) > Haskell Cheatsheet
 
 ## Functors, Applicatives and Monads
 
