@@ -1,5 +1,5 @@
-theme: jekyll-theme-tactile   #hacker minima minimal modernist
-show_downloads: "false"
+theme: jekyll-theme-minimal   #hacker minima minimal modernist
+show_downloads: false
 title: Jeff Windsor
 description: Student of All Things
 

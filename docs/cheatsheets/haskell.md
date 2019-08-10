@@ -1,5 +1,7 @@
 [ Home ](https://jeffwindsor.github.io/) > Haskell Cheatsheet
 
+# Haskell Cheatsheet
+
 ## Functors, Applicatives and Monads
 
 * **Functor's** `fmap` applies a function `(a -> b)` to a wrapped value `m a`, also know as `<$>`
