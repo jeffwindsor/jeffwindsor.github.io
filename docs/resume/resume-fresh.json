@@ -11,7 +11,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2019-08-20T18:48:57.235Z"
+    "modified": "2019-08-20T19:02:05.250Z"
   },
   "location": {
     "city": "Ventura",
@@ -204,15 +204,19 @@
         "name": "Development",
         "skills": [
           "Haskell",
-          "Purescript",
-          "C#",
-          "F#",
+          "Scala",
+          "Java",
+          "AWS",
           "Javascript",
+          "Purescript",
+          "React",
           "Python",
           "TSQL",
           "PLSQL",
-          "MongoDB",
-          "Git"
+          "Git",
+          "Azure",
+          "C#",
+          "F#"
         ]
       },
       {
@@ -230,7 +234,6 @@
         "name": "Architectures, Systems and Stacks",
         "skills": [
           "Messaging Architectures",
-          "",
           "GraphQL",
           "Restful Apis"
         ]
@@ -247,7 +250,7 @@
       {
         "name": "Dev Ops",
         "skills": [
-          "AWS Code Pipeline and Deploy",
+          "AWS",
           "Jenkins",
           "Octopus",
           "TeamCity"
@@ -256,9 +259,9 @@
       {
         "name": "Specialties",
         "skills": [
+          "Finance",
           "Energy Markets",
           "BioInformatics",
-          "Finance",
           "Oil, Gas and Petrochemicals Markets",
           "Commodity Trading"
         ]
