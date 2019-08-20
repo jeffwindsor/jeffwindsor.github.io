@@ -1,4 +1,4 @@
-[Home](https://jeffwindsor.carrd.co/) > [Github.io](https://jeffwindsor.github.io/) > Resumes
+[Home](https://jeffreywindsor.com) > [Github.io](https://jeffwindsor.github.io/) > Resumes
 
 [Resume](./resume/resume-json-stackoverflow.html)
 
@@ -14,9 +14,9 @@
 
 |Style|HTML|
 |---|---|
-| elegant | [[ html ](./resume/resume-json-elegant.html)] | 
-| kendall | [[ html ](./resume/resume-json-kendall.html)] | 
-| flat | [[ html ](./resume/resume-json-flat.html)] | 
-| class | [[ html ](./resume/resume-json-class.html)] | 
-| spartan | [[ html ](./resume/resume-json-spartan.html)] | 
+| elegant | [[ html ](./resume/resume-json-elegant.html)] |
+| kendall | [[ html ](./resume/resume-json-kendall.html)] |
+| flat | [[ html ](./resume/resume-json-flat.html)] |
+| class | [[ html ](./resume/resume-json-class.html)] |
+| spartan | [[ html ](./resume/resume-json-spartan.html)] |
 | compact | [[ html ](./resume/resume-fresh-compact.html)] |
