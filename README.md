@@ -40,10 +40,11 @@
     * [Essential Scala (Gurnell and Welsh 2015)](https://underscore.io/books/essential-scala/)
     * [Scala for the Impatient](https://www.amazon.com/Scala-Impatient-Cay-S-Horstmann-ebook/dp/B01MR67YSO)
 * Scripting
-    * [PureScript]
-    * [JavaScript]
-    * [TypeScript]
-    * [Python]
+    * [PureScript](http://www.purescript.org/)
+    * [JavaScript](https://javascript.info/)
+    * [TypeScript](https://www.typescriptlang.org/)
+    * [Python](https://www.python.org/)
+    * [Lua](https://www.lua.org/)
 * Github Organizations
     * [Open Source Organizations](https://github.com/collections/open-source-organizations)
     * [Papers We Love](https://paperswelove.org/) [Repo](https://github.com/papers-we-love)
