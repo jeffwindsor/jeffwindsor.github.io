@@ -2,7 +2,7 @@
 | [ github ](https://github.com/jeffwindsor)
 | [ dotfiles ](https://github.com/jeffwindsor/dotfiles)
 | [ resume ](https://jeffwindsor.github.io/docs/resume/resume-json-short.html)
-| [ resume in Other Formats ](https://jeffwindsor.github.io/docs/resumes)
+| [ resume in other formats ](https://jeffwindsor.github.io/docs/resumes)
 
 * Cheatsheets
     * [ Haskell ](https://jeffwindsor.github.io/docs/cheatsheets/haskell)
