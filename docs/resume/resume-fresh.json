@@ -11,7 +11,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2018-10-11T02:04:16.369Z"
+    "modified": "2019-08-20T18:47:00.632Z"
   },
   "location": {
     "city": "Ventura",
@@ -20,14 +20,29 @@
   "employment": {
     "history": [
       {
-        "position": "Senior Software Engineer",
-        "employer": "Alliance Data Systems / CJ Affiliates",
+        "position": "Lead Software Engineer - Financial Technology",
+        "employer": "CJ Affiliate / Conversant",
         "summary": "",
         "current": true,
-        "start": "2018-07-01",
-        "url": "https://www.alliancedata.com/",
+        "start": "2018-12-01",
+        "url": "https://www.cj.com/",
         "keywords": [],
-        "highlights": []
+        "highlights": [
+          "Technologies: Haskell, Scala, JavaScript, AWS, Spark/Kafka, Oracle"
+        ]
+      },
+      {
+        "position": "Senior Software Engineer",
+        "employer": "CJ Affiliate / Conversant",
+        "summary": "",
+        "start": "2018-07-01",
+        "end": "2018-12-01",
+        "url": "https://www.cj.com/",
+        "keywords": [],
+        "highlights": [
+          "Technologies: Haskell, Scala, JavaScript, AWS, Spark/Kafka, Oracle",
+          "Team Accomplishments: Reduced Large Client Invoicing from 30 to 5 days."
+        ]
       },
       {
         "position": "Lead Architect",

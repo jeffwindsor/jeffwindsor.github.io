@@ -41,12 +41,26 @@
   },
   "work": [
     {
-      "company": "Alliance Data Systems / CJ Affiliates",
+        "company": "CJ Affiliate / Conversant",
+        "position": "Lead Software Engineer - Financial Technology",
+        "website": "https://www.cj.com/",
+        "startDate": "2018-12-01",
+        "summary": "",
+        "highlights": [
+            "Technologies: Haskell, Scala, JavaScript, AWS, Spark/Kafka, Oracle"
+        ]
+    },
+    {
+      "company": "CJ Affiliate / Conversant",
       "position": "Senior Software Engineer",
-      "website": "https://www.alliancedata.com/",
+      "website": "https://www.cj.com/",
       "startDate": "2018-07-01",
+      "endDate": "2018-12-01",
       "summary": "",
-      "highlights": []
+      "highlights": [
+          "Technologies: Haskell, Scala, JavaScript, AWS, Spark/Kafka, Oracle",
+          "Team Accomplishments: Reduced Large Client Invoicing from 30 to 5 days."
+    ]
     },
     {
       "company": "Vitalware",
@@ -148,7 +162,7 @@
       "startDate": "2005-04-01",
       "endDate": "2006-03-01",
       "summary": "Provided business analysis and technical design for a range of projects at BP's North American Gas & Power division. Projects: Sarbanes-Oxley compliance and internal best practices for NAGP's critical processes and information structures. Responsibilities: Requirements gathering, Business modeling, Software analysis and design."
-    },    
+    },
     {
       "company": "Digital Soldiers",
       "position": "Senior Software Developer",
