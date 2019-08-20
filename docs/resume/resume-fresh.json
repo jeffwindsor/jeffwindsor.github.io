@@ -3,15 +3,15 @@
   "info": {
     "label": "Pragmatic ∙ Experienced ∙ Polyglot ∙ Student of All Things",
     "image": "./resources/portrait.jpg",
-    "brief": "A highly motivated, passionate and strategically minded technologist with extensive experience in software development who has successfully managed, designed and developed a long line of customer facing and strategic enterprise applications."
+    "brief": "A highly passionate and strategically minded technologist with extensive experience in software development who has successfully managed, designed and developed a long line of customer facing and strategic enterprise applications."
   },
   "contact": {
     "email": "jeff.windsor@gmail.com",
-    "website": "https://jeffwindsor.com/"
+    "website": "https://jeffreywindsor.com/"
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2019-08-20T19:02:05.250Z"
+    "modified": "2019-08-20T19:11:57.232Z"
   },
   "location": {
     "city": "Ventura",

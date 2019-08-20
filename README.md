@@ -2,7 +2,7 @@
 | [ Site ](https://jeffreywindsor.com)
 | [ Github ](https://github.com/jeffwindsor)
 | [ Dotfiles ](https://github.com/jeffwindsor/dotfiles)
-| [ Resume ](https://jeffwindsor.github.io/docs/resume/resume-json-stackoverflow.html)
+| [ Resume ](https://jeffwindsor.github.io/docs/resume/resume-json-short.html)
 | [ Resume in Other Formats ](https://jeffwindsor.github.io/docs/resumes)
 
 * Cheatsheets
