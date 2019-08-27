@@ -1,9 +1,8 @@
-[ Blog ]()
-| [ Site ](https://jeffreywindsor.com)
-| [ Github ](https://github.com/jeffwindsor)
-| [ Dotfiles ](https://github.com/jeffwindsor/dotfiles)
-| [ Resume ](https://jeffwindsor.github.io/docs/resume/resume-json-stackoverflow.html)
-| [ Resume in Other Formats ](https://jeffwindsor.github.io/docs/resumes)
+[ website ](https://jeffreywindsor.com)
+| [ github ](https://github.com/jeffwindsor)
+| [ dotfiles ](https://github.com/jeffwindsor/dotfiles)
+| [ resume ](https://jeffwindsor.github.io/docs/resume/resume-json-short.html)
+| [ resume in other formats ](https://jeffwindsor.github.io/docs/resumes)
 
 * Cheatsheets
     * [ Haskell ](https://jeffwindsor.github.io/docs/cheatsheets/haskell)
@@ -41,10 +40,11 @@
     * [Essential Scala (Gurnell and Welsh 2015)](https://underscore.io/books/essential-scala/)
     * [Scala for the Impatient](https://www.amazon.com/Scala-Impatient-Cay-S-Horstmann-ebook/dp/B01MR67YSO)
 * Scripting
-    * [PureScript]
-    * [JavaScript]
-    * [TypeScript]
-    * [Python]
+    * [PureScript](http://www.purescript.org/)
+    * [JavaScript](https://javascript.info/)
+    * [TypeScript](https://www.typescriptlang.org/)
+    * [Python](https://www.python.org/)
+    * [Lua](https://www.lua.org/)
 * Github Organizations
     * [Open Source Organizations](https://github.com/collections/open-source-organizations)
     * [Papers We Love](https://paperswelove.org/) [Repo](https://github.com/papers-we-love)
