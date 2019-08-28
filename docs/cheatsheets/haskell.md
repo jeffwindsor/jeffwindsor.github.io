@@ -10,13 +10,12 @@
 
 * **Functor's** `fmap` applies a function `(a -> b)` to a wrapped value `m a`, also know as `<$>`
     ```haskell
-    -- function is multiply by 2
-    fmap (*2) [1..4]
-        [2,4,6,8]
-    fmap (*2) (Just 11)
-        Just 22
-    fmap (*2) Nothing
-        Nothing
+    > fmap (*2) [1..4]
+      [2,4,6,8]
+    > fmap (*2) (Just 11)
+      Just 22
+    > fmap (*2) Nothing
+      Nothing
     ```
 * **Applicative's** `apply` applies a wrapped function `m (a -> b)` to a wrapped value `m a`, also know as `<*>`
 * **Monads** `bind` applies a wrapping function `(a -> m b)` to a wrapped value `m a`, also know as `>>=`
@@ -27,9 +26,11 @@
 
 The de-sugaring is defined recursively by the rules:
 
-  1. `do { a <- f; m }` to `f >>= \a -> do { m }`
-  1. `do { f; m }` to `f >> do { m }`
-  1. `do { m }` to `m`
+```haskell
+  do { a <- f; m } becomes  f >>= \a -> do { m }
+  do { f; m }      becomes  f >> do { m }
+  do { m }         becomes  m
+```
 
  So the following are equivalent:
 
