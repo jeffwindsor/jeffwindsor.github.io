@@ -1,18 +1,4 @@
-title: Student of All Things
-author: Jeff Windsor
-description: Husband, Father, Code Junkie, Artist, SciFi Fanatic and Student of All Things
-show_excerpts: true
-theme: minima
-plugins:
-    - jekyll-feed
-    - jekyll-seo-tag
-
-minima:
-    header_pages:
-        - docs/favorites.md
-        - docs/resumes.md
-    social_links:
-        twitter: jeffwindsor
-        github:  jeffwindsor
-        linkedin: jeffwindsor
-        spotify: 12150554421
+theme: minima #hacker minima jekyll-theme-minimal modernist
+show_downloads: false
+title: Jeff Windsor
+description: Student of All Things

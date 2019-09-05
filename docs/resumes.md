@@ -1,6 +1,8 @@
-[Home](https://jeffreywindsor.com) > [Blog](https://jeffwindsor.github.io/) > Resumes
+[Home](https://jeffreywindsor.com) > [Github.io](https://jeffwindsor.github.io/) > Resumes
 
-## Resume
+[Resume](./resume/resume-json-stackoverflow.html)
+
+## Other Formats
 
 |Style|HTML|PDF|
 |---|---|---|
