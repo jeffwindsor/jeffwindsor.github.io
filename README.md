@@ -1,8 +1,6 @@
-[ website ](https://jeffreywindsor.com)
-| [ github ](https://github.com/jeffwindsor)
-| [ dotfiles ](https://github.com/jeffwindsor/dotfiles)
-| [ resume ](https://jeffwindsor.github.io/docs/resume/resume-json-short.html)
-| [ resume in other formats ](https://jeffwindsor.github.io/docs/resumes)
+[ home ](https://jeffreywindsor.com)
+
+# Favorites
 
 * Cheatsheets
     * [ Haskell ](https://jeffwindsor.github.io/docs/cheatsheets/haskell)
@@ -17,8 +15,8 @@
 * Haskell
     * [WHAT I WISH I KNEW WHEN LEARNING HASKELL](http://dev.stephendiehl.com/hask/)
     * [Write you a Haskell](http://dev.stephendiehl.com/fun/)
-    * [Typeclassopedia](https://wiki.haskell.org/Typeclassopedia)
-    * [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
+    * [Type Classopedia](https://wiki.haskell.org/Typeclassopedia)
+    * [Functors, Applicatives And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
     * [Haskell Programming from First Principles (Allen and Moronuki 2015)](http://haskellbook.com/)
     * [Book of Monad 2019](https://www.amazon.com/Book-Monads-practice-applied-problems-ebook/dp/B07JNZHYLT)
     * [Thinking with Types 2017](https://leanpub.com/thinking-with-types)
