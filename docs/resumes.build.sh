@@ -14,9 +14,9 @@ write_markdown_list(){
   echo "==========================================="
   echo "  Building List "
   echo "==========================================="
-  echo "[Home](https://jeffwindsor.github.io/) > Resumes" > ${md_filename}
+  echo "[Home](https://jeffreywindsor.com) > [Blog](https://jeffwindsor.github.io/) > Resumes" > ${md_filename}
   echo ""  >> ${md_filename}
-  echo "## Resume by Format" >> ${md_filename}
+  echo "# Resumes" >> ${md_filename}
   echo ""  >> ${md_filename}
   echo "|Format|HTML|PDF|"  >> ${md_filename}
   echo "|---|---|---|"  >> ${md_filename}
