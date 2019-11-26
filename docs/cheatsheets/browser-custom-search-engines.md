@@ -30,10 +30,12 @@ GitLab | gl | `https://gitlab.com/search?search=%s`
 Google | g | `https://www.google.com/search?q=%s`
 Google Drive | gd | `https://drive.google.com/drive/search?q=%s`
 Google Image Search | gi | `https://www.google.com/search?tbm=isch&q=%s`
-Hackage | hg | `http://hackage.haskell.org/packages/search?terms=%s`
+Google Maps | m | `https://www.google.com/maps/search/%s?hl=en&source=opensearch`
+Hackage | k | `http://hackage.haskell.org/packages/search?terms=%s`
 Hoogle | h | `https://www.haskell.org/hoogle/?hoogle=%s`
+Quora | q | `http://www.quora.com/opensearch/query?q=%s&pw={startPage?}`
 Stack Exchange | se | `http://skeptics.stackexchange.com/search?q=%s`
-Stack Overflow | st | `http://stackoverflow.com/search?q=%s`
+Stack Overflow | s | `http://stackoverflow.com/search?q=%s`
 Translate English to Spanish | es | `http://translate.google.com/#en%7Ces%7C%s%0A`
 Translate Spanish to English | se | `http://translate.google.com/#es%7Cen%7C%s%0A`
 Wikipedia | w | `http://en.wikipedia.org/w/index.php?title=Special:Search&search=%s`
