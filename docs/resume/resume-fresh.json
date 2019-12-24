@@ -1,9 +1,9 @@
 {
   "name": "Jeff Windsor",
   "info": {
-    "label": "Pragmatic ∙ Experienced ∙ Polyglot ∙ Student of All Things",
+    "label": "Experienced Polyglot and Student of All Things",
     "image": "./resources/portrait.jpg",
-    "brief": "A highly passionate and strategically minded technologist with extensive experience in software development who has successfully managed, designed and developed a long line of customer facing and strategic enterprise applications."
+    "brief": "passionate and strategically minded technologist with extensive experience in software development"
   },
   "contact": {
     "email": "jeff.windsor@gmail.com",
@@ -11,7 +11,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2019-08-20T19:11:57.232Z"
+    "modified": "2019-11-16T01:25:01.922Z"
   },
   "location": {
     "city": "Ventura",
@@ -22,25 +22,25 @@
       {
         "position": "Lead Software Engineer - Financial Technology",
         "employer": "CJ Affiliate / Conversant",
-        "summary": "",
+        "summary": "CJ is the world's largest and most established affiliate marketing network",
         "current": true,
         "start": "2018-12-01",
         "url": "https://www.cj.com/",
         "keywords": [],
         "highlights": [
-          "Technologies: Haskell, Scala, JavaScript, AWS, Spark/Kafka, Oracle"
+          "Technologies: Clojure, Haskell, Java, JavaScript, AWS, Spark/Kafka, Oracle"
         ]
       },
       {
         "position": "Senior Software Engineer",
         "employer": "CJ Affiliate / Conversant",
-        "summary": "",
+        "summary": "CJ is the world's largest and most established affiliate marketing network",
         "start": "2018-07-01",
         "end": "2018-12-01",
         "url": "https://www.cj.com/",
         "keywords": [],
         "highlights": [
-          "Technologies: Haskell, Scala, JavaScript, AWS, Spark/Kafka, Oracle",
+          "Technologies: Haskell, Scala, Java, JavaScript, AWS, Spark/Kafka, Oracle",
           "Team Accomplishments: Reduced Large Client Invoicing from 30 to 5 days."
         ]
       },
@@ -53,13 +53,7 @@
         "url": "https://www.alliancedata.com/",
         "keywords": [],
         "highlights": [
-          "Re-architected the main Charge Description Master (CDM) product",
-          "Led development of a Customer Integration (CI) product that completed suite of Software as a Service (SaaS) offerings",
-          "Established the Service Oriented Architecture (SOA)/micro-service architecture.",
-          "Developed, enhanced, simplified and improved Payment, Registration and Loan Verification software services",
-          "Restructured, reorganized, led and managed Development Teams",
-          "Established an efficient software development life cycle (SDLC) with processes",
-          "CJ Affiliates >> Epsilon: https://us.epsilon.com/ >> ADS: https://www.alliancedata.com/"
+          "Technologies: .Net, C#, Sql Server"
         ]
       },
       {
@@ -71,13 +65,7 @@
         "url": "https://www.inl.gov/",
         "keywords": [],
         "highlights": [
-          "Led the process and cultural change required by the Enterprise Software Directorate to meet the growing set of responsibilities while lowering execution cost.",
-          "Worked with CIO and Directors to define a more efficient and friction-free organization structure. ",
-          "Actively recruited and trained Technical and Process Evangelists Teams. These Teams owned and championed changes across the enterprise at the team level. ",
-          "Redefined incentives to align with Lab and Directorate goals. ",
-          "Organized and mentored Teams that implemented modern software delivery tools alongside process changes. ",
-          "Facilitated and promoted increased inter-team cooperation. ",
-          "Communicated early and often with the Change Management Group and Training Centers to raise the long-term success of these initiatives. "
+          "Technologies: Java, Oracle, .Net, C#"
         ]
       },
       {
@@ -89,13 +77,7 @@
         "url": "https://www.nelnet.com/welcome",
         "keywords": [],
         "highlights": [
-          "Led efforts to consolidate and modernize current back-end services",
-          "Established SOA architecture that connected to universal Enterprise Service Bus (ESB).",
-          "Developed, enhanced, simplified and improved Payment, Registration and Loan Verification software services",
-          "Advised and led the design of modern low cost, high throughput, auditable, and reliable set of software delivery life cycle (SDLC) processes. ",
-          "Actively recruited internal Architects to champion the use of reliable messaging and secure APIs. ",
-          "Eased the process burden experienced with modern software delivery tools with a clear migration path from current tool sets. ",
-          "Communicated early and often with Change Management Group and Training Centers which increased long-term success of these initiatives. Held Active Secret Government Clearance because of the sensitive military and personal information (PI) involved with these initiatives. "
+          "Technologies: .Net, C#, SqlServer, NServiceBus"
         ]
       },
       {
@@ -106,64 +88,24 @@
         "end": "2015-12-01",
         "keywords": [],
         "highlights": [
-          "Defined a new direction and market.",
-          "Established a small distributed, highly talented IT Team that delivered a new technology direction in a very short period of time.",
-          "Choose and implemented the most appropriate technologies, methodologies, processes and tools aligned with strategic goals laid out by the Board of Directors.",
-          "Worked with the Team to design, plan and implement the new product. Acted as Senior Developer focused on shared components."
+          "Technologies: .Net, C#, F#, Mongo, Azure, NServiceBus"
         ]
       },
       {
-        "position": "Senior Software Engineer and Architect",
-        "employer": "Sunguard Consulting Services @ Integrys Energy",
-        "summary": "Further expanded the geographical and departmental reach of the data validation, forecasting and pricing applications to new subsidiaries",
-        "start": "2012-03-01",
+        "position": "Independent Software Engineer and Architect",
+        "employer": "Windsor Consulting",
+        "start": "2002-03-01",
         "end": "2013-10-01",
-        "url": "https://capco.com/",
-        "keywords": []
-      },
-      {
-        "position": "Senior Software Engineer and Architect",
-        "employer": "DIY Media / Zantler",
-        "summary": " Implementing payment/financials infrastructure and cloud based delivery of digital content. Amazon Web Services, Paypal (for Europe and South America) and CCAvenue integration for India.  It was crucial the payment mechanisms be scalable, highly available and accurate, while providing an easy sometimes one click payment experience.",
-        "start": "2011-03-01",
-        "end": "2012-03-01",
-        "keywords": []
-      },
-      {
-        "position": "Senior Software Engineer",
-        "employer": "Sunguard Consulting Services @ Integrys Energy",
-        "summary": "Architect, Design and develop a retail energy pricing application. Improved per unit processing time from 10s seconds to 100ths of seconds.  Implemented a Electric Pricing and Pattern Matching DSL for Excel like user formulas. Architected and helped implement a service oriented architecture for the following functions in C# 3.5: costing, forecasting, hedging, data validation, and request validation. ",
-        "start": "2011-03-01",
-        "end": "2007-03-01",
-        "url": "https://capco.com/",
-        "keywords": []
-      },
-      {
-        "position": "Senior Software Developer and Information Architect",
-        "employer": "Digital Soldiers",
-        "summary": "Provided architectural guidance, design and development support to the Financial Systems Division. Responsibilities: Application design and development, Methodology facilitation and coaching, Business modeling for multiple applications, services and databases. ",
-        "start": "2006-04-01",
-        "end": "2007-03-01",
-        "keywords": []
-      },
-      {
-        "position": "Information Architect",
-        "employer": "SunGard Consulting Services @ BP NAGP",
-        "summary": "Provided business analysis and technical design for a range of projects at BP's North American Gas & Power division. Projects: Sarbanes-Oxley compliance and internal best practices for NAGP's critical processes and information structures. Responsibilities: Requirements gathering, Business modeling, Software analysis and design.",
-        "start": "2005-04-01",
-        "end": "2006-03-01",
-        "keywords": []
-      },
-      {
-        "position": "Senior Software Developer",
-        "employer": "Digital Soldiers",
-        "start": "2002-04-01",
-        "end": "2005-03-01",
-        "keywords": []
+        "url": "https://www.sungard.com/",
+        "keywords": [],
+        "highlights": [
+          "Clients: Sunguard Consulting Services, Integrys Energy, BP NAGP, Continetal Airlines, UTHSC-Houston, Reliant Energy, ExxonMobil, Dynegy, Petrolog, Weatherford International, SuperStand, WasteWise, McFarland Grossman",
+          "Technologies: Java, C#, SqlServer, Oracle"
+        ]
       },
       {
         "position": "Consulting Manager",
-        "employer": "Sungard Consulting Services / EnForm",
+        "employer": "EnForm Consulting",
         "start": "2000-04-01",
         "end": "2002-03-01",
         "keywords": []
@@ -204,10 +146,12 @@
         "name": "Development",
         "skills": [
           "Haskell",
-          "Scala",
+          "Clojure",
+          "C#",
+          "F#",
           "Java",
           "AWS",
-          "Javascript",
+          "Javascript/Typescript",
           "Purescript",
           "React",
           "Python",
@@ -215,8 +159,7 @@
           "PLSQL",
           "Git",
           "Azure",
-          "C#",
-          "F#"
+          "Scala"
         ]
       },
       {
@@ -262,6 +205,7 @@
           "Finance",
           "Energy Markets",
           "BioInformatics",
+          "Affiliate Marketing",
           "Oil, Gas and Petrochemicals Markets",
           "Commodity Trading"
         ]
@@ -276,60 +220,10 @@
       "user": "jeffwindsor"
     },
     {
-      "label": "StackOverflow",
-      "network": "StackOverflow",
-      "url": "https://stackoverflow.com/story/jeffwindsor",
-      "user": "jeffwindsor"
-    },
-    {
       "label": "LinkedIn",
       "network": "LinkedIn",
       "url": "https://www.linkedin.com/in/jeffwindsor",
       "user": "jeffwindsor"
-    },
-    {
-      "label": "Twitter",
-      "network": "Twitter",
-      "url": "https://twitter.com/jeffwindsor",
-      "user": "jeffwindsor"
-    },
-    {
-      "label": "Trophy",
-      "network": "Trophy",
-      "url": "https://www.hackerrank.com/jeff_windsor",
-      "user": "jeff_windsor"
-    }
-  ],
-  "testimonials": [
-    {
-      "name": "James Lively, Director Enterprise Software and Development at Idaho National Laboratory",
-      "flavor": "professional",
-      "quote": "Jeff is the consummate professional. He has the unique ability to listen and understand what a specific set of objectives and business needs are, concisely organize these thoughts, apply them to his in depth technical understanding, and produce a comprehensive solution that he then presents in understandable terms to his audience. This is a very impressive skill, to say the least, when dealing with a diverse group of business and technical disciplines. His personality is a well rounded addition to any group and his contributions can be concise and to the point or illustrative in times that require it. I would gladly work with Jeff again on future strategic projects.",
-      "private": false
-    },
-    {
-      "name": "David Robb, President and COO at Gaston Capital Partners",
-      "flavor": "professional",
-      "quote": "I had the pleasure of working with Jeff for about a year. He bridges the worlds of technology and business as well as any one with whom I've ever worked. Jeff has a keen mind for building technology, working with a team and contributing to the vision of a company. I hope that one day we work together again.",
-      "private": false
-    },
-    {
-      "name": "Chad LaBerge, Independent Securities Trader @ SaddleRing Investments",
-      "flavor": "professional",
-      "quote": "To say that Jeff Windsor is talented is a tremendous understatement. We worked together early in our careers at Lyondell and I was very fortunate to have found myself associated with a person of his professional character at that time. Without exaggeration, his intellect is amongst the most elite I have ever encountered. Jeff’s ability to grasp new technology and incorporate it into a business enterprise is extraordinary. Working with Jeff was a great experience, counting him as a friend is a true honor.",
-      "private": false
-    },
-    {
-      "name": "Erica Janine Henson",
-      "flavor": "professional",
-      "quote": "Jeff is one of the most talented individuals with whom I've had the honor to work and learn. He was crucial to getting several applications and processes in place, and personally took the time to give me direction and information when I needed it. He is an exceptional and dedicated person, a rare kind of developer and professional.",
-      "private": false
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
     }
   ]
 }

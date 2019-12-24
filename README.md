@@ -1,5 +1,25 @@
 [ home ](https://jeffreywindsor.com) | [dotfiles](https://github.com/jeffwindsor/dotfiles)
 
+# Daily Drivers
+
+|  |  |
+|----|----|
+| Package Manger | [Homebrew](https://brew.sh/)
+| Tiling Window Manager | [Amethyst](https://ianyh.com/amethyst/)
+| Productivity | [Alfred](https://www.alfredapp.com/)
+| Automation | [Keyboard Maestro](https://www.keyboardmaestro.com/main/)
+| Keyboard Customization | [Karabiner-Elements](https://pqrs.org/osx/karabiner/)
+| Cloud Storage | [Mega](https://mega.nz/)
+| Terminal | [iTerm2](https://iterm2.com)
+| | [Themes](https://github.com/mbadolato/iTerm2-Color-Schemes)
+| Shell | [Zsh](https://fishshell.com/docs/current/index.html)
+| | [ls: Exa](https://the.exa.website)
+| | [cat: Bat](https://github.com/sharkdp/bat)
+| | [grep: ripgrep](https://github.com/BurntSushi/ripgrep)
+| Editors | [NeoVim](https://neovim.io/)
+| | [Visual Studio Code](https://code.visualstudio.com/)
+| | [Emacs](https://github.com/railwaycat/homebrew-emacsmacport)|
+| Screensaver | [Aerial](https://github.com/JohnCoates/Aerial)|
 # Favorites
 
 * Cheatsheets
@@ -25,7 +45,6 @@
         * [Stack](https://docs.haskellstack.org/en/stable/README/)
         * [Package Search](https://haskell.libhunt.com/)
     * [Krispo's Haskell Awesome List](https://github.com/krispo/awesome-haskell)
-
 * Rust
     * [Lang](https://www.rust-lang.org/)
 * AWS
@@ -34,7 +53,7 @@
     * [Cloudformation](https://aws.amazon.com/cloudformation/)
     * [Fargate](https://aws.amazon.com/fargate/)
     * [Docker](https://www.docker.com/)
-* Scala
+* JVM: Clojure / Kotlin / Scala
     * [Essential Scala (Gurnell and Welsh 2015)](https://underscore.io/books/essential-scala/)
     * [Scala for the Impatient](https://www.amazon.com/Scala-Impatient-Cay-S-Horstmann-ebook/dp/B01MR67YSO)
 * Scripting
@@ -48,16 +67,6 @@
     * [Papers We Love](https://paperswelove.org/) [Repo](https://github.com/papers-we-love)
     * [Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners)
 * Tools
-    * Dailies
-        * [iTerm2 (macos terminal)](https://iterm2.com)
-            * [Themes](https://github.com/mbadolato/iTerm2-Color-Schemes)
-        * [Fish Shell](https://fishshell.com/docs/current/index.html)
-            * [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish)
-        * [Chrome Custom Search Engines](https://github.com/daturkel/custom-search-engines)
-    * Development
-        * [Visual Studio Code](https://code.visualstudio.com/)
-        * [Spacemacs](http://spacemacs.org/)
-        * [NeoVim](https://neovim.io/)
     * Dotfiles
         * [Dotfile Generator](https://jeffwindsor.github.io/the-sweet-setup.io/)
     * Online Presence
