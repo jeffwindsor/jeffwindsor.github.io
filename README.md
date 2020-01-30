@@ -2,7 +2,7 @@
 
 # Daily Drivers
 
-|  |  |
+|Type|Link|
 |----|----|
 | Package Manger | [Homebrew](https://brew.sh/)
 | Tiling Window Manager | [Amethyst](https://ianyh.com/amethyst/)
@@ -20,8 +20,18 @@
 | | [Visual Studio Code](https://code.visualstudio.com/)
 | | [Emacs](https://github.com/railwaycat/homebrew-emacsmacport)|
 | Screensaver | [Aerial](https://github.com/JohnCoates/Aerial)|
+
+
 # Favorites
 
+* Curriculum
+    * [SICP](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)
+        * [Videos](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter)
+        * Alternative => [How to Design Programs](https://htdp.org/)
+    * [The Algorithm Design Manual](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/)
+        * [Videos](https://www.youtube.com/watch?v=A2bFN3MyNDA&list=PLOtl7M3yp-DX32N0fVIyvn7ipWKNGmwpp)
+    * [How to Solve It](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)
+    * [Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer)
 * Cheatsheets
     * [ Haskell ](https://jeffwindsor.github.io/docs/cheatsheets/haskell)
     * [ Vim ](https://jeffwindsor.github.io/docs/cheatsheets/vim)
