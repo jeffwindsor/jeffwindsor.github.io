@@ -1,3 +1,3 @@
-##[Personal Site](https://jeffreywindsor.com)
+## [Personal Site](https://jeffreywindsor.com)
 
-##[Dotfiles](https://github.com/jeffwindsor/dotfiles)
+## [Dotfiles](https://github.com/jeffwindsor/dotfiles)
