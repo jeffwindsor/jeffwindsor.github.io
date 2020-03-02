@@ -1,1 +1,3 @@
-[ home ](https://jeffreywindsor.com) | [dotfiles](https://github.com/jeffwindsor/dotfiles)
+##[Personal Site](https://jeffreywindsor.com)
+
+##[Dotfiles](https://github.com/jeffwindsor/dotfiles)
