@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3b1825818d.js" crossorigin="anonymous"></script>
-    <title>jeff windsor</title>
+    <title>jmw</title>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
             <p class="title">&nbsp;JEFFREY&nbsp;WINDSOR</p>
             <p class="subtitle">student of all things</p>
             <br>
-            <p style="color: var(--aurora4)">
+            <p style="color: var(--red)">
                 <!-- <i class="fas fa&#45;briefcase">&#38;nbsp</i> -->
                 [<a target="_blank" href="https://github.com/jeffwindsor?tab=repositories">github</a>]
                 [<a target="_blank" href="https://keybase.io/jeffwindsor">keybase</a>]
@@ -26,7 +26,7 @@
                 [<a target="_blank" href="https://www.linkedin.com/in/jeffwindsor">linkedin</a>]
                 <!-- <i class="fas fa&#45;briefcase">&#38;nbsp</i> -->
             </p>
-            <p style="color: var(--aurora5);">
+            <p style="color: var(--yellow);">
                 <!-- <i class="far fa&#45;heart">&#38;nbsp</i> -->
                 [<a target="_blank" href="https://www.haskell.org/">haskell</a>]
                 [<a target="_blank" href="https://www.dyalog.com/">apl</a>]
@@ -34,7 +34,7 @@
                 [<a target="_blank" href="https://www.rust-lang.org/">rust</a>]
                 <!-- <i class="far fa&#45;heart">&#38;nbsp</i> -->
             </p>
-            <p style="color: var(--aurora1)">
+            <p style="color: var(--green)">
                 <!-- <i class="fas fa&#45;glass&#45;martini&#45;alt">&#38;nbsp</i> -->
                 [<a target="_blank" href="https://www.tate.org.uk/">tate</a>]
                 [<a target="_blank" href="https://clyffordstillmuseum.org/">still</a>]
@@ -51,77 +51,40 @@
     * {
         font-size: 16px;
         font-family: Roboto Mono;
+        letter-spacing: 2px;
         text-align: center;
     }
 
     html {
-        background-color: var(--background);
-        color: var(--foreground);
+        background-color: var(--black);
+        color: var(--white);
     }
 
     a { text-decoration: none; }
-    a:link, a:visited { color: var(--snow1); }
+    a:link, a:visited { color: var(--white); }
     a:hover { color: inherit; }
 
-    input {
-        border: none;
-        background: none;
-        color: var(--snow3);
-    }
-    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: var(--frost4);
-    }
-    input:focus {
-        outline: none;
-    }
-
     .title {
-        font-family: Montserrat;
-        font-size: 38px;
-        line-height: 0.6;
-        letter-spacing: 21px;
+        font-size: 32px;
+        letter-spacing: 24px;
         text-align: center;
     }
     .subtitle {
-        font-size: 14px;
-        letter-spacing: 11px;
+        letter-spacing: 8px;
         text-align: center;
     }
     .box {
-        width: 100%;
-        /* right: 50%; */
-        /* bottom: 50%; */
-        transform: translate(10%, 45%);
-        /* position: absolute; */
-    }
-
-    .items {
-        float: center;
-        margin: 0;
         width: 80%;
-        text-align: justify;
+        transform: translate(10%, 45%);
     }
-
-    /* Nord Color Scheme */
     :root {
-        --polar1: #2e3440;
-        --polar2: #3b4252;
-        --polar3: #434c5e;
-        --polar4: #4c566a;
-        --snow1: #d8dee9;
-        --snow2: #e5e9f0;
-        --snow3: #eceff4;
-        --frost1: #8fbcbb;
-        --frost2: #88c0d0;
-        --frost3: #81a1c1;
-        --frost4: #5e81ac;
-        --aurora1: #BF616A;
-        --aurora2: #D08770;
-        --aurora3: #EBCB8B;
-        --aurora4: #A3BE8C;
-        --aurora5: #B48EAD;
-        --background: #263238;
-        --foreground: #eeffff;
+        --black:   #282828;
+        --red:     #f43753;
+        --green:   #c9d05c;
+        --yellow:  #ffc24b;
+        --blue:    #b3deef;
+        --magenta: #d3b987;
+        --cyan:    #73cef4;
+        --white:   #eeeeee;
     }
-
 </style>
